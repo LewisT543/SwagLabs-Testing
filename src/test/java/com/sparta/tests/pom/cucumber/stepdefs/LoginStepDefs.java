@@ -1,6 +1,7 @@
 package com.sparta.tests.pom.cucumber.stepdefs;
 
 import com.sparta.tests.pom.cucumber.utl.POMUtil;
+import com.sparta.tests.pom.pages.LoginPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
@@ -41,7 +42,7 @@ public class LoginStepDefs {
 
     @When("I click the login button")
     public void iClickTheLoginButton() {
-        loginPage.click();
+        loginPage.clickSubmit();
     }
 
     @Then("I should see the error {string}")
