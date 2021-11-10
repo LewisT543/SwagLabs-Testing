@@ -266,4 +266,54 @@ public class InventoryPage {
                 .collect(Collectors.toList());
         return itemPrices.equals(itemPrices.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
     }
+
+    // Add to cart button is present
+    public boolean addBackpackToCartButtonIsPresent() {
+        return webDriver.findElements(addBackpackToCartButton).size() != 0;
+    }
+
+    public boolean addBikeLightToCartButtonIsPresent() {
+        return webDriver.findElements(addBikeLightToCartButton).size() != 0;
+    }
+
+    public boolean addBoltTShirtToCartButtonIsPresent() {
+        return webDriver.findElements(addBoltTShirtToCartButton).size() != 0;
+    }
+
+    public boolean addFleeceJacketToCartButtonIsPresent() {
+        return webDriver.findElements(addFleeceJacketToCartButton).size() != 0;
+    }
+
+    public boolean addOnesieToCartButtonIsPresent() {
+        return webDriver.findElements(addOnesieToCartButton).size() != 0;
+    }
+
+    public boolean addRedTShirtToCartButtonIsPresent() {
+        return webDriver.findElements(addRedTShirtToCartButton).size() != 0;
+    }
+
+    // Remove from cart button is present
+    public boolean removeBackpackToCartButtonIsPresent() {
+        return webDriver.findElements(removeBackpackToCartButton).size() != 0;
+    }
+
+    public boolean removeBikeLightToCartButtonIsPresent() {
+        return webDriver.findElements(removeBikeLightToCartButton).size() != 0;
+    }
+
+    public boolean removeBoltTShirtToCartButtonIsPresent() {
+        return webDriver.findElements(removeBoltTShirtToCartButton).size() != 0;
+    }
+
+    public boolean removeFleeceJacketToCartButtonIsPresent() {
+        return webDriver.findElements(removeFleeceJacketToCartButton).size() != 0;
+    }
+
+    public boolean removeOnesieToCartButtonIsPresent() {
+        return webDriver.findElements(removeOnesieToCartButton).size() != 0;
+    }
+
+    public boolean removeRedTShirtToCartButtonIsPresent() {
+        return webDriver.findElements(removeRedTShirtToCartButton).size() != 0;
+    }
 }
