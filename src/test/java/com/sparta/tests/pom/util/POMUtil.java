@@ -1,4 +1,4 @@
-package com.sparta.tests.pom.cucumber.utl;
+package com.sparta.tests.pom.util;
 
 import org.openqa.selenium.chrome.ChromeDriverService;
 

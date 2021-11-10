@@ -1,6 +1,6 @@
 package com.sparta.tests.pom.cucumber.stepdefs;
 
-import com.sparta.tests.pom.cucumber.utl.POMUtil;
+import com.sparta.tests.pom.util.POMUtil;
 import com.sparta.tests.pom.pages.LoginPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
