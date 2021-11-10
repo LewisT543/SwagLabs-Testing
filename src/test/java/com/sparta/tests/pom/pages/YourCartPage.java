@@ -12,7 +12,7 @@ public class YourCartPage {
     By continueShoppingButton = new By.ById("continue-shopping");
     By checkoutButton = new By.ById("checkout");
 
-    // Socials buttons
+    // Social buttons
     By twitterButton = new By.ByCssSelector("[href=\"https://twitter.com/saucelabs\"]");
     By facebookButton = new By.ByCssSelector("[href=\"https://www.facebook.com/saucelabs\"]");
     By linkedinButton = new By.ByCssSelector("[href=\"https://www.linkedin.com/company/sauce-labs/\"]");
@@ -92,7 +92,7 @@ public class YourCartPage {
         webDriver.findElement(removeRedTShirtToCartButton).click();
     }
 
-    // Socials buttons clicks
+    // Social buttons clicks
     public void clickTwitterButton() {
         webDriver.findElement(twitterButton).click();
     }

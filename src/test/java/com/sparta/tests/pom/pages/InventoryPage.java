@@ -1,6 +1,7 @@
 package com.sparta.tests.pom.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -54,8 +55,9 @@ public class InventoryPage {
 
     // Cart button
     By cartButton = new By.ById("shopping_cart_container");
+    By cartBadge = new By.ByClassName("shopping_cart_badge");
 
-    // Socials buttons
+    // Social buttons
     By twitterButton = new By.ByClassName("social_twitter");
     By facebookButton = new By.ByClassName("social_facebook");
     By linkedinButton = new By.ByClassName("social_linkedin");
@@ -199,7 +201,7 @@ public class InventoryPage {
         webDriver.findElement(cartButton).click();
     }
 
-    // Socials buttons clicks
+    // Social buttons clicks
     public void clickTwitterButton() {
         webDriver.findElement(twitterButton).click();
     }
@@ -314,5 +316,16 @@ public class InventoryPage {
 
     public boolean removeRedTShirtToCartButtonIsPresent() {
         return webDriver.findElements(removeRedTShirtToCartButton).size() != 0;
+    }
+
+    // Get cart badge number
+    public int getCartBadgeNumber() {
+        WebElement badgeNumElement;
+        try {
+            badgeNumElement = webDriver.findElement(cartBadge);
+        } catch (NoSuchElementException nsee) {
+            return 0;
+        }
+        return Integer.parseInt(badgeNumElement.getText());
     }
 }

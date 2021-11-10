@@ -8,7 +8,7 @@ public class Checkout {
     public Checkout(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
-    // Checkout footer buttons
+    // CheckoutStepOne footer buttons
     By cancelButton = new By.ById("cancel");
     By continueButton = new By.ById("continue");
 
@@ -20,7 +20,7 @@ public class Checkout {
     By lastNameField = new By.ById("last-name");
     By postalCodeField = new By.ById("postal-code");
 
-    // Socials buttons
+    // Social buttons
     By twitterButton = new By.ByCssSelector("[href=\"https://twitter.com/saucelabs\"]");
     By facebookButton = new By.ByCssSelector("[href=\"https://www.facebook.com/saucelabs\"]");
     By linkedinButton = new By.ByCssSelector("[href=\"https://www.linkedin.com/company/sauce-labs/\"]");
@@ -52,7 +52,7 @@ public class Checkout {
         webDriver.findElement(postalCodeField).sendKeys(pCode);
     }
 
-    // Socials buttons clicks
+    // Social buttons clicks
     public void clickTwitterButton() {
         webDriver.findElement(twitterButton).click();
     }
