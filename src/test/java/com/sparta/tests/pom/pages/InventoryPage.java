@@ -2,6 +2,11 @@ package com.sparta.tests.pom.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class InventoryPage {
     private final WebDriver webDriver;
@@ -12,6 +17,14 @@ public class InventoryPage {
     By addFleeceJacketToCartButton = new By.ById("add-to-cart-sauce-labs-fleece-jacket");
     By addOnesieToCartButton = new By.ById("add-to-cart-sauce-labs-onesie");
     By addRedTShirtToCartButton = new By.ById("add-to-cart-test.allthethings()-t-shirt-(red)");
+
+    // Remove item from cart
+    By removeBackpackToCartButton = new By.ById("remove-to-cart-sauce-labs-backpack");
+    By removeBikeLightToCartButton = new By.ById("remove-to-cart-sauce-labs-bike-light");
+    By removeBoltTShirtToCartButton = new By.ById("remove-to-cart-sauce-labs-bolt-t-shirt");
+    By removeFleeceJacketToCartButton = new By.ById("remove-to-cart-sauce-labs-fleece-jacket");
+    By removeOnesieToCartButton = new By.ById("remove-to-cart-sauce-labs-onesie");
+    By removeRedTShirtToCartButton = new By.ById("remove-to-cart-test.allthethings()-t-shirt-(red)");
 
     // Item images
     By backPackImage = new By.ById("item_4_img_link");
@@ -51,11 +64,17 @@ public class InventoryPage {
     By productSortPriceLH = new By.ByCssSelector("[value=\"lohi\"]");
     By productSortPriceHL = new By.ByCssSelector("[value=\"hilo\"]");
 
+    // All inventory item titles
+    By inventoryItems = new By.ByClassName("inventory_item_name");
+
+    // All inventory item prices
+    By inventoryPrices = new By.ByClassName("inventory_item_price");
+
     public InventoryPage(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
 
-    // Items to cart clicks
+    // Add items to cart clicks
     public void clickAddBackpackToCart() {
         webDriver.findElement(addBackpackToCartButton).click();
     }
@@ -78,6 +97,31 @@ public class InventoryPage {
 
     public void clickAddRedTShirtToCartButton() {
         webDriver.findElement(addRedTShirtToCartButton).click();
+    }
+
+    // Remove items from cart clicks
+    public void clickRemoveBackpackToCart() {
+        webDriver.findElement(removeBackpackToCartButton).click();
+    }
+
+    public void clickRemoveBikeLightToCartButton() {
+        webDriver.findElement(removeBikeLightToCartButton).click();
+    }
+
+    public void clickRemoveBoltTShirtToCartButton() {
+        webDriver.findElement(removeBoltTShirtToCartButton).click();
+    }
+
+    public void clickRemoveFleeceJacketToCartButton() {
+        webDriver.findElement(removeFleeceJacketToCartButton).click();
+    }
+
+    public void clickRemoveOnesieToCartButton() {
+        webDriver.findElement(removeOnesieToCartButton).click();
+    }
+
+    public void clickRemoveRedTShirtToCartButton() {
+        webDriver.findElement(removeRedTShirtToCartButton).click();
     }
 
     // Item images
@@ -190,5 +234,36 @@ public class InventoryPage {
         webDriver.findElement(productSortPriceHL).click();
     }
 
+    // isSorted
+    public boolean itemsAreSortedNameAZ() {
+        List<String> itemNames = webDriver.findElements(inventoryItems)
+                .stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
+        return itemNames.equals(itemNames.stream().sorted().collect(Collectors.toList()));
+    }
 
+    public boolean itemsAreSortedNameZA() {
+        List<String> itemNames = webDriver.findElements(inventoryItems)
+                .stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
+        return itemNames.equals(itemNames.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
+    }
+
+    public boolean itemsAreSortedPriceLoHi() {
+        List<String> itemPrices = webDriver.findElements(inventoryPrices)
+                .stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
+        return itemPrices.equals(itemPrices.stream().sorted().collect(Collectors.toList()));
+    }
+
+    public boolean itemsAreSortedPriceHiLo() {
+        List<String> itemPrices = webDriver.findElements(inventoryPrices)
+                .stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
+        return itemPrices.equals(itemPrices.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
+    }
 }
