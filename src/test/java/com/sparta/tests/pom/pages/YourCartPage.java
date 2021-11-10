@@ -8,7 +8,7 @@ public class YourCartPage {
     public YourCartPage(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
-    // Checkout footer buttons
+    // YourCart footer buttons
     By continueShoppingButton = new By.ById("continue-shopping");
     By checkoutButton = new By.ById("checkout");
 
