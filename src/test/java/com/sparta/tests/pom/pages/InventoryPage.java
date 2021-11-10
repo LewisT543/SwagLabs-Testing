@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 public class InventoryPage {
@@ -19,12 +20,12 @@ public class InventoryPage {
     By addRedTShirtToCartButton = new By.ById("add-to-cart-test.allthethings()-t-shirt-(red)");
 
     // Remove item from cart
-    By removeBackpackToCartButton = new By.ById("remove-to-cart-sauce-labs-backpack");
-    By removeBikeLightToCartButton = new By.ById("remove-to-cart-sauce-labs-bike-light");
-    By removeBoltTShirtToCartButton = new By.ById("remove-to-cart-sauce-labs-bolt-t-shirt");
-    By removeFleeceJacketToCartButton = new By.ById("remove-to-cart-sauce-labs-fleece-jacket");
-    By removeOnesieToCartButton = new By.ById("remove-to-cart-sauce-labs-onesie");
-    By removeRedTShirtToCartButton = new By.ById("remove-to-cart-test.allthethings()-t-shirt-(red)");
+    By removeBackpackToCartButton = new By.ById("remove-sauce-labs-backpack");
+    By removeBikeLightToCartButton = new By.ById("remove-sauce-labs-bike-light");
+    By removeBoltTShirtToCartButton = new By.ById("remove-sauce-labs-bolt-t-shirt");
+    By removeFleeceJacketToCartButton = new By.ById("remove-sauce-labs-fleece-jacket");
+    By removeOnesieToCartButton = new By.ById("remove-sauce-labs-onesie");
+    By removeRedTShirtToCartButton = new By.ById("remove-test.allthethings()-t-shirt-(red)");
 
     // Item images
     By backPackImage = new By.ById("item_4_img_link");
@@ -268,7 +269,7 @@ public class InventoryPage {
     }
 
     // Add to cart button is present
-    public boolean addBackpackToCartButtonIsPresent() {
+    public boolean addBackpackToCartButtonIsPresent() throws InterruptedException {
         return webDriver.findElements(addBackpackToCartButton).size() != 0;
     }
 

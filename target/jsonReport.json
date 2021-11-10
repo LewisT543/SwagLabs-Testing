@@ -1,0 +1,1199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 178521900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:49:54.865Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2232902000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Adding the Sauce Labs Backpack to the CART",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-backpack-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 142638100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43882300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Backpack ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBackpackADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10971600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The Backpack ADD TO CART button should change to REMOVE",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theBackpackADDTOCARTButtonShouldChangeToREMOVE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 178521800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:49:57.518Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2033759600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Adding the Sauce Labs Bolt T-Shirt to the CART",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-bolt-t-shirt-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 149598400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33909000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the Bolt T-Shirt ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBoltTShirtADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9973100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The Bolt T-Shirt ADD TO CART button should change to REMOVE",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theBoltTShirtADDTOCARTButtonShouldChangeToREMOVE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 171540700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:49:59.931Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1933893500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Adding the Sauce Labs Onesie to the CART",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-onesie-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 154586600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39892800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Onesie ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheOnesieADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8976100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The Onsie ADD TO CART button should change to REMOVE",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theOnsieADDTOCARTButtonShouldChangeToREMOVE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 185503300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:50:02.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1893869300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Adding the Sauce Labs Bike Light to the CART",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-bike-light-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 155330300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43882200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the Bike Light ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBikeLightADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7978700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Bike Light ADD TO CART button should change to REMOVE",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theBikeLightADDTOCARTButtonShouldChangeToREMOVE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 179519900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:50:04.537Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1882188300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Adding the Sauce Labs Fleece Jacket to the CART",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-fleece-jacket-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 163650300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33554100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the Fleece Jacket ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheFleeceJacketADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7979000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The Fleece Jacket ADD TO CART button should change to REMOVE",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding items from the inventory to the cart",
+    "description": "",
+    "id": "adding-items-from-the-inventory-to-the-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/InventoryPageToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T14:50:06.812Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1851754300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "I enter an incorrect username",
+        "description": "",
+        "id": "login-page-functionality;i-enter-an-incorrect-username",
+        "after": [
+          {
+            "result": {
+              "duration": 148625900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61630400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter the username \"incorrect_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"incorrect_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60837100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37005900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17950400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the error \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:50:08.998Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1906649100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "I enter an incorrect password",
+        "description": "",
+        "id": "login-page-functionality;i-enter-an-incorrect-password",
+        "after": [
+          {
+            "result": {
+              "duration": 139728400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55851500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53854900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the password \"unsecret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unsecret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37899000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17951100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the error \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:50:11.214Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1950493900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "I enter an incorrect username and password",
+        "description": "",
+        "id": "login-page-functionality;i-enter-an-incorrect-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 163561700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60836700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the username \"incorrect_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"incorrect_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55851600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter the password \"unsecrect_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unsecrect_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37898000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19946900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see the error \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:50:13.507Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1905161400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "I enter a blank username",
+        "description": "",
+        "id": "login-page-functionality;i-enter-a-blank-username",
+        "after": [
+          {
+            "result": {
+              "duration": 149137800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36901100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter the username \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55850200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter the password \"unsecrect_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unsecrect_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40891500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17952000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the error \"Epic sadface: Username is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username is required\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:50:15.715Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1822079500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "I enter a blank password",
+        "description": "",
+        "id": "login-page-functionality;i-enter-a-blank-password",
+        "after": [
+          {
+            "result": {
+              "duration": 159629900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62863200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter the username \"incorrect_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"incorrect_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34906900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter the password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39892900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17951700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should see the error \"Epic sadface: Password is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Password is required\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:50:17.856Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1968495800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "I enter a blank username and password",
+        "description": "",
+        "id": "login-page-functionality;i-enter-a-blank-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 157607500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49373700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter the username \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103724100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter the password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43881200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18949200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should see the error \"Epic sadface: Username is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username is required\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T14:50:20.202Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1871879400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 996200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "I enter a correct username and password",
+        "description": "",
+        "id": "login-page-functionality;i-enter-a-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 146624200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58464800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52368900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67819000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3989200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should be on the inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldBeOnTheInventoryPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page functionality",
+    "description": "",
+    "id": "login-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/loginPage.feature",
+    "tags": []
+  }
+]

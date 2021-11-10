@@ -11,16 +11,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class InventoryStepDefs {
 
     private WebDriver webDriver;
     private InventoryPage inventoryPage;
-    private ChromeDriverService service;
 
-    @Before
+    @Before(order = 1)
     public void init() {
-        service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
-        webDriver = new ChromeDriver(service);
+        webDriver = POMUtil.getWebDriver();
         inventoryPage = new InventoryPage(webDriver);
     }
 
@@ -51,27 +51,26 @@ public class InventoryStepDefs {
 
     @Then("The Backpack ADD TO CART button should change to REMOVE")
     public void theBackpackADDTOCARTButtonShouldChangeToREMOVE() {
+        assertTrue(inventoryPage.removeBackpackToCartButtonIsPresent());
     }
 
     @Then("The Bolt T-Shirt ADD TO CART button should change to REMOVE")
     public void theBoltTShirtADDTOCARTButtonShouldChangeToREMOVE() {
+        assertTrue(inventoryPage.removeBoltTShirtToCartButtonIsPresent());
     }
 
     @Then("The Onsie ADD TO CART button should change to REMOVE")
     public void theOnsieADDTOCARTButtonShouldChangeToREMOVE() {
+        assertTrue(inventoryPage.removeOnesieToCartButtonIsPresent());
     }
 
     @Then("The Bike Light ADD TO CART button should change to REMOVE")
     public void theBikeLightADDTOCARTButtonShouldChangeToREMOVE() {
+        assertTrue(inventoryPage.removeBikeLightToCartButtonIsPresent());
     }
 
     @Then("The Fleece Jacket ADD TO CART button should change to REMOVE")
     public void theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE() {
-    }
-
-    @After
-    public void teardown() {
-        webDriver.close();
-        service.stop();
+        assertTrue(inventoryPage.removeFleeceJacketToCartButtonIsPresent());
     }
 }
