@@ -3,6 +3,7 @@ package com.sparta.tests.pom.cucumber.stepdefs;
 import com.sparta.tests.pom.cucumber.utl.POMUtil;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
@@ -19,8 +20,13 @@ public class LoginStepDefs {
 
     @Before
     void init() {
-         service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
+        service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
         webDriver = new ChromeDriver(service);
+        loginPage = new LoginPage(webDriver);
+    }
+
+    @Given("I am on the Inventory page")
+    public void iAmOnTheInventoryPage() {
     }
 
     @When("I enter the username {string}")
