@@ -92,6 +92,31 @@ public class YourCartPage {
         webDriver.findElement(removeRedTShirtToCartButton).click();
     }
 
+    // Item is present
+    public boolean backPackIsInCart() {
+        return webDriver.findElements(backPackNameLink).size() != 0;
+    }
+
+    public boolean bikeLightIsInCart() {
+        return webDriver.findElements(bikeLightNameLink).size() != 0;
+    }
+
+    public boolean boltTShirtIsInCart() {
+        return webDriver.findElements(boltTShirtNameLink).size() != 0;
+    }
+
+    public boolean fleeceJacketIsInCart() {
+        return webDriver.findElements(fleeceJacketNameLink).size() != 0;
+    }
+
+    public boolean onesieIsInCart() {
+        return webDriver.findElements(onesieNameLink).size() != 0;
+    }
+
+    public boolean redTShirtIsInCart() {
+        return webDriver.findElements(redTShirtNameLink).size() != 0;
+    }
+
     // Social buttons clicks
     public void clickTwitterButton() {
         webDriver.findElement(twitterButton).click();
