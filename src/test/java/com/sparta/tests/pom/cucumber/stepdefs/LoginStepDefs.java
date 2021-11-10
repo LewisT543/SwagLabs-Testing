@@ -19,15 +19,18 @@ public class LoginStepDefs {
     private LoginPage loginPage;
     private ChromeDriverService service;
 
-    @Before
+    @Before(order = 0)
     public void init() {
         service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
-        webDriver = new ChromeDriver(service);
+        webDriver = POMUtil.newChromeDriver(service);
         loginPage = new LoginPage(webDriver);
     }
 
     @Given("I am on the Inventory page")
     public void iAmOnTheInventoryPage() {
+        loginPage.setUsername("standard_user");
+        loginPage.setPassword("secret_sauce");
+        loginPage.clickSubmit();
     }
 
     @When("I enter the username {string}")
