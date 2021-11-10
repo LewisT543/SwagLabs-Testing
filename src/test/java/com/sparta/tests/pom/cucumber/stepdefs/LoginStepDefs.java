@@ -28,6 +28,9 @@ public class LoginStepDefs {
 
     @Given("I am on the Inventory page")
     public void iAmOnTheInventoryPage() {
+        loginPage.setUsername("standard_user");
+        loginPage.setPassword("secret_sauce");
+        loginPage.clickSubmit();
     }
 
     @When("I enter the username {string}")
