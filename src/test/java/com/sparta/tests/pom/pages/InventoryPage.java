@@ -1,6 +1,7 @@
 package com.sparta.tests.pom.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -11,6 +12,9 @@ import java.util.stream.Collectors;
 
 public class InventoryPage {
     private final WebDriver webDriver;
+    public InventoryPage(WebDriver webDriver) {
+        this.webDriver = webDriver;
+    }
     // Add item to cart
     By addBackpackToCartButton = new By.ById("add-to-cart-sauce-labs-backpack");
     By addBikeLightToCartButton = new By.ById("add-to-cart-sauce-labs-bike-light");
@@ -52,8 +56,9 @@ public class InventoryPage {
 
     // Cart button
     By cartButton = new By.ById("shopping_cart_container");
+    By cartBadge = new By.ByClassName("shopping_cart_badge");
 
-    // Socials buttons
+    // Social buttons
     By twitterButton = new By.ByClassName("social_twitter");
     By facebookButton = new By.ByClassName("social_facebook");
     By linkedinButton = new By.ByClassName("social_linkedin");
@@ -70,10 +75,6 @@ public class InventoryPage {
 
     // All inventory item prices
     By inventoryPrices = new By.ByClassName("inventory_item_price");
-
-    public InventoryPage(WebDriver webDriver) {
-        this.webDriver = webDriver;
-    }
 
     // Add items to cart clicks
     public void clickAddBackpackToCart() {
@@ -201,7 +202,7 @@ public class InventoryPage {
         webDriver.findElement(cartButton).click();
     }
 
-    // Socials buttons clicks
+    // Social buttons clicks
     public void clickTwitterButton() {
         webDriver.findElement(twitterButton).click();
     }
@@ -316,5 +317,16 @@ public class InventoryPage {
 
     public boolean removeRedTShirtToCartButtonIsPresent() {
         return webDriver.findElements(removeRedTShirtToCartButton).size() != 0;
+    }
+
+    // Get cart badge number
+    public int getCartBadgeNumber() {
+        WebElement badgeNumElement;
+        try {
+            badgeNumElement = webDriver.findElement(cartBadge);
+        } catch (NoSuchElementException nsee) {
+            return 0;
+        }
+        return Integer.parseInt(badgeNumElement.getText());
     }
 }
