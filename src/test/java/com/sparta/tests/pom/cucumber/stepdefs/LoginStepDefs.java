@@ -20,7 +20,7 @@ public class LoginStepDefs {
     private ChromeDriverService service;
 
     @Before
-    void init() {
+    public void init() {
         service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
         webDriver = new ChromeDriver(service);
         loginPage = new LoginPage(webDriver);
@@ -56,7 +56,7 @@ public class LoginStepDefs {
     }
 
     @After
-    void teardown() {
+    public void teardown() {
         webDriver.close();
         service.stop();
     }
