@@ -19,8 +19,9 @@ public class LoginStepDefs {
 
     @Before
     void init() {
-         service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
+        service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
         webDriver = new ChromeDriver(service);
+        loginPage = new LoginPage(webDriver);
     }
 
     @When("I enter the username {string}")
