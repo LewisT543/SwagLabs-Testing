@@ -78,5 +78,13 @@ public class CheckoutOverview {
     }
 
     // Tax is correct
-
+    public boolean totalCostIsTaxPlusTotal() {
+        float itemTotal = Float.parseFloat(webDriver.findElement(itemTotalFigure)
+                .getText().substring(13));
+        float tax = Float.parseFloat(webDriver.findElement(taxFigure)
+                .getText().substring(6));
+        float total = Float.parseFloat(webDriver.findElement(totalFigure)
+                .getText().substring(8));
+        return (itemTotal + tax) == total;
+    }
 }

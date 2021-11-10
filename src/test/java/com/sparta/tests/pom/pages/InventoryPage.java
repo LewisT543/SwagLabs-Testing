@@ -202,6 +202,17 @@ public class InventoryPage {
         webDriver.findElement(cartButton).click();
     }
 
+    // Get cart badge number
+    public int getCartBadgeNumber() {
+        WebElement badgeNumElement;
+        try {
+            badgeNumElement = webDriver.findElement(cartBadge);
+        } catch (NoSuchElementException nsee) {
+            return 0;
+        }
+        return Integer.parseInt(badgeNumElement.getText());
+    }
+
     // Social buttons clicks
     public void clickTwitterButton() {
         webDriver.findElement(twitterButton).click();
@@ -317,16 +328,5 @@ public class InventoryPage {
 
     public boolean removeRedTShirtToCartButtonIsPresent() {
         return webDriver.findElements(removeRedTShirtToCartButton).size() != 0;
-    }
-
-    // Get cart badge number
-    public int getCartBadgeNumber() {
-        WebElement badgeNumElement;
-        try {
-            badgeNumElement = webDriver.findElement(cartBadge);
-        } catch (NoSuchElementException nsee) {
-            return 0;
-        }
-        return Integer.parseInt(badgeNumElement.getText());
     }
 }
