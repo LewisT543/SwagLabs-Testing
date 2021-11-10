@@ -10,6 +10,9 @@ import java.util.stream.Collectors;
 
 public class InventoryPage {
     private final WebDriver webDriver;
+    public InventoryPage(WebDriver webDriver) {
+        this.webDriver = webDriver;
+    }
     // Add item to cart
     By addBackpackToCartButton = new By.ById("add-to-cart-sauce-labs-backpack");
     By addBikeLightToCartButton = new By.ById("add-to-cart-sauce-labs-bike-light");
@@ -69,10 +72,6 @@ public class InventoryPage {
 
     // All inventory item prices
     By inventoryPrices = new By.ByClassName("inventory_item_price");
-
-    public InventoryPage(WebDriver webDriver) {
-        this.webDriver = webDriver;
-    }
 
     // Add items to cart clicks
     public void clickAddBackpackToCart() {
