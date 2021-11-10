@@ -22,3 +22,7 @@ Feature: Adding items from the inventory to the cart
   Scenario: Adding the Sauce Labs Fleece Jacket to the CART
     When I click on the Fleece Jacket ADD TO CART button
     Then The Fleece Jacket ADD TO CART button should change to REMOVE
+
+  Scenario: Adding the Test.allTheThings() T-Shirt (Red) to the CART
+    When I click on the test all things T-Shirt ADD TO CART button
+    Then The test all things T-Shirt ADD TO CART button should change to REMOVE

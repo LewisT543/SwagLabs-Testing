@@ -49,6 +49,11 @@ public class InventoryStepDefs {
         inventoryPage.clickAddFleeceJacketToCartButton();
     }
 
+    @When("I click on the test all things T-Shirt ADD TO CART button")
+    public void iClickOnTheTestAllThingsTShirtADDTOCARTButton() {
+        inventoryPage.clickAddRedTShirtToCartButton();
+    }
+
     @Then("The Backpack ADD TO CART button should change to REMOVE")
     public void theBackpackADDTOCARTButtonShouldChangeToREMOVE() {
         assertTrue(inventoryPage.removeBackpackToCartButtonIsPresent());
@@ -72,5 +77,10 @@ public class InventoryStepDefs {
     @Then("The Fleece Jacket ADD TO CART button should change to REMOVE")
     public void theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE() {
         assertTrue(inventoryPage.removeFleeceJacketToCartButtonIsPresent());
+    }
+
+    @Then("The test all things T-Shirt ADD TO CART button should change to REMOVE")
+    public void theTestAllThingsTShirtADDTOCARTButtonShouldChangeToREMOVE() {
+        assertTrue(inventoryPage.removeRedTShirtToCartButtonIsPresent());
     }
 }
