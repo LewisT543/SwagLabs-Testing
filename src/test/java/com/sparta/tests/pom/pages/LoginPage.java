@@ -8,7 +8,7 @@ public class LoginPage {
     By loginButton = new By.ById("login-button");
     By usernameField = new By.ById("user-name");
     By passwordField = new By.ById("password");
-    By errorField = new By.ByClassName("error-message-container error");
+    By errorField = new By.ByClassName("error-message-container");
 
     public LoginPage (WebDriver webDriver){
         this.webDriver = webDriver;
