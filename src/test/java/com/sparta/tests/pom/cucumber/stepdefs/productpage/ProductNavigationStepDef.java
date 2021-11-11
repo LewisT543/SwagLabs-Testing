@@ -1,7 +1,6 @@
 package com.sparta.tests.pom.cucumber.stepdefs.productpage;
 
-import com.sparta.tests.pom.pages.InventoryPage;
-import com.sparta.tests.pom.pages.YourCartPage;
+import com.sparta.tests.pom.pages.ProductsPage;
 import com.sparta.tests.pom.util.POMUtil;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
@@ -12,12 +11,12 @@ import org.openqa.selenium.WebDriver;
 public class ProductNavigationStepDef {
 
     private WebDriver webDriver;
-    private InventoryPage inventoryPage;
+    private ProductsPage inventoryPage;
 
     @Before(order = 1)
     public void init() {
         webDriver = POMUtil.getWebDriver();
-        inventoryPage = new InventoryPage(webDriver);
+        inventoryPage = new ProductsPage(webDriver);
     }
 
     @When("I click the Backpack link")
