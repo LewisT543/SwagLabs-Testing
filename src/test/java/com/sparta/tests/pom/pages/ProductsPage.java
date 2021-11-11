@@ -5,6 +5,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -221,6 +222,7 @@ public class ProductsPage {
         List<String> itemPrices = webDriver.findElements(inventoryPrices)
                 .stream()
                 .map(WebElement::getText)
+                .map(e -> e.substring(1))
                 .collect(Collectors.toList());
         return itemPrices.equals(itemPrices.stream().sorted().collect(Collectors.toList()));
     }
