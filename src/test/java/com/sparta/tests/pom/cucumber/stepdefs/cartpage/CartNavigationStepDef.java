@@ -11,7 +11,7 @@ import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 
-public class CartNavigationStepdefs {
+public class CartNavigationStepDef {
     private WebDriver webDriver;
     private YourCartPage yourCartPage;
     private ProductsPage productsPage;
