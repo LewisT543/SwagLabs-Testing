@@ -20,6 +20,23 @@ public class BurgerMenuComponent {
         return webDriver.findElements(menuButton).size() != 0;
     }
 
+    // Burger menu items are present
+    public boolean burgerMenuInventoryButtonIsPresent() {
+        return webDriver.findElements(inventorySidebarButton).size() != 0;
+    }
+
+    public boolean burgerMenuAboutButtonIsPresent() {
+        return webDriver.findElements(aboutSidebarButton).size() != 0;
+    }
+
+    public boolean burgerMenuLogoutButtonIsPresent() {
+        return webDriver.findElements(logoutSidebarButton).size() != 0;
+    }
+
+    public boolean burgerMenuExitButtonIsPresent() {
+        return webDriver.findElements(closeMenuButton).size() != 0;
+    }
+
     // Burger menu clicks
     public void clickMenuButton() {
         webDriver.findElement(menuButton).click();
