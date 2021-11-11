@@ -21,12 +21,12 @@ public class YourCartPage {
     By redTShirtNameLink = new By.ById("item_3_title_link");
 
     // Remove item
-    By removeBackpackToCartButton = new By.ById("remove-to-cart-sauce-labs-backpack");
-    By removeBikeLightToCartButton = new By.ById("remove-to-cart-sauce-labs-bike-light");
-    By removeBoltTShirtToCartButton = new By.ById("remove-to-cart-sauce-labs-bolt-t-shirt");
-    By removeFleeceJacketToCartButton = new By.ById("remove-to-cart-sauce-labs-fleece-jacket");
-    By removeOnesieToCartButton = new By.ById("remove-to-cart-sauce-labs-onesie");
-    By removeRedTShirtToCartButton = new By.ById("remove-to-cart-test.allthethings()-t-shirt-(red)");
+    By removeBackpackFromCartButton = new By.ById("remove-sauce-labs-backpack");
+    By removeBikeLightFromCartButton = new By.ById("remove-sauce-labs-bike-light");
+    By removeBoltTShirtFromCartButton = new By.ById("remove-sauce-labs-bolt-t-shirt");
+    By removeFleeceJacketFromCartButton = new By.ById("remove-sauce-labs-fleece-jacket");
+    By removeOnesieFromCartButton = new By.ById("remove-sauce-labs-onesie");
+    By removeRedTShirtFromCartButton = new By.ById("remove-test.allthethings()-t-shirt-(red)");
 
     // Checkout footer button clicks
     public void clickContinueShoppingButton() {
@@ -63,28 +63,28 @@ public class YourCartPage {
     }
 
     // Remove items from cart clicks
-    public void clickRemoveBackpackToCart() {
-        webDriver.findElement(removeBackpackToCartButton).click();
+    public void clickRemoveBackpackFromCart() {
+        webDriver.findElement(removeBackpackFromCartButton).click();
     }
 
-    public void clickRemoveBikeLightToCartButton() {
-        webDriver.findElement(removeBikeLightToCartButton).click();
+    public void clickRemoveBikeLightFromCartButton() {
+        webDriver.findElement(removeBikeLightFromCartButton).click();
     }
 
-    public void clickRemoveBoltTShirtToCartButton() {
-        webDriver.findElement(removeBoltTShirtToCartButton).click();
+    public void clickRemoveBoltTShirtFromCartButton() {
+        webDriver.findElement(removeBoltTShirtFromCartButton).click();
     }
 
-    public void clickRemoveFleeceJacketToCartButton() {
-        webDriver.findElement(removeFleeceJacketToCartButton).click();
+    public void clickRemoveFleeceJacketFromCartButton() {
+        webDriver.findElement(removeFleeceJacketFromCartButton).click();
     }
 
-    public void clickRemoveOnesieToCartButton() {
-        webDriver.findElement(removeOnesieToCartButton).click();
+    public void clickRemoveOnesieFromCartButton() {
+        webDriver.findElement(removeOnesieFromCartButton).click();
     }
 
-    public void clickRemoveRedTShirtToCartButton() {
-        webDriver.findElement(removeRedTShirtToCartButton).click();
+    public void clickRemoveRedTShirtFromCartButton() {
+        webDriver.findElement(removeRedTShirtFromCartButton).click();
     }
 
     // Item is present
