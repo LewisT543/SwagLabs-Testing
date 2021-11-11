@@ -9,6 +9,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CheckoutOverviewStepDef {
 
@@ -42,6 +43,28 @@ public class CheckoutOverviewStepDef {
         checkoutPage.clickContinueButton();
     }
 
+    @Given("I am on the Overview page with all items in cart")
+    public void iAmOnTheOverviewPageWithAllItemsInCart() {
+        loginPage.setUsername("standard_user");
+        loginPage.setPassword("secret_sauce");
+        loginPage.clickSubmit();
+
+        productPage.clickAddBackpackToCart();
+        productPage.clickAddBikeLightToCartButton();
+        productPage.clickAddBoltTShirtToCartButton();
+        productPage.clickAddFleeceJacketToCartButton();
+        productPage.clickAddOnesieToCartButton();
+        productPage.clickAddRedTShirtToCartButton();
+
+        productPage.clickCartButton();
+        cartPage.clickCheckoutButton();
+
+        checkoutPage.setFirstName("firstname");
+        checkoutPage.setLastName("lastname");
+        checkoutPage.setPostcode("postcode");
+        checkoutPage.clickContinueButton();
+    }
+
     @When("I click on the FINISH button")
     public void iClickOnTheFINISHButton() {
         overviewPage.clickFinishButton();
@@ -50,5 +73,15 @@ public class CheckoutOverviewStepDef {
     @Then("I will go the Complete page")
     public void iWillGoTheCompletePage() {
         assertEquals("https://www.saucedemo.com/checkout-complete.html", webDriver.getCurrentUrl());
+    }
+
+    @Then("The tax will be eight percent")
+    public void theTaxWillBeEightPercent() {
+        assertTrue(overviewPage.taxIsEightPercent());
+    }
+
+    @Then("The item total will be tax plus item total")
+    public void theItemTotalWillBeTaxPlusItemTotal() {
+        assertTrue(overviewPage.totalCostIsTaxPlusTotal());
     }
 }
