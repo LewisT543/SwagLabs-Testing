@@ -3,9 +3,9 @@ package com.sparta.tests.pom.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class CheckoutComplete {
+public class CheckoutCompletePage {
     private WebDriver webDriver;
-    public CheckoutComplete(WebDriver webDriver) {
+    public CheckoutCompletePage(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
     // Checkout Complete footer
