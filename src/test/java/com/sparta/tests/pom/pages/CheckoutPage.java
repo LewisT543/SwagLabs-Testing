@@ -34,6 +34,20 @@ public class CheckoutPage {
         webDriver.findElement(cartButton).click();
     }
 
+    // Get user input fields
+    public String getFirstName() {
+        return webDriver.findElement(firstNameField).getText();
+    }
+
+    public String getLastName() {
+        return webDriver.findElement(lastNameField).getText();
+    }
+
+    public String getPostCode() {
+        return webDriver.findElement(postalCodeField).getText();
+    }
+
+
     // Enter string into user input fields
     public void setFirstName(String fName) {
         webDriver.findElement(firstNameField).sendKeys(fName);

@@ -217,7 +217,7 @@ public class ProductsPage {
         return itemNames.equals(itemNames.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
     }
 
-    public boolean itemsAreSortedPriceLoHi() {
+    public boolean itemsAreSortedPriceLH() {
         List<String> itemPrices = webDriver.findElements(inventoryPrices)
                 .stream()
                 .map(WebElement::getText)
@@ -225,7 +225,7 @@ public class ProductsPage {
         return itemPrices.equals(itemPrices.stream().sorted().collect(Collectors.toList()));
     }
 
-    public boolean itemsAreSortedPriceHiLo() {
+    public boolean itemsAreSortedPriceHL() {
         List<String> itemPrices = webDriver.findElements(inventoryPrices)
                 .stream()
                 .map(WebElement::getText)
