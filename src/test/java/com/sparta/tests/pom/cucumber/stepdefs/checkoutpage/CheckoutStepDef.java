@@ -1,8 +1,8 @@
 package com.sparta.tests.pom.cucumber.stepdefs.checkoutpage;
 
-import com.sparta.tests.pom.pages.Checkout;
-import com.sparta.tests.pom.pages.InventoryPage;
+import com.sparta.tests.pom.pages.CheckoutPage;
 import com.sparta.tests.pom.pages.LoginPage;
+import com.sparta.tests.pom.pages.ProductsPage;
 import com.sparta.tests.pom.pages.YourCartPage;
 import com.sparta.tests.pom.util.POMUtil;
 import io.cucumber.java.Before;
@@ -17,7 +17,7 @@ public class CheckoutStepDef {
 
     private WebDriver webDriver;
     private LoginPage loginPage;
-    private ProductPage productPage;
+    private ProductsPage productPage;
     private YourCartPage cartPage;
     private CheckoutPage checkoutPage;
 
@@ -25,7 +25,7 @@ public class CheckoutStepDef {
     public void init() {
         webDriver = POMUtil.getWebDriver();
         loginPage = new LoginPage(webDriver);
-        productPage = new InventoryPage(webDriver);
+        productPage = new ProductsPage(webDriver);
         cartPage = new YourCartPage(webDriver);
         checkoutPage = new CheckoutPage(webDriver);
     }
