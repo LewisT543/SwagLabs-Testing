@@ -3,9 +3,9 @@ package com.sparta.tests.pom.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Checkout {
+public class CheckoutPage {
     private final WebDriver webDriver;
-    public Checkout(WebDriver webDriver) {
+    public CheckoutPage(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
     // CheckoutStepOne footer buttons
@@ -19,11 +19,6 @@ public class Checkout {
     By firstNameField = new By.ById("first-name");
     By lastNameField = new By.ById("last-name");
     By postalCodeField = new By.ById("postal-code");
-
-    // Social buttons
-    By twitterButton = new By.ByCssSelector("[href=\"https://twitter.com/saucelabs\"]");
-    By facebookButton = new By.ByCssSelector("[href=\"https://www.facebook.com/saucelabs\"]");
-    By linkedinButton = new By.ByCssSelector("[href=\"https://www.linkedin.com/company/sauce-labs/\"]");
 
     // Checkout footer button clicks
     public void clickCancelButton() {
@@ -50,18 +45,5 @@ public class Checkout {
 
     public void setPostCode(String pCode) {
         webDriver.findElement(postalCodeField).sendKeys(pCode);
-    }
-
-    // Social buttons clicks
-    public void clickTwitterButton() {
-        webDriver.findElement(twitterButton).click();
-    }
-
-    public void clickFacebookButton() {
-        webDriver.findElement(facebookButton).click();
-    }
-
-    public void clickLinkedinButton() {
-        webDriver.findElement(linkedinButton).click();
     }
 }

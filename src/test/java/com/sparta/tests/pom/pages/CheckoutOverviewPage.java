@@ -3,9 +3,9 @@ package com.sparta.tests.pom.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class CheckoutOverview {
+public class CheckoutOverviewPage {
     private final WebDriver webDriver;
-    public CheckoutOverview(WebDriver webDriver) {
+    public CheckoutOverviewPage(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
     // CheckoutOverview footer buttons
@@ -19,11 +19,6 @@ public class CheckoutOverview {
     By fleeceJacketNameLink = new By.ById("item_5_title_link");
     By onesieNameLink = new By.ById("item_2_title_link");
     By redTShirtNameLink = new By.ById("item_3_title_link");
-
-    // Social buttons
-    By twitterButton = new By.ByCssSelector("[href=\"https://twitter.com/saucelabs\"]");
-    By facebookButton = new By.ByCssSelector("[href=\"https://www.facebook.com/saucelabs\"]");
-    By linkedinButton = new By.ByCssSelector("[href=\"https://www.linkedin.com/company/sauce-labs/\"]");
 
     // Tax figures
     By itemTotalFigure = new By.ByClassName("summary_subtotal_label");
@@ -62,19 +57,6 @@ public class CheckoutOverview {
 
     public void clickRedTShirtNameLink() {
         webDriver.findElement(redTShirtNameLink).click();
-    }
-
-    // Social buttons clicks
-    public void clickTwitterButton() {
-        webDriver.findElement(twitterButton).click();
-    }
-
-    public void clickFacebookButton() {
-        webDriver.findElement(facebookButton).click();
-    }
-
-    public void clickLinkedinButton() {
-        webDriver.findElement(linkedinButton).click();
     }
 
     // Tax is correct
