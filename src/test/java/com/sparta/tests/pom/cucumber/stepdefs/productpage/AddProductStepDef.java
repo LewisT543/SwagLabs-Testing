@@ -111,4 +111,9 @@ public class AddProductStepDef {
     public void theTestAllTheThingsTShirtQTYAndDescriptionShouldBeAddedToTheCart() {
         Assertions.assertTrue(yourCartPage.redTShirtIsInCart());
     }
+
+    @Then("The cart icon should increment once")
+    public void theCartIconShouldIncrementOnce() {
+        Assertions.assertTrue(productsPage.getCartBadgeNumber() > 0);
+    }
 }
