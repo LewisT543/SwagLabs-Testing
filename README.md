@@ -64,13 +64,13 @@ A BDD approach to testing a mock e-commerce website.
   - **clickFinishButton()** -> Clicks the finish button.
   - **click[ITEM]NameLink()** -> Replace [ITEM] with the name of an item to click its name link.
   - **totalCostIsTaxPlusTotal()** -> Returns a boolean based on whether the total = tax + subtotal.
-  - **taxIsEightPercect()** -> Returns a boolean based on whether the tax displayed is 8% of the subtotal.(+-0.1% returns true).
+  - **taxIsEightPercent()** -> Returns a boolean based on whether the tax displayed is 8% of the subtotal.(+-0.1% returns true).
 
 #### Checkout Complete page
   - **clickBackToHomePage()** -> Clicks the back to homepage button.
 
 #### Burger Menu Component
-  - **burgerMenuIspresent()** -> Returns a boolean based on whether the burger menu component is present.
+  - **burgerMenuIsPresent()** -> Returns a boolean based on whether the burger menu component is present.
   - **clickMenuButton()** -> Clicks the burger menu button to display the options available.
   - **click[MENU_ITEM]Button()** -> Clicks the desired burger menu item button. MENU_ITEMs = Inventory, About, Logout, CloseMenu.
 
