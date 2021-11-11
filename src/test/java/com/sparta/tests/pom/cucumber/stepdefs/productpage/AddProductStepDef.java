@@ -1,6 +1,7 @@
 package com.sparta.tests.pom.cucumber.stepdefs.productpage;
 
 import com.sparta.tests.pom.pages.InventoryPage;
+import com.sparta.tests.pom.pages.YourCartPage;
 import com.sparta.tests.pom.util.POMUtil;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
@@ -8,15 +9,17 @@ import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 
-public class ProductToRemove {
+public class AddProductStepDef {
 
     private WebDriver webDriver;
     private InventoryPage inventoryPage;
+    private YourCartPage yourCartPage;
 
     @Before(order = 1)
     public void init() {
         webDriver = POMUtil.getWebDriver();
         inventoryPage = new InventoryPage(webDriver);
+        yourCartPage = new YourCartPage(webDriver);
     }
 
     @When("I click the Sauce Labs Backpack ADD TO CART button")
@@ -77,5 +80,35 @@ public class ProductToRemove {
     @Then("The Test All The Things T-Shirt ADD TO CART button should change to a REMOVE button")
     public void theTestAllTheThingsTShirtADDTOCARTButtonShouldChangeToAREMOVEButton() {
         Assertions.assertTrue(inventoryPage.removeRedTShirtToCartButtonIsPresent());
+    }
+
+    @Then("The Sauce Labs Backpack QTY and Description should be added to the cart")
+    public void theSauceLabsBackpackQTYAndDescriptionShouldBeAddedToTheCart() {
+        Assertions.assertTrue(yourCartPage.backPackIsInCart());
+    }
+
+    @Then("The Sauce Bolt T-Shirt QTY and Description should be added to the cart")
+    public void theSauceBoltTShirtQTYAndDescriptionShouldBeAddedToTheCart() {
+        Assertions.assertTrue(yourCartPage.boltTShirtIsInCart());
+    }
+
+    @Then("The Sauce Onesie QTY and Description should be added to the cart")
+    public void theSauceOnesieQTYAndDescriptionShouldBeAddedToTheCart() {
+        Assertions.assertTrue(yourCartPage.onesieIsInCart());
+    }
+
+    @Then("The Sauce Bike Light QTY and Description should be added to the cart")
+    public void theSauceBikeLightQTYAndDescriptionShouldBeAddedToTheCart() {
+        Assertions.assertTrue(yourCartPage.bikeLightIsInCart());
+    }
+
+    @Then("The Sauce Fleece Jacket QTY and Description should be added to the cart")
+    public void theSauceFleeceJacketQTYAndDescriptionShouldBeAddedToTheCart() {
+        Assertions.assertTrue(yourCartPage.fleeceJacketIsInCart());
+    }
+
+    @Then("The Test All The Things T-Shirt QTY and Description should be added to the cart")
+    public void theTestAllTheThingsTShirtQTYAndDescriptionShouldBeAddedToTheCart() {
+        Assertions.assertTrue(yourCartPage.redTShirtIsInCart());
     }
 }

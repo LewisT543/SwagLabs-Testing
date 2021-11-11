@@ -3,513 +3,24 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 197179800,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:53:33.374Z",
+        "start_timestamp": "2021-11-11T10:34:00.668Z",
         "before": [
           {
             "result": {
-              "duration": 1817678400,
+              "duration": 3201585300,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
             }
           },
           {
             "result": {
+              "duration": 1000700,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Adding the Sauce Labs Backpack to the CART",
-        "description": "",
-        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-backpack-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 106875600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 39034800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click on the Backpack ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBackpackADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 14013100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "The Backpack ADD TO CART button should change to REMOVE",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theBackpackADDTOCARTButtonShouldChangeToREMOVE()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 178162500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:53:35.612Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1459749000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1000800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "Adding the Sauce Labs Bolt T-Shirt to the CART",
-        "description": "",
-        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-bolt-t-shirt-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 89080200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 37033500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I click on the Bolt T-Shirt ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBoltTShirtADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 10009800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "The Bolt T-Shirt ADD TO CART button should change to REMOVE",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theBoltTShirtADDTOCARTButtonShouldChangeToREMOVE()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 177160900,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:53:37.394Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1444250200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "Adding the Sauce Labs Onesie to the CART",
-        "description": "",
-        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-onesie-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 93084700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 35031600,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I click on the Onesie ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheOnesieADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 10008800,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "The Onsie ADD TO CART button should change to REMOVE",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theOnsieADDTOCARTButtonShouldChangeToREMOVE()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 176159800,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:53:39.161Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1446174700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Adding the Sauce Labs Bike Light to the CART",
-        "description": "",
-        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-bike-light-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 97088400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 35032600,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I click on the Bike Light ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBikeLightADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 9008000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "The Bike Light ADD TO CART button should change to REMOVE",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theBikeLightADDTOCARTButtonShouldChangeToREMOVE()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 174157500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:53:40.929Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1442676300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "Adding the Sauce Labs Fleece Jacket to the CART",
-        "description": "",
-        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-sauce-labs-fleece-jacket-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 95085200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 36033900,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "I click on the Fleece Jacket ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheFleeceJacketADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 10008600,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "The Fleece Jacket ADD TO CART button should change to REMOVE",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Adding items from the inventory to the cart",
-    "description": "",
-    "id": "adding-items-from-the-inventory-to-the-cart",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/InventoryPageToCart.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2021-11-11T09:53:42.698Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1458246300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
           }
         ],
@@ -520,11 +31,11 @@
         "after": [
           {
             "result": {
-              "duration": 88080500,
+              "duration": 90076200,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
             }
           }
         ],
@@ -533,7 +44,7 @@
         "steps": [
           {
             "result": {
-              "duration": 57051800,
+              "duration": 58053200,
               "status": "passed"
             },
             "line": 4,
@@ -545,13 +56,13 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterTheUsername(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 53048000,
+              "duration": 50045100,
               "status": "passed"
             },
             "line": 5,
@@ -563,25 +74,25 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterThePassword(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 40036600,
+              "duration": 39035700,
               "status": "passed"
             },
             "line": 6,
             "name": "I click the login button",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iClickTheLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 20018000,
+              "duration": 25022700,
               "status": "passed"
             },
             "line": 7,
@@ -593,22 +104,22 @@
                   "offset": 23
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iShouldSeeTheError(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-11-11T09:53:44.422Z",
+        "start_timestamp": "2021-11-11T10:34:04.198Z",
         "before": [
           {
             "result": {
-              "duration": 1418853500,
+              "duration": 1469842900,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
             }
           },
           {
@@ -616,15 +127,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
           }
         ],
@@ -635,11 +138,11 @@
         "after": [
           {
             "result": {
-              "duration": 93084200,
+              "duration": 85072100,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
             }
           }
         ],
@@ -648,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 56050800,
+              "duration": 52047800,
               "status": "passed"
             },
             "line": 10,
@@ -660,13 +163,13 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterTheUsername(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 55048900,
+              "duration": 50044900,
               "status": "passed"
             },
             "line": 11,
@@ -678,25 +181,25 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterThePassword(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 42039400,
+              "duration": 39037200,
               "status": "passed"
             },
             "line": 12,
             "name": "I click the login button",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iClickTheLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 20017300,
+              "duration": 18016200,
               "status": "passed"
             },
             "line": 13,
@@ -708,38 +211,31 @@
                   "offset": 23
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iShouldSeeTheError(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-11-11T09:53:46.116Z",
+        "start_timestamp": "2021-11-11T10:34:05.921Z",
         "before": [
           {
             "result": {
-              "duration": 1471336100,
+              "duration": 1407503400,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
             }
           },
           {
             "result": {
+              "duration": 1001300,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
           }
         ],
@@ -750,11 +246,11 @@
         "after": [
           {
             "result": {
-              "duration": 94086000,
+              "duration": 86077700,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
             }
           }
         ],
@@ -763,7 +259,7 @@
         "steps": [
           {
             "result": {
-              "duration": 65058400,
+              "duration": 54049200,
               "status": "passed"
             },
             "line": 16,
@@ -775,13 +271,13 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterTheUsername(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 66059600,
+              "duration": 50045900,
               "status": "passed"
             },
             "line": 17,
@@ -793,25 +289,25 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterThePassword(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 42038600,
+              "duration": 39035100,
               "status": "passed"
             },
             "line": 18,
             "name": "I click the login button",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iClickTheLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 21018500,
+              "duration": 18016900,
               "status": "passed"
             },
             "line": 19,
@@ -823,22 +319,22 @@
                   "offset": 23
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iShouldSeeTheError(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-11-11T09:53:47.880Z",
+        "start_timestamp": "2021-11-11T10:34:07.584Z",
         "before": [
           {
             "result": {
-              "duration": 1490142900,
+              "duration": 1445044300,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
             }
           },
           {
@@ -846,15 +342,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
           }
         ],
@@ -865,11 +353,11 @@
         "after": [
           {
             "result": {
-              "duration": 88079900,
+              "duration": 85879600,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
             }
           }
         ],
@@ -878,7 +366,7 @@
         "steps": [
           {
             "result": {
-              "duration": 44039600,
+              "duration": 38034800,
               "status": "passed"
             },
             "line": 22,
@@ -890,13 +378,13 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterTheUsername(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 58052600,
+              "duration": 52047700,
               "status": "passed"
             },
             "line": 23,
@@ -908,25 +396,25 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterThePassword(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 42037900,
+              "duration": 42039200,
               "status": "passed"
             },
             "line": 24,
             "name": "I click the login button",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iClickTheLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 20018400,
+              "duration": 20017700,
               "status": "passed"
             },
             "line": 25,
@@ -938,22 +426,22 @@
                   "offset": 23
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iShouldSeeTheError(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-11-11T09:53:49.629Z",
+        "start_timestamp": "2021-11-11T10:34:09.274Z",
         "before": [
           {
             "result": {
-              "duration": 1451263500,
+              "duration": 1477228000,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
             }
           },
           {
@@ -961,15 +449,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
           }
         ],
@@ -980,11 +460,11 @@
         "after": [
           {
             "result": {
-              "duration": 88077300,
+              "duration": 98087100,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
             }
           }
         ],
@@ -993,7 +473,7 @@
         "steps": [
           {
             "result": {
-              "duration": 62601200,
+              "duration": 55049500,
               "status": "passed"
             },
             "line": 28,
@@ -1005,13 +485,13 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterTheUsername(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 43628900,
+              "duration": 36033600,
               "status": "passed"
             },
             "line": 29,
@@ -1023,25 +503,25 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterThePassword(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 43039600,
+              "duration": 39034000,
               "status": "passed"
             },
             "line": 30,
             "name": "I click the login button",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iClickTheLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 21018900,
+              "duration": 19018300,
               "status": "passed"
             },
             "line": 31,
@@ -1053,22 +533,22 @@
                   "offset": 23
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iShouldSeeTheError(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-11-11T09:53:51.343Z",
+        "start_timestamp": "2021-11-11T10:34:11.001Z",
         "before": [
           {
             "result": {
-              "duration": 1479806500,
+              "duration": 1469937300,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
             }
           },
           {
@@ -1076,15 +556,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
           }
         ],
@@ -1095,11 +567,11 @@
         "after": [
           {
             "result": {
-              "duration": 86077500,
+              "duration": 86077800,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
             }
           }
         ],
@@ -1108,7 +580,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39035600,
+              "duration": 36032600,
               "status": "passed"
             },
             "line": 34,
@@ -1120,13 +592,13 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterTheUsername(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 39037000,
+              "duration": 36032000,
               "status": "passed"
             },
             "line": 35,
@@ -1138,25 +610,25 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterThePassword(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 49043100,
+              "duration": 46041400,
               "status": "passed"
             },
             "line": 36,
             "name": "I click the login button",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iClickTheLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 21019900,
+              "duration": 21019100,
               "status": "passed"
             },
             "line": 37,
@@ -1168,22 +640,22 @@
                   "offset": 23
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldSeeTheError(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iShouldSeeTheError(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-11-11T09:53:53.062Z",
+        "start_timestamp": "2021-11-11T10:34:12.706Z",
         "before": [
           {
             "result": {
-              "duration": 1432741200,
+              "duration": 1473725900,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
             }
           },
           {
@@ -1191,15 +663,7 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
           }
         ],
@@ -1210,11 +674,11 @@
         "after": [
           {
             "result": {
-              "duration": 90082000,
+              "duration": 88724700,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
             }
           }
         ],
@@ -1223,7 +687,7 @@
         "steps": [
           {
             "result": {
-              "duration": 59053200,
+              "duration": 60055600,
               "status": "passed"
             },
             "line": 40,
@@ -1235,13 +699,13 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterTheUsername(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterTheUsername(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 56050800,
+              "duration": 53047700,
               "status": "passed"
             },
             "line": 41,
@@ -1253,31 +717,31 @@
                   "offset": 21
                 }
               ],
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iEnterThePassword(java.lang.String)"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iEnterThePassword(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 73067800,
+              "duration": 66060100,
               "status": "passed"
             },
             "line": 42,
             "name": "I click the login button",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iClickTheLoginButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iClickTheLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5003000,
+              "duration": 6006300,
               "status": "passed"
             },
             "line": 43,
             "name": "I should be on the inventory page",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iShouldBeOnTheInventoryPage()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iShouldBeOnTheInventoryPage()"
             },
             "keyword": "Then "
           }
@@ -1288,7 +752,7 @@
     "description": "",
     "id": "login-page-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/loginPage.feature",
+    "uri": "file:src/test/resources/features/loginpage/loginPage.feature",
     "tags": []
   },
   {
@@ -1303,28 +767,28 @@
         "steps": [
           {
             "result": {
-              "duration": 181164900,
+              "duration": 170154600,
               "status": "passed"
             },
             "line": 4,
-            "name": "I am on the Inventory page",
+            "name": "I am on the Product page",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-11-11T09:53:54.783Z",
+        "start_timestamp": "2021-11-11T10:34:14.459Z",
         "before": [
           {
             "result": {
-              "duration": 1409051500,
+              "duration": 1428120600,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
             }
           },
           {
@@ -1332,501 +796,22 @@
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
           }
         ],
         "line": 6,
         "name": "Adding the Sauce Labs Backpack to the cart",
         "description": "",
-        "id": "add-product-to-cart;adding-the-sauce-labs-backpack-to-the-cart",
+        "id": "product-present-in-cart;adding-the-sauce-labs-backpack-to-the-cart",
         "after": [
           {
             "result": {
-              "duration": 94085700,
+              "duration": 89081100,
               "status": "passed"
             },
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 38034400,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click the Sauce Labs Backpack ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.iClickTheSauceLabsBackpackADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 10008600,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "The Sauce Labs Backpack ADD TO CART button should change to a REMOVE button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.theSauceLabsBackpackADDTOCARTButtonShouldChangeToAREMOVEButton()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 169152600,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:53:56.522Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1436225300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "Adding the Sauce Labs Bolt T-Shirt to the cart",
-        "description": "",
-        "id": "add-product-to-cart;adding-the-sauce-labs-bolt-t-shirt-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 92089100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 35032100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I click the Sauce Labs Bolt T-Shirt ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.iClickTheSauceLabsBoltTShirtADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 10008000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "The Sauce Labs Bolt T-Shirt ADD TO CART button should change to a REMOVE button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.theSauceLabsBoltTShirtADDTOCARTButtonShouldChangeToAREMOVEButton()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 158144500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:53:58.271Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1421325400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "Adding the Sauce Labs Onesie to the cart",
-        "description": "",
-        "id": "add-product-to-cart;adding-the-sauce-labs-onesie-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 89081400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 42037400,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I click the Sauce Labs Onesie ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.iClickTheSauceLabsOnesieADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 9009800,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "The Sauce Labs Onesie ADD TO CART button should change to a REMOVE button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.theSauceLabsOnesieADDTOCARTButtonShouldChangeToAREMOVEButton()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 188170700,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:53:59.996Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1768052200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1000600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Adding the Sauce Labs Bike Light to the cart",
-        "description": "",
-        "id": "add-product-to-cart;adding-the-sauce-labs-bike-light-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 92082900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 40037200,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I click the Sauce Labs Bike Light ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.iClickTheSauceLabsBikeLightADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 11010900,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "The Sauce Labs Bike Light ADD TO CART button should change to a REMOVE button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.theSauceLabsBikeLightADDTOCARTButtonShouldChangeToAREMOVEButton()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 172200300,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:54:02.102Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1450121100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "Adding the Sauce Labs Fleece Jacket to the cart",
-        "description": "",
-        "id": "add-product-to-cart;adding-the-sauce-labs-fleece-jacket-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 90080500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 51046100,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "I click the Sauce Labs Fleece Jacket ADD TO CART button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.iClickTheSauceLabsFleeceJacketADDTOCARTButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 12012200,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "The Sauce Labs Fleece Jacket ADD TO CART button should change to a REMOVE button",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.theSauceLabsFleeceJacketADDTOCARTButtonShouldChangeToAREMOVEButton()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "I am logged in",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 175159500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the Inventory page",
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-11T09:54:03.880Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1444310700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.init()"
-            }
-          }
-        ],
-        "line": 26,
-        "name": "Adding the Test.allTheThings() T-Shirt (Red) to the cart",
-        "description": "",
-        "id": "add-product-to-cart;adding-the-test.allthethings()-t-shirt-(red)-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 86078600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
             }
           }
         ],
@@ -1838,31 +823,990 @@
               "duration": 35031700,
               "status": "passed"
             },
-            "line": 27,
-            "name": "I click the Test All The Things T-Shirt ADD TO CART button",
+            "line": 7,
+            "name": "I click the Sauce Labs Backpack ADD TO CART button",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.iClickTheTestAllTheThingsTShirtADDTOCARTButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsBackpackADDTOCARTButton()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 9007500,
+              "duration": 10008400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The Sauce Labs Backpack QTY and Description should be added to the cart",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceLabsBackpackQTYAndDescriptionShouldBeAddedToTheCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 173157700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:16.199Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1445413500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Adding the Sauce Labs Bolt T-Shirt to the cart",
+        "description": "",
+        "id": "product-present-in-cart;adding-the-sauce-labs-bolt-t-shirt-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 89081800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40039600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the Sauce Labs Bolt T-Shirt ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsBoltTShirtADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9008000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The Sauce Bolt T-Shirt QTY and Description should be added to the cart",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceBoltTShirtQTYAndDescriptionShouldBeAddedToTheCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 168151800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:17.962Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1420011000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Adding the Sauce Labs Onesie to the cart",
+        "description": "",
+        "id": "product-present-in-cart;adding-the-sauce-labs-onesie-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 114103000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36033100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click the Sauce Labs Onesie ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsOnesieADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9008800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The Sauce Onesie QTY and Description should be added to the cart",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceOnesieQTYAndDescriptionShouldBeAddedToTheCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 174157900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:19.715Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1464825400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Adding the Sauce Labs Bike Light to the cart",
+        "description": "",
+        "id": "product-present-in-cart;adding-the-sauce-labs-bike-light-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 94086200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36032900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click the Sauce Labs Bike Light ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsBikeLightADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9008000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Sauce Bike Light QTY and Description should be added to the cart",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceBikeLightQTYAndDescriptionShouldBeAddedToTheCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 165150600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:21.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1449511300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Adding the Sauce Labs Fleece Jacket to the cart",
+        "description": "",
+        "id": "product-present-in-cart;adding-the-sauce-labs-fleece-jacket-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 86075300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39035600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the Sauce Labs Fleece Jacket ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsFleeceJacketADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10008500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The Sauce Fleece Jacket QTY and Description should be added to the cart",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceFleeceJacketQTYAndDescriptionShouldBeAddedToTheCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 170321000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:23.251Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1460297700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Adding the  Test.allTheThings() T-Shirt (Red) to the cart",
+        "description": "",
+        "id": "product-present-in-cart;adding-the--test.allthethings()-t-shirt-(red)-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 90082000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41037400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click the Test All The Things T-Shirt ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheTestAllTheThingsTShirtADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12010400,
               "status": "passed"
             },
             "line": 28,
-            "name": "The Test All The Things T-Shirt ADD TO CART button should change to a REMOVE button",
+            "name": "The Test All The Things T-Shirt QTY and Description should be added to the cart",
             "match": {
-              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductToRemove.theTestAllTheThingsTShirtADDTOCARTButtonShouldChangeToAREMOVEButton()"
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theTestAllTheThingsTShirtQTYAndDescriptionShouldBeAddedToTheCart()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Add product to cart",
+    "name": "Product present in cart",
     "description": "",
-    "id": "add-product-to-cart",
+    "id": "product-present-in-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/productpage/ProductInCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 165775900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:25.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1404586000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Adding the Sauce Labs Backpack to the cart",
+        "description": "",
+        "id": "add-to-cart-changed-to-remove;adding-the-sauce-labs-backpack-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 88078700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37033000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the Sauce Labs Backpack ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsBackpackADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8516600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The Sauce Labs Backpack ADD TO CART button should change to a REMOVE button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceLabsBackpackADDTOCARTButtonShouldChangeToAREMOVEButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 173157900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:26.739Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1444811300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Adding the Sauce Labs Bolt T-Shirt to the cart",
+        "description": "",
+        "id": "add-to-cart-changed-to-remove;adding-the-sauce-labs-bolt-t-shirt-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 86078100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34030800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the Sauce Labs Bolt T-Shirt ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsBoltTShirtADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9008700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The Sauce Labs Bolt T-Shirt ADD TO CART button should change to a REMOVE button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceLabsBoltTShirtADDTOCARTButtonShouldChangeToAREMOVEButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 175160400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:28.491Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1426326600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Adding the Sauce Labs Onesie to the cart",
+        "description": "",
+        "id": "add-to-cart-changed-to-remove;adding-the-sauce-labs-onesie-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 94088200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35031200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click the Sauce Labs Onesie ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsOnesieADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9008200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The Sauce Labs Onesie ADD TO CART button should change to a REMOVE button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceLabsOnesieADDTOCARTButtonShouldChangeToAREMOVEButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 175159100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:30.237Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1460371300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Adding the Sauce Labs Bike Light to the cart",
+        "description": "",
+        "id": "add-to-cart-changed-to-remove;adding-the-sauce-labs-bike-light-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 87078400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39036900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click the Sauce Labs Bike Light ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsBikeLightADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9007400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Sauce Labs Bike Light ADD TO CART button should change to a REMOVE button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceLabsBikeLightADDTOCARTButtonShouldChangeToAREMOVEButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 220200900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:32.011Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1435842200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Adding the Sauce Labs Fleece Jacket to the cart",
+        "description": "",
+        "id": "add-to-cart-changed-to-remove;adding-the-sauce-labs-fleece-jacket-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 113103000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38033800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the Sauce Labs Fleece Jacket ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheSauceLabsFleeceJacketADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9006600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The Sauce Labs Fleece Jacket ADD TO CART button should change to a REMOVE button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theSauceLabsFleeceJacketADDTOCARTButtonShouldChangeToAREMOVEButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 159144500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T10:34:33.831Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1437678500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Adding the Test.allTheThings() T-Shirt (Red) to the cart",
+        "description": "",
+        "id": "add-to-cart-changed-to-remove;adding-the-test.allthethings()-t-shirt-(red)-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 84075900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63057600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click the Test All The Things T-Shirt ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.iClickTheTestAllTheThingsTShirtADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9008100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The Test All The Things T-Shirt ADD TO CART button should change to a REMOVE button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.theTestAllTheThingsTShirtADDTOCARTButtonShouldChangeToAREMOVEButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart changed to remove",
+    "description": "",
+    "id": "add-to-cart-changed-to-remove",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/productpage/ProductToRemove.feature",
     "tags": []

@@ -1,7 +1,7 @@
-Feature: Add product to cart
+Feature: Add to cart changed to remove
 
   Background: I am logged in
-    Given I am on the Inventory page
+    Given I am on the Product page
 
   Scenario: Adding the Sauce Labs Backpack to the cart
     When I click the Sauce Labs Backpack ADD TO CART button
