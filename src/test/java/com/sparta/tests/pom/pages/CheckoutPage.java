@@ -55,17 +55,16 @@ public class CheckoutPage {
 
     // Get user input fields
     public String getFirstName() {
-        return webDriver.findElement(firstNameField).getText();
+        return webDriver.findElement(firstNameField).getAttribute("value");
     }
 
     public String getLastName() {
-        return webDriver.findElement(lastNameField).getText();
+        return webDriver.findElement(lastNameField).getAttribute("value");
     }
 
     public String getPostcode() {
-        return webDriver.findElement(postalCodeField).getText();
+        return webDriver.findElement(postalCodeField).getAttribute("value");
     }
-
 
     // Enter string into user input fields
     public void setFirstName(String fName) {
