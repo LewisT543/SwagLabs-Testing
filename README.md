@@ -6,8 +6,9 @@ A BDD approach to testing a mock e-commerce website.
 - IntelliJ -> IDE used to develop the program. Specifically useful due to backed-in plugins such as cucumber.
 - Maven -> Build management tool, used solely as a dependency manager for the purposes of this project.
 - Junit -> Used for testing in conjunction with selenium and cucumber.
-- Log4j(sf) -> Logging tool
-- Selenium -> Used to run a webdriver and programmatically interact with a browser
+- Cucumber -> BDD, takes business requirements and translates them into automated tests.
+- Log4j(sf) -> Logging tool.
+- Selenium -> Used to run a webdriver and programmatically interact with a browser.
 
 ### Brief explanation:
 

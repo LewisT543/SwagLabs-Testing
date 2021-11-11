@@ -219,18 +219,21 @@ public class ProductsPage {
     }
 
     public boolean itemsAreSortedPriceLH() {
-        List<String> itemPrices = webDriver.findElements(inventoryPrices)
+        List<Float> itemPrices = webDriver.findElements(inventoryPrices)
                 .stream()
                 .map(WebElement::getText)
                 .map(e -> e.substring(1))
+                .map(Float::parseFloat)
                 .collect(Collectors.toList());
         return itemPrices.equals(itemPrices.stream().sorted().collect(Collectors.toList()));
     }
 
     public boolean itemsAreSortedPriceHL() {
-        List<String> itemPrices = webDriver.findElements(inventoryPrices)
+        List<Float> itemPrices = webDriver.findElements(inventoryPrices)
                 .stream()
                 .map(WebElement::getText)
+                .map(e -> e.substring(1))
+                .map(Float::parseFloat)
                 .collect(Collectors.toList());
         System.out.println(Arrays.toString(itemPrices.toArray()));
         return itemPrices.equals(itemPrices.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
