@@ -232,6 +232,7 @@ public class ProductsPage {
                 .stream()
                 .map(WebElement::getText)
                 .collect(Collectors.toList());
+        System.out.println(Arrays.toString(itemPrices.toArray()));
         return itemPrices.equals(itemPrices.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
     }
 
