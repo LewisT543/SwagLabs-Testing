@@ -1,4 +1,4 @@
-package com.sparta.tests.pom.cucumber.stepdefs;
+package com.sparta.tests.pom.cucumber.stepdefs.cartpage;
 
 import com.sparta.tests.pom.pages.LoginPage;
 import com.sparta.tests.pom.pages.ProductsPage;
