@@ -62,7 +62,7 @@ public class CheckoutPage {
         return webDriver.findElement(lastNameField).getText();
     }
 
-    public String getPostCode() {
+    public String getPostcode() {
         return webDriver.findElement(postalCodeField).getText();
     }
 
@@ -76,7 +76,7 @@ public class CheckoutPage {
         webDriver.findElement(lastNameField).sendKeys(lName);
     }
 
-    public void setPostCode(String pCode) {
+    public void setPostcode(String pCode) {
         webDriver.findElement(postalCodeField).sendKeys(pCode);
     }
 
@@ -93,7 +93,7 @@ public class CheckoutPage {
         return getFormGroupItems().get(1).findElements(new By.ByTagName("svg")).size() != 0;
     }
 
-    public boolean postCodeHasErrorIcon() {
+    public boolean postcodeHasErrorIcon() {
         return getFormGroupItems().get(2).findElements(new By.ByTagName("svg")).size() != 0;
     }
 }
