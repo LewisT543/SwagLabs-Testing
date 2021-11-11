@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 178521900,
+              "duration": 198962800,
               "status": "passed"
             },
             "line": 4,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:49:54.865Z",
+        "start_timestamp": "2021-11-10T16:35:49.356Z",
         "before": [
           {
             "result": {
-              "duration": 2232902000,
+              "duration": 2388368500,
               "status": "passed"
             },
             "match": {
@@ -37,6 +37,7 @@
           },
           {
             "result": {
+              "duration": 1011800,
               "status": "passed"
             },
             "match": {
@@ -51,7 +52,7 @@
         "after": [
           {
             "result": {
-              "duration": 142638100,
+              "duration": 249629800,
               "status": "passed"
             },
             "match": {
@@ -64,7 +65,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43882300,
+              "duration": 35903700,
               "status": "passed"
             },
             "line": 7,
@@ -76,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 10971600,
+              "duration": 11968600,
               "status": "passed"
             },
             "line": 8,
@@ -97,7 +98,7 @@
         "steps": [
           {
             "result": {
-              "duration": 178521800,
+              "duration": 182513000,
               "status": "passed"
             },
             "line": 4,
@@ -110,11 +111,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:49:57.518Z",
+        "start_timestamp": "2021-11-10T16:35:52.290Z",
         "before": [
           {
             "result": {
-              "duration": 2033759600,
+              "duration": 2396731500,
               "status": "passed"
             },
             "match": {
@@ -123,6 +124,7 @@
           },
           {
             "result": {
+              "duration": 997300,
               "status": "passed"
             },
             "match": {
@@ -137,7 +139,7 @@
         "after": [
           {
             "result": {
-              "duration": 149598400,
+              "duration": 159572300,
               "status": "passed"
             },
             "match": {
@@ -150,7 +152,7 @@
         "steps": [
           {
             "result": {
-              "duration": 33909000,
+              "duration": 35903100,
               "status": "passed"
             },
             "line": 11,
@@ -162,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 9973100,
+              "duration": 9973200,
               "status": "passed"
             },
             "line": 12,
@@ -183,7 +185,7 @@
         "steps": [
           {
             "result": {
-              "duration": 171540700,
+              "duration": 183509600,
               "status": "passed"
             },
             "line": 4,
@@ -196,11 +198,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:49:59.931Z",
+        "start_timestamp": "2021-11-10T16:35:55.080Z",
         "before": [
           {
             "result": {
-              "duration": 1933893500,
+              "duration": 1903755800,
               "status": "passed"
             },
             "match": {
@@ -223,7 +225,7 @@
         "after": [
           {
             "result": {
-              "duration": 154586600,
+              "duration": 172998000,
               "status": "passed"
             },
             "match": {
@@ -236,7 +238,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39892800,
+              "duration": 37898600,
               "status": "passed"
             },
             "line": 15,
@@ -248,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 8976100,
+              "duration": 9973800,
               "status": "passed"
             },
             "line": 16,
@@ -269,7 +271,7 @@
         "steps": [
           {
             "result": {
-              "duration": 185503300,
+              "duration": 189493200,
               "status": "passed"
             },
             "line": 4,
@@ -282,11 +284,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:50:02.246Z",
+        "start_timestamp": "2021-11-10T16:35:57.393Z",
         "before": [
           {
             "result": {
-              "duration": 1893869300,
+              "duration": 1869050700,
               "status": "passed"
             },
             "match": {
@@ -309,7 +311,7 @@
         "after": [
           {
             "result": {
-              "duration": 155330300,
+              "duration": 167577600,
               "status": "passed"
             },
             "match": {
@@ -322,7 +324,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43882200,
+              "duration": 33909000,
               "status": "passed"
             },
             "line": 19,
@@ -334,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 7978700,
+              "duration": 8983500,
               "status": "passed"
             },
             "line": 20,
@@ -355,7 +357,7 @@
         "steps": [
           {
             "result": {
-              "duration": 179519900,
+              "duration": 189473700,
               "status": "passed"
             },
             "line": 4,
@@ -368,11 +370,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:50:04.537Z",
+        "start_timestamp": "2021-11-10T16:35:59.667Z",
         "before": [
           {
             "result": {
-              "duration": 1882188300,
+              "duration": 1892181200,
               "status": "passed"
             },
             "match": {
@@ -381,7 +383,6 @@
           },
           {
             "result": {
-              "duration": 997300,
               "status": "passed"
             },
             "match": {
@@ -396,7 +397,7 @@
         "after": [
           {
             "result": {
-              "duration": 163650300,
+              "duration": 161551800,
               "status": "passed"
             },
             "match": {
@@ -409,7 +410,7 @@
         "steps": [
           {
             "result": {
-              "duration": 33554100,
+              "duration": 34906600,
               "status": "passed"
             },
             "line": 23,
@@ -421,13 +422,651 @@
           },
           {
             "result": {
-              "duration": 7979000,
+              "duration": 7978500,
               "status": "passed"
             },
             "line": 24,
             "name": "The Fleece Jacket ADD TO CART button should change to REMOVE",
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 191487000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T16:36:01.960Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1891764800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Adding the Test.allTheThings() T-Shirt (Red) to the CART",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;adding-the-test.allthethings()-t-shirt-(red)-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 165556300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31915000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on the test all things T-Shirt ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheTestAllThingsTShirtADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7978500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The test all things T-Shirt ADD TO CART button should change to REMOVE",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theTestAllThingsTShirtADDTOCARTButtonShouldChangeToREMOVE()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 182512000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T16:36:04.258Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1902608500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Increasing CART counter by 1 via Sauce Labs Backpack ADD TO CART button",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;increasing-cart-counter-by-1-via-sauce-labs-backpack-add-to-cart-button",
+        "after": [
+          {
+            "result": {
+              "duration": 4253327500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39893600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on the Backpack ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBackpackADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17951400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The CART counter should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theCARTCounterShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 177524400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T16:36:10.661Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1926904700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Increasing CART counter by 1 via Sauce Labs Bolt T-Shirt ADD TO CART button",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;increasing-cart-counter-by-1-via-sauce-labs-bolt-t-shirt-add-to-cart-button",
+        "after": [
+          {
+            "result": {
+              "duration": 161589200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35904600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on the Bolt T-Shirt ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBoltTShirtADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16954000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The CART counter should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theCARTCounterShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 196982000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T16:36:12.985Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1950984000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Increasing CART counter by 1 via Sauce Labs Onesie ADD TO CART button",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;increasing-cart-counter-by-1-via-sauce-labs-onesie-add-to-cart-button",
+        "after": [
+          {
+            "result": {
+              "duration": 165392900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38894800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on the Onesie ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheOnesieADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21942100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "The CART counter should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theCARTCounterShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 185127100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T16:36:15.361Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1825052400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Increasing CART counter by 1 via Sauce Labs Bike Light ADD TO CART button",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;increasing-cart-counter-by-1-via-sauce-labs-bike-light-add-to-cart-button",
+        "after": [
+          {
+            "result": {
+              "duration": 156580300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34906200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on the Bike Light ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheBikeLightADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17952700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "The CART counter should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theCARTCounterShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 178522300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T16:36:17.584Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1899148700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Increasing CART counter by 1 via Sauce Labs Fleece Jarket ADD TO CART button",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;increasing-cart-counter-by-1-via-sauce-labs-fleece-jarket-add-to-cart-button",
+        "after": [
+          {
+            "result": {
+              "duration": 162638100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39893600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on the Fleece Jacket ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheFleeceJacketADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16954200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "The CART counter should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theCARTCounterShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 187498200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Inventory page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.iAmOnTheInventoryPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T16:36:19.884Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1983185500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.init()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Increasing CART counter by 1 via Test.allThings() T-Shirt (Red) ADD TO CART button",
+        "description": "",
+        "id": "adding-items-from-the-inventory-to-the-cart;increasing-cart-counter-by-1-via-test.allthings()-t-shirt-(red)-add-to-cart-button",
+        "after": [
+          {
+            "result": {
+              "duration": 165556600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.LoginStepDefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38895800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on the test all things T-Shirt ADD TO CART button",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.iClickOnTheTestAllThingsTShirtADDTOCARTButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16953800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The CART counter should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.InventoryStepDefs.theCARTCounterShouldBe(int)"
             },
             "keyword": "Then "
           }
@@ -445,11 +1084,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-11-10T14:50:06.812Z",
+        "start_timestamp": "2021-11-10T16:36:22.283Z",
         "before": [
           {
             "result": {
-              "duration": 1851754300,
+              "duration": 1881783100,
               "status": "passed"
             },
             "match": {
@@ -472,7 +1111,7 @@
         "after": [
           {
             "result": {
-              "duration": 148625900,
+              "duration": 144612500,
               "status": "passed"
             },
             "match": {
@@ -485,7 +1124,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61630400,
+              "duration": 57844600,
               "status": "passed"
             },
             "line": 4,
@@ -503,7 +1142,7 @@
           },
           {
             "result": {
-              "duration": 60837100,
+              "duration": 52859700,
               "status": "passed"
             },
             "line": 5,
@@ -521,7 +1160,7 @@
           },
           {
             "result": {
-              "duration": 37005900,
+              "duration": 39892700,
               "status": "passed"
             },
             "line": 6,
@@ -533,7 +1172,7 @@
           },
           {
             "result": {
-              "duration": 17950400,
+              "duration": 20943500,
               "status": "passed"
             },
             "line": 7,
@@ -552,11 +1191,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:50:08.998Z",
+        "start_timestamp": "2021-11-10T16:36:24.487Z",
         "before": [
           {
             "result": {
-              "duration": 1906649100,
+              "duration": 1900294200,
               "status": "passed"
             },
             "match": {
@@ -579,7 +1218,7 @@
         "after": [
           {
             "result": {
-              "duration": 139728400,
+              "duration": 144606100,
               "status": "passed"
             },
             "match": {
@@ -592,7 +1231,7 @@
         "steps": [
           {
             "result": {
-              "duration": 55851500,
+              "duration": 58842500,
               "status": "passed"
             },
             "line": 10,
@@ -610,7 +1249,7 @@
           },
           {
             "result": {
-              "duration": 53854900,
+              "duration": 66821200,
               "status": "passed"
             },
             "line": 11,
@@ -628,7 +1267,7 @@
           },
           {
             "result": {
-              "duration": 37899000,
+              "duration": 39401200,
               "status": "passed"
             },
             "line": 12,
@@ -640,7 +1279,7 @@
           },
           {
             "result": {
-              "duration": 17951100,
+              "duration": 18954200,
               "status": "passed"
             },
             "line": 13,
@@ -659,11 +1298,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:50:11.214Z",
+        "start_timestamp": "2021-11-10T16:36:26.719Z",
         "before": [
           {
             "result": {
-              "duration": 1950493900,
+              "duration": 1901408700,
               "status": "passed"
             },
             "match": {
@@ -672,6 +1311,7 @@
           },
           {
             "result": {
+              "duration": 997200,
               "status": "passed"
             },
             "match": {
@@ -686,7 +1326,7 @@
         "after": [
           {
             "result": {
-              "duration": 163561700,
+              "duration": 169627700,
               "status": "passed"
             },
             "match": {
@@ -699,7 +1339,7 @@
         "steps": [
           {
             "result": {
-              "duration": 60836700,
+              "duration": 62831900,
               "status": "passed"
             },
             "line": 16,
@@ -717,7 +1357,7 @@
           },
           {
             "result": {
-              "duration": 55851600,
+              "duration": 59839700,
               "status": "passed"
             },
             "line": 17,
@@ -735,7 +1375,7 @@
           },
           {
             "result": {
-              "duration": 37898000,
+              "duration": 38897300,
               "status": "passed"
             },
             "line": 18,
@@ -747,7 +1387,7 @@
           },
           {
             "result": {
-              "duration": 19946900,
+              "duration": 18949300,
               "status": "passed"
             },
             "line": 19,
@@ -766,11 +1406,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:50:13.507Z",
+        "start_timestamp": "2021-11-10T16:36:28.975Z",
         "before": [
           {
             "result": {
-              "duration": 1905161400,
+              "duration": 1884693400,
               "status": "passed"
             },
             "match": {
@@ -779,6 +1419,7 @@
           },
           {
             "result": {
+              "duration": 997600,
               "status": "passed"
             },
             "match": {
@@ -793,7 +1434,7 @@
         "after": [
           {
             "result": {
-              "duration": 149137800,
+              "duration": 164562200,
               "status": "passed"
             },
             "match": {
@@ -806,7 +1447,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36901100,
+              "duration": 40890000,
               "status": "passed"
             },
             "line": 22,
@@ -824,7 +1465,7 @@
           },
           {
             "result": {
-              "duration": 55850200,
+              "duration": 69813500,
               "status": "passed"
             },
             "line": 23,
@@ -842,7 +1483,7 @@
           },
           {
             "result": {
-              "duration": 40891500,
+              "duration": 36901000,
               "status": "passed"
             },
             "line": 24,
@@ -854,7 +1495,7 @@
           },
           {
             "result": {
-              "duration": 17952000,
+              "duration": 16953800,
               "status": "passed"
             },
             "line": 25,
@@ -873,11 +1514,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:50:15.715Z",
+        "start_timestamp": "2021-11-10T16:36:31.193Z",
         "before": [
           {
             "result": {
-              "duration": 1822079500,
+              "duration": 1937944900,
               "status": "passed"
             },
             "match": {
@@ -900,7 +1541,7 @@
         "after": [
           {
             "result": {
-              "duration": 159629900,
+              "duration": 153589200,
               "status": "passed"
             },
             "match": {
@@ -913,7 +1554,7 @@
         "steps": [
           {
             "result": {
-              "duration": 62863200,
+              "duration": 59840900,
               "status": "passed"
             },
             "line": 28,
@@ -931,7 +1572,7 @@
           },
           {
             "result": {
-              "duration": 34906900,
+              "duration": 35902400,
               "status": "passed"
             },
             "line": 29,
@@ -949,7 +1590,7 @@
           },
           {
             "result": {
-              "duration": 39892900,
+              "duration": 48869900,
               "status": "passed"
             },
             "line": 30,
@@ -961,7 +1602,7 @@
           },
           {
             "result": {
-              "duration": 17951700,
+              "duration": 17951500,
               "status": "passed"
             },
             "line": 31,
@@ -980,11 +1621,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:50:17.856Z",
+        "start_timestamp": "2021-11-10T16:36:33.450Z",
         "before": [
           {
             "result": {
-              "duration": 1968495800,
+              "duration": 1982939700,
               "status": "passed"
             },
             "match": {
@@ -993,6 +1634,7 @@
           },
           {
             "result": {
+              "duration": 998200,
               "status": "passed"
             },
             "match": {
@@ -1007,7 +1649,7 @@
         "after": [
           {
             "result": {
-              "duration": 157607500,
+              "duration": 153629200,
               "status": "passed"
             },
             "match": {
@@ -1020,7 +1662,7 @@
         "steps": [
           {
             "result": {
-              "duration": 49373700,
+              "duration": 37896700,
               "status": "passed"
             },
             "line": 34,
@@ -1038,7 +1680,7 @@
           },
           {
             "result": {
-              "duration": 103724100,
+              "duration": 44880400,
               "status": "passed"
             },
             "line": 35,
@@ -1056,7 +1698,7 @@
           },
           {
             "result": {
-              "duration": 43881200,
+              "duration": 43883000,
               "status": "passed"
             },
             "line": 36,
@@ -1068,7 +1710,7 @@
           },
           {
             "result": {
-              "duration": 18949200,
+              "duration": 17951600,
               "status": "passed"
             },
             "line": 37,
@@ -1087,11 +1729,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-10T14:50:20.202Z",
+        "start_timestamp": "2021-11-10T16:36:35.734Z",
         "before": [
           {
             "result": {
-              "duration": 1871879400,
+              "duration": 1967222900,
               "status": "passed"
             },
             "match": {
@@ -1100,7 +1742,6 @@
           },
           {
             "result": {
-              "duration": 996200,
               "status": "passed"
             },
             "match": {
@@ -1115,7 +1756,7 @@
         "after": [
           {
             "result": {
-              "duration": 146624200,
+              "duration": 165619700,
               "status": "passed"
             },
             "match": {
@@ -1128,7 +1769,7 @@
         "steps": [
           {
             "result": {
-              "duration": 58464800,
+              "duration": 65823800,
               "status": "passed"
             },
             "line": 40,
@@ -1146,7 +1787,7 @@
           },
           {
             "result": {
-              "duration": 52368900,
+              "duration": 66821600,
               "status": "passed"
             },
             "line": 41,
@@ -1164,7 +1805,7 @@
           },
           {
             "result": {
-              "duration": 67819000,
+              "duration": 64826600,
               "status": "passed"
             },
             "line": 42,
@@ -1176,7 +1817,7 @@
           },
           {
             "result": {
-              "duration": 3989200,
+              "duration": 5983600,
               "status": "passed"
             },
             "line": 43,
