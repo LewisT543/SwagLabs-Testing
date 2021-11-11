@@ -1,16 +1,11 @@
 package com.sparta.tests.pom.cucumber.stepdefs;
 
-import com.sparta.tests.pom.pages.InventoryPage;
-import com.sparta.tests.pom.pages.LoginPage;
-import com.sparta.tests.pom.pages.YourCartPage;
+import com.sparta.tests.pom.pages.ProductsPage;
 import com.sparta.tests.pom.util.POMUtil;
-import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -18,76 +13,76 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class InventoryStepDefs {
 
     private WebDriver webDriver;
-    private InventoryPage inventoryPage;
+    private ProductsPage productsPage;
 
     @Before(order = 1)
     public void init() {
         webDriver = POMUtil.getWebDriver();
-        inventoryPage = new InventoryPage(webDriver);
+        productsPage = new ProductsPage(webDriver);
     }
 
     @When("I click on the Backpack ADD TO CART button")
     public void iClickOnTheBackpackADDTOCARTButton() {
-        inventoryPage.clickAddBackpackToCart();
+        productsPage.clickAddBackpackToCart();
     }
 
     @When("I click on the Bolt T-Shirt ADD TO CART button")
     public void iClickOnTheBoltTShirtADDTOCARTButton() {
-        inventoryPage.clickAddBoltTShirtToCartButton();
+        productsPage.clickAddBoltTShirtToCartButton();
     }
 
     @When("I click on the Onesie ADD TO CART button")
     public void iClickOnTheOnesieADDTOCARTButton() {
-        inventoryPage.clickAddOnesieToCartButton();
+        productsPage.clickAddOnesieToCartButton();
     }
 
     @When("I click on the Bike Light ADD TO CART button")
     public void iClickOnTheBikeLightADDTOCARTButton() {
-        inventoryPage.clickAddBikeLightToCartButton();
+        productsPage.clickAddBikeLightToCartButton();
     }
 
     @When("I click on the Fleece Jacket ADD TO CART button")
     public void iClickOnTheFleeceJacketADDTOCARTButton() {
-        inventoryPage.clickAddFleeceJacketToCartButton();
+        productsPage.clickAddFleeceJacketToCartButton();
     }
 
     @When("I click on the test all things T-Shirt ADD TO CART button")
     public void iClickOnTheTestAllThingsTShirtADDTOCARTButton() {
-        inventoryPage.clickAddRedTShirtToCartButton();
+        productsPage.clickAddRedTShirtToCartButton();
     }
 
     @Then("The Backpack ADD TO CART button should change to REMOVE")
     public void theBackpackADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBackpackFromCartButtonIsPresent());
+        assertTrue(productsPage.removeBackpackFromCartButtonIsPresent());
     }
 
     @Then("The Bolt T-Shirt ADD TO CART button should change to REMOVE")
     public void theBoltTShirtADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBoltTShirtFromCartButtonIsPresent());
+        assertTrue(productsPage.removeBoltTShirtFromCartButtonIsPresent());
     }
 
     @Then("The Onsie ADD TO CART button should change to REMOVE")
     public void theOnsieADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeOnesieFromCartButtonIsPresent());
+        assertTrue(productsPage.removeOnesieFromCartButtonIsPresent());
     }
 
     @Then("The Bike Light ADD TO CART button should change to REMOVE")
     public void theBikeLightADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBikeLightFromCartButtonIsPresent());
+        assertTrue(productsPage.removeBikeLightFromCartButtonIsPresent());
     }
 
     @Then("The Fleece Jacket ADD TO CART button should change to REMOVE")
     public void theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeFleeceJacketFromCartButtonIsPresent());
+        assertTrue(productsPage.removeFleeceJacketFromCartButtonIsPresent());
     }
 
     @Then("The test all things T-Shirt ADD TO CART button should change to REMOVE")
     public void theTestAllThingsTShirtADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeRedTShirtFromCartButtonIsPresent());
+        assertTrue(productsPage.removeRedTShirtFromCartButtonIsPresent());
     }
 
     @Then("The CART counter should be {int}")
     public void theCARTCounterShouldBe(int amount) {
-        assertEquals(amount, inventoryPage.getCartBadgeNumber());
+        assertEquals(amount, productsPage.getCartBadgeNumber());
     }
 }
