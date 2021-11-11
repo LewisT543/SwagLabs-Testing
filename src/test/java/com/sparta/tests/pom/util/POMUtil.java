@@ -16,6 +16,7 @@ public class POMUtil {
     }
 
     public static ChromeDriverService getChromeDriverService(String path) {
+        System.setProperty("webdriver.chrome.silentOutput", "true");
         var service = new ChromeDriverService.Builder()
                 .usingDriverExecutable(new File(path))
                 .usingAnyFreePort()

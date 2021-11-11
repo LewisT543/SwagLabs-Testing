@@ -1,4 +1,4 @@
-package com.sparta.tests.pom.cucumber.stepdefs;
+package com.sparta.tests.pom.cucumber.stepdefs.loginpage;
 
 import com.sparta.tests.pom.util.POMUtil;
 import com.sparta.tests.pom.pages.LoginPage;
@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LoginStepDefs {
+public class LoginStepDef {
 
     private WebDriver webDriver;
     private LoginPage loginPage;
@@ -26,8 +26,8 @@ public class LoginStepDefs {
         loginPage = new LoginPage(webDriver);
     }
 
-    @Given("I am on the Inventory page")
-    public void iAmOnTheInventoryPage() {
+    @Given("I am on the Product page")
+    public void iAmOnTheProductPage() {
         loginPage.setUsername("standard_user");
         loginPage.setPassword("secret_sauce");
         loginPage.clickSubmit();
