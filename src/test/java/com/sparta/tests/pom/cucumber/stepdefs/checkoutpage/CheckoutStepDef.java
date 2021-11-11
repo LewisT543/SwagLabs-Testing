@@ -46,7 +46,7 @@ public class CheckoutStepDef {
     public void iHaveInputtedTheCorrectDetails() {
         checkoutPage.setFirstName("firstname");
         checkoutPage.setLastName("lastname");
-        checkoutPage.setPostCode("postcode");
+        checkoutPage.setPostcode("postcode");
     }
 
     @When("I input {string} into the First Name field")
@@ -61,7 +61,7 @@ public class CheckoutStepDef {
 
     @When("I input {string} into the Postcode field")
     public void iInputIntoThePostcodeField(String postcode) {
-        checkoutPage.setPostCode(postcode);
+        checkoutPage.setPostcode(postcode);
     }
 
     @When("I click on the CANCEL button")
@@ -91,7 +91,7 @@ public class CheckoutStepDef {
 
     @When("I enter the postcode {string}")
     public void iEnterThePostcode(String postcode) {
-        checkoutPage.setPostCode(postcode);
+        checkoutPage.setPostcode(postcode);
     }
 
     @Then("I should see {string} in the First Name field")

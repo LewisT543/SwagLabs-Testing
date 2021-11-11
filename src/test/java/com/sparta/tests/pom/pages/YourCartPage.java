@@ -21,12 +21,12 @@ public class YourCartPage {
     By redTShirtNameLink = new By.ById("item_3_title_link");
 
     // Remove item
-    By removeBackpackToCartButton = new By.ById("remove-sauce-labs-backpack");
-    By removeBikeLightToCartButton = new By.ById("remove-sauce-labs-bike-light");
-    By removeBoltTShirtToCartButton = new By.ById("remove-sauce-labs-bolt-t-shirt");
-    By removeFleeceJacketToCartButton = new By.ById("remove-sauce-labs-fleece-jacket");
-    By removeOnesieToCartButton = new By.ById("remove-sauce-labs-onesie");
-    By removeRedTShirtToCartButton = new By.ById("remove-test.allthethings()-t-shirt-(red)");
+    By removeBackpackToCartButton = new By.ById("remove-to-cart-sauce-labs-backpack");
+    By removeBikeLightToCartButton = new By.ById("remove-to-cart-sauce-labs-bike-light");
+    By removeBoltTShirtToCartButton = new By.ById("remove-to-cart-sauce-labs-bolt-t-shirt");
+    By removeFleeceJacketToCartButton = new By.ById("remove-to-cart-sauce-labs-fleece-jacket");
+    By removeOnesieToCartButton = new By.ById("remove-to-cart-sauce-labs-onesie");
+    By removeRedTShirtToCartButton = new By.ById("remove-to-cart-test.allthethings()-t-shirt-(red)");
 
     // Checkout footer button clicks
     public void clickContinueShoppingButton() {
