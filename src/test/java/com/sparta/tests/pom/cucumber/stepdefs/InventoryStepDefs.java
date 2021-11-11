@@ -58,32 +58,32 @@ public class InventoryStepDefs {
 
     @Then("The Backpack ADD TO CART button should change to REMOVE")
     public void theBackpackADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBackpackToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeBackpackFromCartButtonIsPresent());
     }
 
     @Then("The Bolt T-Shirt ADD TO CART button should change to REMOVE")
     public void theBoltTShirtADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBoltTShirtToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeBoltTShirtFromCartButtonIsPresent());
     }
 
     @Then("The Onsie ADD TO CART button should change to REMOVE")
     public void theOnsieADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeOnesieToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeOnesieFromCartButtonIsPresent());
     }
 
     @Then("The Bike Light ADD TO CART button should change to REMOVE")
     public void theBikeLightADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBikeLightToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeBikeLightFromCartButtonIsPresent());
     }
 
     @Then("The Fleece Jacket ADD TO CART button should change to REMOVE")
     public void theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeFleeceJacketToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeFleeceJacketFromCartButtonIsPresent());
     }
 
     @Then("The test all things T-Shirt ADD TO CART button should change to REMOVE")
     public void theTestAllThingsTShirtADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeRedTShirtToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeRedTShirtFromCartButtonIsPresent());
     }
 
     @Then("The CART counter should be {int}")

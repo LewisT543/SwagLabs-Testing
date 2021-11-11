@@ -281,7 +281,7 @@ public class InventoryPage {
     }
 
     // Add to cart button is present
-    public boolean addBackpackToCartButtonIsPresent() throws InterruptedException {
+    public boolean addBackpackToCartButtonIsPresent() {
         return webDriver.findElements(addBackpackToCartButton).size() != 0;
     }
 
@@ -306,27 +306,27 @@ public class InventoryPage {
     }
 
     // Remove from cart button is present
-    public boolean removeBackpackToCartButtonIsPresent() {
+    public boolean removeBackpackFromCartButtonIsPresent() {
         return webDriver.findElements(removeBackpackToCartButton).size() != 0;
     }
 
-    public boolean removeBikeLightToCartButtonIsPresent() {
+    public boolean removeBikeLightFromCartButtonIsPresent() {
         return webDriver.findElements(removeBikeLightToCartButton).size() != 0;
     }
 
-    public boolean removeBoltTShirtToCartButtonIsPresent() {
+    public boolean removeBoltTShirtFromCartButtonIsPresent() {
         return webDriver.findElements(removeBoltTShirtToCartButton).size() != 0;
     }
 
-    public boolean removeFleeceJacketToCartButtonIsPresent() {
+    public boolean removeFleeceJacketFromCartButtonIsPresent() {
         return webDriver.findElements(removeFleeceJacketToCartButton).size() != 0;
     }
 
-    public boolean removeOnesieToCartButtonIsPresent() {
+    public boolean removeOnesieFromCartButtonIsPresent() {
         return webDriver.findElements(removeOnesieToCartButton).size() != 0;
     }
 
-    public boolean removeRedTShirtToCartButtonIsPresent() {
+    public boolean removeRedTShirtFromCartButtonIsPresent() {
         return webDriver.findElements(removeRedTShirtToCartButton).size() != 0;
     }
 }
