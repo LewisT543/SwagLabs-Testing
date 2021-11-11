@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-11-11T11:16:12.397Z",
+        "start_timestamp": "2021-11-11T11:50:12.641Z",
         "before": [
           {
             "result": {
-              "duration": 1839749100,
+              "duration": 1898251100,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
         "after": [
           {
             "result": {
-              "duration": 101495200,
+              "duration": 93791500,
               "status": "passed"
             },
             "match": {
@@ -51,7 +51,7 @@
         "steps": [
           {
             "result": {
-              "duration": 56051100,
+              "duration": 60054100,
               "status": "passed"
             },
             "line": 4,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 51047300,
+              "duration": 49045300,
               "status": "passed"
             },
             "line": 5,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 37032600,
+              "duration": 40035800,
               "status": "passed"
             },
             "line": 6,
@@ -99,7 +99,7 @@
           },
           {
             "result": {
-              "duration": 22020400,
+              "duration": 23021200,
               "status": "passed"
             },
             "line": 7,
@@ -118,11 +118,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:14.571Z",
+        "start_timestamp": "2021-11-11T11:50:14.861Z",
         "before": [
           {
             "result": {
-              "duration": 1509070800,
+              "duration": 1486548800,
               "status": "passed"
             },
             "match": {
@@ -153,7 +153,7 @@
         "after": [
           {
             "result": {
-              "duration": 87080200,
+              "duration": 83075700,
               "status": "passed"
             },
             "match": {
@@ -166,7 +166,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51045900,
+              "duration": 53048500,
               "status": "passed"
             },
             "line": 10,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 52047500,
+              "duration": 52046900,
               "status": "passed"
             },
             "line": 11,
@@ -202,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 41037400,
+              "duration": 40037500,
               "status": "passed"
             },
             "line": 12,
@@ -214,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 19017000,
+              "duration": 20018000,
               "status": "passed"
             },
             "line": 13,
@@ -233,11 +233,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:16.349Z",
+        "start_timestamp": "2021-11-11T11:50:16.606Z",
         "before": [
           {
             "result": {
-              "duration": 1456047700,
+              "duration": 1457385100,
               "status": "passed"
             },
             "match": {
@@ -254,7 +254,6 @@
           },
           {
             "result": {
-              "duration": 999800,
               "status": "passed"
             },
             "match": {
@@ -269,7 +268,7 @@
         "after": [
           {
             "result": {
-              "duration": 91083100,
+              "duration": 85077400,
               "status": "passed"
             },
             "match": {
@@ -282,7 +281,7 @@
         "steps": [
           {
             "result": {
-              "duration": 57053500,
+              "duration": 53047900,
               "status": "passed"
             },
             "line": 16,
@@ -300,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 52045500,
+              "duration": 50045700,
               "status": "passed"
             },
             "line": 17,
@@ -318,7 +317,7 @@
           },
           {
             "result": {
-              "duration": 42039500,
+              "duration": 39035100,
               "status": "passed"
             },
             "line": 18,
@@ -330,7 +329,7 @@
           },
           {
             "result": {
-              "duration": 20018200,
+              "duration": 19017100,
               "status": "passed"
             },
             "line": 19,
@@ -349,11 +348,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:18.074Z",
+        "start_timestamp": "2021-11-11T11:50:18.318Z",
         "before": [
           {
             "result": {
-              "duration": 1421851200,
+              "duration": 1442497000,
               "status": "passed"
             },
             "match": {
@@ -384,7 +383,7 @@
         "after": [
           {
             "result": {
-              "duration": 88079400,
+              "duration": 84076600,
               "status": "passed"
             },
             "match": {
@@ -397,7 +396,7 @@
         "steps": [
           {
             "result": {
-              "duration": 38034800,
+              "duration": 39036000,
               "status": "passed"
             },
             "line": 22,
@@ -415,7 +414,7 @@
           },
           {
             "result": {
-              "duration": 55050500,
+              "duration": 54049300,
               "status": "passed"
             },
             "line": 23,
@@ -433,7 +432,7 @@
           },
           {
             "result": {
-              "duration": 41036800,
+              "duration": 40035900,
               "status": "passed"
             },
             "line": 24,
@@ -445,7 +444,7 @@
           },
           {
             "result": {
-              "duration": 19017700,
+              "duration": 20018000,
               "status": "passed"
             },
             "line": 25,
@@ -464,11 +463,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:19.743Z",
+        "start_timestamp": "2021-11-11T11:50:20.003Z",
         "before": [
           {
             "result": {
-              "duration": 1442321100,
+              "duration": 1427854200,
               "status": "passed"
             },
             "match": {
@@ -499,7 +498,7 @@
         "after": [
           {
             "result": {
-              "duration": 88080500,
+              "duration": 85068700,
               "status": "passed"
             },
             "match": {
@@ -512,7 +511,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51897200,
+              "duration": 56051100,
               "status": "passed"
             },
             "line": 28,
@@ -530,7 +529,7 @@
           },
           {
             "result": {
-              "duration": 37034100,
+              "duration": 39035900,
               "status": "passed"
             },
             "line": 29,
@@ -548,7 +547,7 @@
           },
           {
             "result": {
-              "duration": 40035000,
+              "duration": 40035500,
               "status": "passed"
             },
             "line": 30,
@@ -560,7 +559,7 @@
           },
           {
             "result": {
-              "duration": 18016400,
+              "duration": 20026900,
               "status": "passed"
             },
             "line": 31,
@@ -579,11 +578,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:21.427Z",
+        "start_timestamp": "2021-11-11T11:50:21.675Z",
         "before": [
           {
             "result": {
-              "duration": 1450171700,
+              "duration": 1435168400,
               "status": "passed"
             },
             "match": {
@@ -614,7 +613,7 @@
         "after": [
           {
             "result": {
-              "duration": 82073900,
+              "duration": 82074600,
               "status": "passed"
             },
             "match": {
@@ -627,7 +626,7 @@
         "steps": [
           {
             "result": {
-              "duration": 38034400,
+              "duration": 38035800,
               "status": "passed"
             },
             "line": 34,
@@ -645,7 +644,7 @@
           },
           {
             "result": {
-              "duration": 40036900,
+              "duration": 35031600,
               "status": "passed"
             },
             "line": 35,
@@ -663,7 +662,7 @@
           },
           {
             "result": {
-              "duration": 40035700,
+              "duration": 41037900,
               "status": "passed"
             },
             "line": 36,
@@ -675,7 +674,7 @@
           },
           {
             "result": {
-              "duration": 23021100,
+              "duration": 19016700,
               "status": "passed"
             },
             "line": 37,
@@ -694,11 +693,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:23.107Z",
+        "start_timestamp": "2021-11-11T11:50:23.333Z",
         "before": [
           {
             "result": {
-              "duration": 1500583100,
+              "duration": 1421349700,
               "status": "passed"
             },
             "match": {
@@ -729,7 +728,7 @@
         "after": [
           {
             "result": {
-              "duration": 93085300,
+              "duration": 87080200,
               "status": "passed"
             },
             "match": {
@@ -742,7 +741,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52046900,
+              "duration": 53048900,
               "status": "passed"
             },
             "line": 40,
@@ -760,7 +759,7 @@
           },
           {
             "result": {
-              "duration": 48673600,
+              "duration": 49044000,
               "status": "passed"
             },
             "line": 41,
@@ -778,7 +777,7 @@
           },
           {
             "result": {
-              "duration": 67060700,
+              "duration": 65059100,
               "status": "passed"
             },
             "line": 42,
@@ -790,7 +789,7 @@
           },
           {
             "result": {
-              "duration": 5004300,
+              "duration": 5004400,
               "status": "passed"
             },
             "line": 43,
@@ -822,7 +821,7 @@
         "steps": [
           {
             "result": {
-              "duration": 167961300,
+              "duration": 165149300,
               "status": "passed"
             },
             "line": 4,
@@ -835,11 +834,117 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:24.881Z",
+        "start_timestamp": "2021-11-11T11:50:25.022Z",
         "before": [
           {
             "result": {
-              "duration": 1463311400,
+              "duration": 1446459200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Navigating to the cart page via the cart icon",
+        "description": "",
+        "id": "go-to-the-cart-page-via-the-cart-icon;navigating-to-the-cart-page-via-the-cart-icon",
+        "after": [
+          {
+            "result": {
+              "duration": 86076500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38035100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the cart icon",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheCartIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will go to the Cart page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoToTheCartPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Go to the cart page via the cart icon",
+    "description": "",
+    "id": "go-to-the-cart-page-via-the-cart-icon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/productpage/ProductCartPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 169154100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:50:26.767Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1441261400,
               "status": "passed"
             },
             "match": {
@@ -870,7 +975,7 @@
         "after": [
           {
             "result": {
-              "duration": 89080700,
+              "duration": 106096900,
               "status": "passed"
             },
             "match": {
@@ -883,7 +988,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36031100,
+              "duration": 34031700,
               "status": "passed"
             },
             "line": 7,
@@ -895,7 +1000,7 @@
           },
           {
             "result": {
-              "duration": 10009300,
+              "duration": 10007600,
               "status": "passed"
             },
             "line": 8,
@@ -916,7 +1021,7 @@
         "steps": [
           {
             "result": {
-              "duration": 164149100,
+              "duration": 168153300,
               "status": "passed"
             },
             "line": 4,
@@ -929,11 +1034,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:26.654Z",
+        "start_timestamp": "2021-11-11T11:50:28.533Z",
         "before": [
           {
             "result": {
-              "duration": 1399268500,
+              "duration": 1480658600,
               "status": "passed"
             },
             "match": {
@@ -964,7 +1069,7 @@
         "after": [
           {
             "result": {
-              "duration": 87984200,
+              "duration": 86074600,
               "status": "passed"
             },
             "match": {
@@ -977,7 +1082,7 @@
         "steps": [
           {
             "result": {
-              "duration": 35032600,
+              "duration": 34031200,
               "status": "passed"
             },
             "line": 11,
@@ -989,7 +1094,7 @@
           },
           {
             "result": {
-              "duration": 10008800,
+              "duration": 9007500,
               "status": "passed"
             },
             "line": 12,
@@ -1010,7 +1115,7 @@
         "steps": [
           {
             "result": {
-              "duration": 167153200,
+              "duration": 161146100,
               "status": "passed"
             },
             "line": 4,
@@ -1023,11 +1128,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:28.353Z",
+        "start_timestamp": "2021-11-11T11:50:30.316Z",
         "before": [
           {
             "result": {
-              "duration": 1423565900,
+              "duration": 1470697100,
               "status": "passed"
             },
             "match": {
@@ -1058,7 +1163,7 @@
         "after": [
           {
             "result": {
-              "duration": 92083500,
+              "duration": 87078000,
               "status": "passed"
             },
             "match": {
@@ -1071,7 +1176,7 @@
         "steps": [
           {
             "result": {
-              "duration": 35031000,
+              "duration": 36032000,
               "status": "passed"
             },
             "line": 15,
@@ -1083,7 +1188,7 @@
           },
           {
             "result": {
-              "duration": 9008300,
+              "duration": 9009700,
               "status": "passed"
             },
             "line": 16,
@@ -1104,7 +1209,7 @@
         "steps": [
           {
             "result": {
-              "duration": 170085400,
+              "duration": 165150700,
               "status": "passed"
             },
             "line": 4,
@@ -1117,11 +1222,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:30.085Z",
+        "start_timestamp": "2021-11-11T11:50:32.085Z",
         "before": [
           {
             "result": {
-              "duration": 1423199400,
+              "duration": 1412461000,
               "status": "passed"
             },
             "match": {
@@ -1152,7 +1257,7 @@
         "after": [
           {
             "result": {
-              "duration": 92083500,
+              "duration": 85791700,
               "status": "passed"
             },
             "match": {
@@ -1165,7 +1270,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36967900,
+              "duration": 36032200,
               "status": "passed"
             },
             "line": 19,
@@ -1177,7 +1282,7 @@
           },
           {
             "result": {
-              "duration": 9008200,
+              "duration": 11010000,
               "status": "passed"
             },
             "line": 20,
@@ -1198,7 +1303,7 @@
         "steps": [
           {
             "result": {
-              "duration": 179163800,
+              "duration": 166150400,
               "status": "passed"
             },
             "line": 4,
@@ -1211,11 +1316,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:31.821Z",
+        "start_timestamp": "2021-11-11T11:50:33.800Z",
         "before": [
           {
             "result": {
-              "duration": 1450728300,
+              "duration": 1431795900,
               "status": "passed"
             },
             "match": {
@@ -1246,7 +1351,7 @@
         "after": [
           {
             "result": {
-              "duration": 98088800,
+              "duration": 85008300,
               "status": "passed"
             },
             "match": {
@@ -1259,7 +1364,7 @@
         "steps": [
           {
             "result": {
-              "duration": 44040400,
+              "duration": 34040200,
               "status": "passed"
             },
             "line": 23,
@@ -1271,7 +1376,7 @@
           },
           {
             "result": {
-              "duration": 11010300,
+              "duration": 8999400,
               "status": "passed"
             },
             "line": 24,
@@ -1292,7 +1397,7 @@
         "steps": [
           {
             "result": {
-              "duration": 166151000,
+              "duration": 166661200,
               "status": "passed"
             },
             "line": 4,
@@ -1305,11 +1410,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:33.610Z",
+        "start_timestamp": "2021-11-11T11:50:35.530Z",
         "before": [
           {
             "result": {
-              "duration": 1444288500,
+              "duration": 1419470700,
               "status": "passed"
             },
             "match": {
@@ -1340,7 +1445,7 @@
         "after": [
           {
             "result": {
-              "duration": 94782500,
+              "duration": 85082600,
               "status": "passed"
             },
             "match": {
@@ -1353,7 +1458,7 @@
         "steps": [
           {
             "result": {
-              "duration": 32028700,
+              "duration": 35031100,
               "status": "passed"
             },
             "line": 27,
@@ -1365,7 +1470,7 @@
           },
           {
             "result": {
-              "duration": 9008500,
+              "duration": 8007000,
               "status": "passed"
             },
             "line": 28,
@@ -1397,7 +1502,7 @@
         "steps": [
           {
             "result": {
-              "duration": 183166900,
+              "duration": 173157000,
               "status": "passed"
             },
             "line": 4,
@@ -1410,11 +1515,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:35.361Z",
+        "start_timestamp": "2021-11-11T11:50:37.248Z",
         "before": [
           {
             "result": {
-              "duration": 1442730200,
+              "duration": 1421966900,
               "status": "passed"
             },
             "match": {
@@ -1445,7 +1550,7 @@
         "after": [
           {
             "result": {
-              "duration": 96088100,
+              "duration": 90082100,
               "status": "passed"
             },
             "match": {
@@ -1458,7 +1563,7 @@
         "steps": [
           {
             "result": {
-              "duration": 47042300,
+              "duration": 42038100,
               "status": "passed"
             },
             "line": 7,
@@ -1470,7 +1575,7 @@
           },
           {
             "result": {
-              "duration": 2001000,
+              "duration": 3002700,
               "status": "passed"
             },
             "line": 8,
@@ -1491,7 +1596,7 @@
         "steps": [
           {
             "result": {
-              "duration": 179239300,
+              "duration": 167151700,
               "status": "passed"
             },
             "line": 4,
@@ -1504,11 +1609,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:37.139Z",
+        "start_timestamp": "2021-11-11T11:50:38.984Z",
         "before": [
           {
             "result": {
-              "duration": 1510372300,
+              "duration": 1426936100,
               "status": "passed"
             },
             "match": {
@@ -1525,6 +1630,7 @@
           },
           {
             "result": {
+              "duration": 1000800,
               "status": "passed"
             },
             "match": {
@@ -1539,7 +1645,7 @@
         "after": [
           {
             "result": {
-              "duration": 108652100,
+              "duration": 86074000,
               "status": "passed"
             },
             "match": {
@@ -1552,7 +1658,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43038100,
+              "duration": 44040800,
               "status": "passed"
             },
             "line": 11,
@@ -1564,7 +1670,7 @@
           },
           {
             "result": {
-              "duration": 3002600,
+              "duration": 2002000,
               "status": "passed"
             },
             "line": 12,
@@ -1585,7 +1691,7 @@
         "steps": [
           {
             "result": {
-              "duration": 173156900,
+              "duration": 165149200,
               "status": "passed"
             },
             "line": 4,
@@ -1598,11 +1704,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:38.987Z",
+        "start_timestamp": "2021-11-11T11:50:40.717Z",
         "before": [
           {
             "result": {
-              "duration": 1489524300,
+              "duration": 1411352700,
               "status": "passed"
             },
             "match": {
@@ -1611,7 +1717,7 @@
           },
           {
             "result": {
-              "duration": 1001000,
+              "duration": 1000100,
               "status": "passed"
             },
             "match": {
@@ -1620,7 +1726,6 @@
           },
           {
             "result": {
-              "duration": 1001500,
               "status": "passed"
             },
             "match": {
@@ -1635,7 +1740,7 @@
         "after": [
           {
             "result": {
-              "duration": 88037300,
+              "duration": 84073700,
               "status": "passed"
             },
             "match": {
@@ -1648,7 +1753,7 @@
         "steps": [
           {
             "result": {
-              "duration": 37032600,
+              "duration": 41037300,
               "status": "passed"
             },
             "line": 15,
@@ -1660,7 +1765,7 @@
           },
           {
             "result": {
-              "duration": 3001600,
+              "duration": 3002600,
               "status": "passed"
             },
             "line": 16,
@@ -1681,7 +1786,7 @@
         "steps": [
           {
             "result": {
-              "duration": 166151000,
+              "duration": 162148100,
               "status": "passed"
             },
             "line": 4,
@@ -1694,11 +1799,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:40.785Z",
+        "start_timestamp": "2021-11-11T11:50:42.426Z",
         "before": [
           {
             "result": {
-              "duration": 1427436000,
+              "duration": 1418804400,
               "status": "passed"
             },
             "match": {
@@ -1729,7 +1834,7 @@
         "after": [
           {
             "result": {
-              "duration": 86077500,
+              "duration": 91353400,
               "status": "passed"
             },
             "match": {
@@ -1742,7 +1847,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41037200,
+              "duration": 40035500,
               "status": "passed"
             },
             "line": 19,
@@ -1754,7 +1859,7 @@
           },
           {
             "result": {
-              "duration": 3003000,
+              "duration": 3003500,
               "status": "passed"
             },
             "line": 20,
@@ -1775,7 +1880,7 @@
         "steps": [
           {
             "result": {
-              "duration": 166150900,
+              "duration": 161145800,
               "status": "passed"
             },
             "line": 4,
@@ -1788,11 +1893,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:42.513Z",
+        "start_timestamp": "2021-11-11T11:50:44.146Z",
         "before": [
           {
             "result": {
-              "duration": 1441600400,
+              "duration": 1464353800,
               "status": "passed"
             },
             "match": {
@@ -1823,7 +1928,7 @@
         "after": [
           {
             "result": {
-              "duration": 92082800,
+              "duration": 86051500,
               "status": "passed"
             },
             "match": {
@@ -1836,7 +1941,7 @@
         "steps": [
           {
             "result": {
-              "duration": 40037800,
+              "duration": 38035100,
               "status": "passed"
             },
             "line": 23,
@@ -1848,7 +1953,7 @@
           },
           {
             "result": {
-              "duration": 4003200,
+              "duration": 3001900,
               "status": "passed"
             },
             "line": 24,
@@ -1869,7 +1974,7 @@
         "steps": [
           {
             "result": {
-              "duration": 167973800,
+              "duration": 164148400,
               "status": "passed"
             },
             "line": 4,
@@ -1882,11 +1987,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:44.261Z",
+        "start_timestamp": "2021-11-11T11:50:45.900Z",
         "before": [
           {
             "result": {
-              "duration": 1420988300,
+              "duration": 1446466400,
               "status": "passed"
             },
             "match": {
@@ -1917,7 +2022,7 @@
         "after": [
           {
             "result": {
-              "duration": 86078100,
+              "duration": 99092900,
               "status": "passed"
             },
             "match": {
@@ -1930,7 +2035,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43038500,
+              "duration": 42037500,
               "status": "passed"
             },
             "line": 27,
@@ -1942,7 +2047,7 @@
           },
           {
             "result": {
-              "duration": 4003500,
+              "duration": 3003000,
               "status": "passed"
             },
             "line": 28,
@@ -1974,7 +2079,7 @@
         "steps": [
           {
             "result": {
-              "duration": 163148000,
+              "duration": 168152500,
               "status": "passed"
             },
             "line": 4,
@@ -1987,11 +2092,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:45.987Z",
+        "start_timestamp": "2021-11-11T11:50:47.661Z",
         "before": [
           {
             "result": {
-              "duration": 1410871200,
+              "duration": 1497710700,
               "status": "passed"
             },
             "match": {
@@ -2022,7 +2127,7 @@
         "after": [
           {
             "result": {
-              "duration": 95901700,
+              "duration": 87078000,
               "status": "passed"
             },
             "match": {
@@ -2035,7 +2140,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42038400,
+              "duration": 39036800,
               "status": "passed"
             },
             "line": 7,
@@ -2047,7 +2152,7 @@
           },
           {
             "result": {
-              "duration": 3002400,
+              "duration": 3002300,
               "status": "passed"
             },
             "line": 8,
@@ -2068,7 +2173,7 @@
         "steps": [
           {
             "result": {
-              "duration": 166151500,
+              "duration": 162147400,
               "status": "passed"
             },
             "line": 4,
@@ -2081,11 +2186,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:47.707Z",
+        "start_timestamp": "2021-11-11T11:50:49.460Z",
         "before": [
           {
             "result": {
-              "duration": 1436059100,
+              "duration": 1416022100,
               "status": "passed"
             },
             "match": {
@@ -2094,6 +2199,7 @@
           },
           {
             "result": {
+              "duration": 1000300,
               "status": "passed"
             },
             "match": {
@@ -2116,7 +2222,7 @@
         "after": [
           {
             "result": {
-              "duration": 90082100,
+              "duration": 97088200,
               "status": "passed"
             },
             "match": {
@@ -2129,7 +2235,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43038900,
+              "duration": 40041000,
               "status": "passed"
             },
             "line": 11,
@@ -2141,7 +2247,7 @@
           },
           {
             "result": {
-              "duration": 3002300,
+              "duration": 3999300,
               "status": "passed"
             },
             "line": 12,
@@ -2162,7 +2268,7 @@
         "steps": [
           {
             "result": {
-              "duration": 174158700,
+              "duration": 161146300,
               "status": "passed"
             },
             "line": 4,
@@ -2175,11 +2281,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:49.449Z",
+        "start_timestamp": "2021-11-11T11:50:51.183Z",
         "before": [
           {
             "result": {
-              "duration": 1420193400,
+              "duration": 1418822200,
               "status": "passed"
             },
             "match": {
@@ -2196,7 +2302,6 @@
           },
           {
             "result": {
-              "duration": 1000200,
               "status": "passed"
             },
             "match": {
@@ -2211,7 +2316,7 @@
         "after": [
           {
             "result": {
-              "duration": 102093400,
+              "duration": 86077600,
               "status": "passed"
             },
             "match": {
@@ -2224,7 +2329,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42037800,
+              "duration": 39035800,
               "status": "passed"
             },
             "line": 15,
@@ -2236,7 +2341,7 @@
           },
           {
             "result": {
-              "duration": 4003700,
+              "duration": 3003400,
               "status": "passed"
             },
             "line": 16,
@@ -2257,7 +2362,7 @@
         "steps": [
           {
             "result": {
-              "duration": 172159300,
+              "duration": 167151500,
               "status": "passed"
             },
             "line": 4,
@@ -2270,11 +2375,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:51.197Z",
+        "start_timestamp": "2021-11-11T11:50:52.895Z",
         "before": [
           {
             "result": {
-              "duration": 1416822200,
+              "duration": 1511701500,
               "status": "passed"
             },
             "match": {
@@ -2305,7 +2410,7 @@
         "after": [
           {
             "result": {
-              "duration": 84075500,
+              "duration": 88079800,
               "status": "passed"
             },
             "match": {
@@ -2318,7 +2423,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43038000,
+              "duration": 39035100,
               "status": "passed"
             },
             "line": 19,
@@ -2330,7 +2435,7 @@
           },
           {
             "result": {
-              "duration": 3003600,
+              "duration": 2002200,
               "status": "passed"
             },
             "line": 20,
@@ -2351,7 +2456,7 @@
         "steps": [
           {
             "result": {
-              "duration": 165150600,
+              "duration": 168152800,
               "status": "passed"
             },
             "line": 4,
@@ -2364,11 +2469,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:52.918Z",
+        "start_timestamp": "2021-11-11T11:50:54.710Z",
         "before": [
           {
             "result": {
-              "duration": 1453570400,
+              "duration": 1436586200,
               "status": "passed"
             },
             "match": {
@@ -2385,7 +2490,6 @@
           },
           {
             "result": {
-              "duration": 1001000,
               "status": "passed"
             },
             "match": {
@@ -2400,7 +2504,7 @@
         "after": [
           {
             "result": {
-              "duration": 88081400,
+              "duration": 86066000,
               "status": "passed"
             },
             "match": {
@@ -2413,7 +2517,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39034500,
+              "duration": 38033100,
               "status": "passed"
             },
             "line": 23,
@@ -2425,7 +2529,7 @@
           },
           {
             "result": {
-              "duration": 3003200,
+              "duration": 2001700,
               "status": "passed"
             },
             "line": 24,
@@ -2446,7 +2550,7 @@
         "steps": [
           {
             "result": {
-              "duration": 168153200,
+              "duration": 160146200,
               "status": "passed"
             },
             "line": 4,
@@ -2459,11 +2563,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:54.672Z",
+        "start_timestamp": "2021-11-11T11:50:56.446Z",
         "before": [
           {
             "result": {
-              "duration": 1418451900,
+              "duration": 1437433000,
               "status": "passed"
             },
             "match": {
@@ -2494,7 +2598,7 @@
         "after": [
           {
             "result": {
-              "duration": 87079100,
+              "duration": 85077300,
               "status": "passed"
             },
             "match": {
@@ -2507,7 +2611,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41036500,
+              "duration": 40034900,
               "status": "passed"
             },
             "line": 27,
@@ -2519,7 +2623,7 @@
           },
           {
             "result": {
-              "duration": 3003100,
+              "duration": 3002500,
               "status": "passed"
             },
             "line": 28,
@@ -2551,7 +2655,7 @@
         "steps": [
           {
             "result": {
-              "duration": 187171200,
+              "duration": 171120800,
               "status": "passed"
             },
             "line": 4,
@@ -2564,11 +2668,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:56.394Z",
+        "start_timestamp": "2021-11-11T11:50:58.175Z",
         "before": [
           {
             "result": {
-              "duration": 1754458600,
+              "duration": 1469132600,
               "status": "passed"
             },
             "match": {
@@ -2599,7 +2703,7 @@
         "after": [
           {
             "result": {
-              "duration": 96086200,
+              "duration": 87079400,
               "status": "passed"
             },
             "match": {
@@ -2612,7 +2716,7 @@
         "steps": [
           {
             "result": {
-              "duration": 46040400,
+              "duration": 35031200,
               "status": "passed"
             },
             "line": 7,
@@ -2624,7 +2728,7 @@
           },
           {
             "result": {
-              "duration": 9009200,
+              "duration": 9008100,
               "status": "passed"
             },
             "line": 8,
@@ -2645,7 +2749,7 @@
         "steps": [
           {
             "result": {
-              "duration": 184167000,
+              "duration": 183166200,
               "status": "passed"
             },
             "line": 4,
@@ -2658,11 +2762,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:16:58.492Z",
+        "start_timestamp": "2021-11-11T11:50:59.950Z",
         "before": [
           {
             "result": {
-              "duration": 1474364100,
+              "duration": 1592253400,
               "status": "passed"
             },
             "match": {
@@ -2693,7 +2797,7 @@
         "after": [
           {
             "result": {
-              "duration": 86077600,
+              "duration": 88080600,
               "status": "passed"
             },
             "match": {
@@ -2706,7 +2810,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39035000,
+              "duration": 36032800,
               "status": "passed"
             },
             "line": 11,
@@ -2718,7 +2822,7 @@
           },
           {
             "result": {
-              "duration": 10010100,
+              "duration": 10008900,
               "status": "passed"
             },
             "line": 12,
@@ -2739,7 +2843,7 @@
         "steps": [
           {
             "result": {
-              "duration": 173156900,
+              "duration": 162148400,
               "status": "passed"
             },
             "line": 4,
@@ -2752,11 +2856,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:17:00.289Z",
+        "start_timestamp": "2021-11-11T11:51:01.863Z",
         "before": [
           {
             "result": {
-              "duration": 1463702600,
+              "duration": 1409289100,
               "status": "passed"
             },
             "match": {
@@ -2773,7 +2877,6 @@
           },
           {
             "result": {
-              "duration": 1001700,
               "status": "passed"
             },
             "match": {
@@ -2788,7 +2891,7 @@
         "after": [
           {
             "result": {
-              "duration": 4167744500,
+              "duration": 4160713400,
               "status": "passed"
             },
             "match": {
@@ -2801,7 +2904,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39035500,
+              "duration": 33028700,
               "status": "passed"
             },
             "line": 15,
@@ -2813,7 +2916,7 @@
           },
           {
             "result": {
-              "duration": 8006700,
+              "duration": 9008300,
               "status": "passed"
             },
             "line": 16,
@@ -2834,7 +2937,7 @@
         "steps": [
           {
             "result": {
-              "duration": 180163600,
+              "duration": 158143900,
               "status": "passed"
             },
             "line": 4,
@@ -2847,11 +2950,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:17:06.146Z",
+        "start_timestamp": "2021-11-11T11:51:07.641Z",
         "before": [
           {
             "result": {
-              "duration": 1432293700,
+              "duration": 1441949100,
               "status": "passed"
             },
             "match": {
@@ -2860,6 +2963,7 @@
           },
           {
             "result": {
+              "duration": 1000200,
               "status": "passed"
             },
             "match": {
@@ -2882,7 +2986,7 @@
         "after": [
           {
             "result": {
-              "duration": 101213800,
+              "duration": 87078900,
               "status": "passed"
             },
             "match": {
@@ -2895,7 +2999,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34030700,
+              "duration": 33029000,
               "status": "passed"
             },
             "line": 19,
@@ -2907,7 +3011,7 @@
           },
           {
             "result": {
-              "duration": 9008300,
+              "duration": 8006600,
               "status": "passed"
             },
             "line": 20,
@@ -2928,7 +3032,7 @@
         "steps": [
           {
             "result": {
-              "duration": 174157100,
+              "duration": 160144600,
               "status": "passed"
             },
             "line": 4,
@@ -2941,11 +3045,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:17:07.907Z",
+        "start_timestamp": "2021-11-11T11:51:09.374Z",
         "before": [
           {
             "result": {
-              "duration": 1482024000,
+              "duration": 1412309200,
               "status": "passed"
             },
             "match": {
@@ -2976,7 +3080,7 @@
         "after": [
           {
             "result": {
-              "duration": 87076900,
+              "duration": 87078500,
               "status": "passed"
             },
             "match": {
@@ -2989,7 +3093,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42038200,
+              "duration": 34030300,
               "status": "passed"
             },
             "line": 23,
@@ -3001,7 +3105,7 @@
           },
           {
             "result": {
-              "duration": 10009700,
+              "duration": 9008400,
               "status": "passed"
             },
             "line": 24,
@@ -3022,7 +3126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 170153900,
+              "duration": 160146200,
               "status": "passed"
             },
             "line": 4,
@@ -3035,11 +3139,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T11:17:09.706Z",
+        "start_timestamp": "2021-11-11T11:51:11.081Z",
         "before": [
           {
             "result": {
-              "duration": 1687422500,
+              "duration": 1443406700,
               "status": "passed"
             },
             "match": {
@@ -3070,7 +3174,7 @@
         "after": [
           {
             "result": {
-              "duration": 91507100,
+              "duration": 87079000,
               "status": "passed"
             },
             "match": {
@@ -3083,7 +3187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 38034900,
+              "duration": 38808200,
               "status": "passed"
             },
             "line": 27,
@@ -3095,7 +3199,7 @@
           },
           {
             "result": {
-              "duration": 10009600,
+              "duration": 10009000,
               "status": "passed"
             },
             "line": 28,

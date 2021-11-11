@@ -109,4 +109,14 @@ public class ProductNavigationStepDef {
     public void iClickTheTestAllTheThingsTShirtImage() {
         inventoryPage.clickRedTShirtImage();
     }
+
+    @When("I click the cart icon")
+    public void iClickTheCartIcon() {
+        inventoryPage.clickCartButton();
+    }
+
+    @Then("I will go to the Cart page")
+    public void iWillGoToTheCartPage() {
+        Assertions.assertEquals("https://www.saucedemo.com/cart.html", webDriver.getCurrentUrl());
+    }
 }
