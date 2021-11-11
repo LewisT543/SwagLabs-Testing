@@ -3,6 +3,7 @@ package com.sparta.tests.pom.util;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
 import java.io.IOException;
@@ -36,7 +37,9 @@ public class POMUtil {
     }
 
     public static WebDriver newChromeDriver(ChromeDriverService service) {
-        webDriver = new ChromeDriver(service);
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("headless");
+        webDriver = new ChromeDriver(service,chromeOptions);
         return webDriver;
     }
 
