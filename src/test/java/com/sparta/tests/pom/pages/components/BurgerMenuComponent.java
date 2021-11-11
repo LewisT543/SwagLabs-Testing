@@ -25,15 +25,15 @@ public class BurgerMenuComponent {
         webDriver.findElement(menuButton).click();
     }
 
-    public void clickInventorySidebarButton() {
+    public void clickInventoryButton() {
         webDriver.findElement(inventorySidebarButton).click();
     }
 
-    public void clickAboutSidebarButton() {
+    public void clickAboutButton() {
         webDriver.findElement(aboutSidebarButton).click();
     }
 
-    public void clickLogoutSidebarButton() {
+    public void clickLogoutButton() {
         webDriver.findElement(logoutSidebarButton).click();
     }
 

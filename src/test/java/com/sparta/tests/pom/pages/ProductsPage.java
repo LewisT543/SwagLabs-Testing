@@ -23,12 +23,12 @@ public class ProductsPage {
     By addRedTShirtToCartButton = new By.ById("add-to-cart-test.allthethings()-t-shirt-(red)");
 
     // Remove item from cart
-    By removeBackpackToCartButton = new By.ById("remove-sauce-labs-backpack");
-    By removeBikeLightToCartButton = new By.ById("remove-sauce-labs-bike-light");
-    By removeBoltTShirtToCartButton = new By.ById("remove-sauce-labs-bolt-t-shirt");
-    By removeFleeceJacketToCartButton = new By.ById("remove-sauce-labs-fleece-jacket");
-    By removeOnesieToCartButton = new By.ById("remove-sauce-labs-onesie");
-    By removeRedTShirtToCartButton = new By.ById("remove-test.allthethings()-t-shirt-(red)");
+    By removeBackpackFromCartButton = new By.ById("remove-sauce-labs-backpack");
+    By removeBikeLightFromCartButton = new By.ById("remove-sauce-labs-bike-light");
+    By removeBoltTShirtFromCartButton = new By.ById("remove-sauce-labs-bolt-t-shirt");
+    By removeFleeceJacketFromCartButton = new By.ById("remove-sauce-labs-fleece-jacket");
+    By removeOnesieFromCartButton = new By.ById("remove-sauce-labs-onesie");
+    By removeRedTShirtFromCartButton = new By.ById("remove-test.allthethings()-t-shirt-(red)");
 
     // Item images
     By backPackImage = new By.ById("item_4_img_link");
@@ -89,28 +89,28 @@ public class ProductsPage {
     }
 
     // Remove items from cart clicks
-    public void clickRemoveBackpackToCart() {
-        webDriver.findElement(removeBackpackToCartButton).click();
+    public void clickRemoveBackpackFromCart() {
+        webDriver.findElement(removeBackpackFromCartButton).click();
     }
 
-    public void clickRemoveBikeLightToCartButton() {
-        webDriver.findElement(removeBikeLightToCartButton).click();
+    public void clickRemoveBikeLightFromCart() {
+        webDriver.findElement(removeBikeLightFromCartButton).click();
     }
 
-    public void clickRemoveBoltTShirtToCartButton() {
-        webDriver.findElement(removeBoltTShirtToCartButton).click();
+    public void clickRemoveBoltTShirtFromCart() {
+        webDriver.findElement(removeBoltTShirtFromCartButton).click();
     }
 
-    public void clickRemoveFleeceJacketToCartButton() {
-        webDriver.findElement(removeFleeceJacketToCartButton).click();
+    public void clickRemoveFleeceJacketFromCart() {
+        webDriver.findElement(removeFleeceJacketFromCartButton).click();
     }
 
-    public void clickRemoveOnesieToCartButton() {
-        webDriver.findElement(removeOnesieToCartButton).click();
+    public void clickRemoveOnesieFromCart() {
+        webDriver.findElement(removeOnesieFromCartButton).click();
     }
 
-    public void clickRemoveRedTShirtToCartButton() {
-        webDriver.findElement(removeRedTShirtToCartButton).click();
+    public void clickRemoveRedTShirtFromCart() {
+        webDriver.findElement(removeRedTShirtFromCartButton).click();
     }
 
     // Item images
@@ -217,7 +217,7 @@ public class ProductsPage {
         return itemNames.equals(itemNames.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
     }
 
-    public boolean itemsAreSortedPriceLoHi() {
+    public boolean itemsAreSortedPriceLH() {
         List<String> itemPrices = webDriver.findElements(inventoryPrices)
                 .stream()
                 .map(WebElement::getText)
@@ -225,7 +225,7 @@ public class ProductsPage {
         return itemPrices.equals(itemPrices.stream().sorted().collect(Collectors.toList()));
     }
 
-    public boolean itemsAreSortedPriceHiLo() {
+    public boolean itemsAreSortedPriceHL() {
         List<String> itemPrices = webDriver.findElements(inventoryPrices)
                 .stream()
                 .map(WebElement::getText)
@@ -260,26 +260,26 @@ public class ProductsPage {
 
     // Remove from cart button is present
     public boolean removeBackpackFromCartButtonIsPresent() {
-        return webDriver.findElements(removeBackpackToCartButton).size() != 0;
+        return webDriver.findElements(removeBackpackFromCartButton).size() != 0;
     }
 
     public boolean removeBikeLightFromCartButtonIsPresent() {
-        return webDriver.findElements(removeBikeLightToCartButton).size() != 0;
+        return webDriver.findElements(removeBikeLightFromCartButton).size() != 0;
     }
 
     public boolean removeBoltTShirtFromCartButtonIsPresent() {
-        return webDriver.findElements(removeBoltTShirtToCartButton).size() != 0;
+        return webDriver.findElements(removeBoltTShirtFromCartButton).size() != 0;
     }
 
     public boolean removeFleeceJacketFromCartButtonIsPresent() {
-        return webDriver.findElements(removeFleeceJacketToCartButton).size() != 0;
+        return webDriver.findElements(removeFleeceJacketFromCartButton).size() != 0;
     }
 
     public boolean removeOnesieFromCartButtonIsPresent() {
-        return webDriver.findElements(removeOnesieToCartButton).size() != 0;
+        return webDriver.findElements(removeOnesieFromCartButton).size() != 0;
     }
 
     public boolean removeRedTShirtFromCartButtonIsPresent() {
-        return webDriver.findElements(removeRedTShirtToCartButton).size() != 0;
+        return webDriver.findElements(removeRedTShirtFromCartButton).size() != 0;
     }
 }
