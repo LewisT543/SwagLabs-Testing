@@ -3,9 +3,9 @@ package com.sparta.tests.pom.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class CheckoutOverview {
+public class CheckoutOverviewPage {
     private final WebDriver webDriver;
-    public CheckoutOverview(WebDriver webDriver) {
+    public CheckoutOverviewPage(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
     // CheckoutOverview footer buttons

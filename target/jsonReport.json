@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-11-11T10:34:00.668Z",
+        "start_timestamp": "2021-11-11T11:16:12.397Z",
         "before": [
           {
             "result": {
-              "duration": 3201585300,
+              "duration": 1839749100,
               "status": "passed"
             },
             "match": {
@@ -16,11 +16,18 @@
           },
           {
             "result": {
-              "duration": 1000700,
               "status": "passed"
             },
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
             }
           }
         ],
@@ -31,7 +38,7 @@
         "after": [
           {
             "result": {
-              "duration": 90076200,
+              "duration": 101495200,
               "status": "passed"
             },
             "match": {
@@ -44,7 +51,7 @@
         "steps": [
           {
             "result": {
-              "duration": 58053200,
+              "duration": 56051100,
               "status": "passed"
             },
             "line": 4,
@@ -62,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 50045100,
+              "duration": 51047300,
               "status": "passed"
             },
             "line": 5,
@@ -80,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 39035700,
+              "duration": 37032600,
               "status": "passed"
             },
             "line": 6,
@@ -92,7 +99,7 @@
           },
           {
             "result": {
-              "duration": 25022700,
+              "duration": 22020400,
               "status": "passed"
             },
             "line": 7,
@@ -111,11 +118,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:04.198Z",
+        "start_timestamp": "2021-11-11T11:16:14.571Z",
         "before": [
           {
             "result": {
-              "duration": 1469842900,
+              "duration": 1509070800,
               "status": "passed"
             },
             "match": {
@@ -129,6 +136,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 9,
@@ -138,7 +153,7 @@
         "after": [
           {
             "result": {
-              "duration": 85072100,
+              "duration": 87080200,
               "status": "passed"
             },
             "match": {
@@ -151,7 +166,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52047800,
+              "duration": 51045900,
               "status": "passed"
             },
             "line": 10,
@@ -169,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 50044900,
+              "duration": 52047500,
               "status": "passed"
             },
             "line": 11,
@@ -187,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 39037200,
+              "duration": 41037400,
               "status": "passed"
             },
             "line": 12,
@@ -199,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 18016200,
+              "duration": 19017000,
               "status": "passed"
             },
             "line": 13,
@@ -218,11 +233,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:05.921Z",
+        "start_timestamp": "2021-11-11T11:16:16.349Z",
         "before": [
           {
             "result": {
-              "duration": 1407503400,
+              "duration": 1456047700,
               "status": "passed"
             },
             "match": {
@@ -231,11 +246,19 @@
           },
           {
             "result": {
-              "duration": 1001300,
               "status": "passed"
             },
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
             }
           }
         ],
@@ -246,7 +269,7 @@
         "after": [
           {
             "result": {
-              "duration": 86077700,
+              "duration": 91083100,
               "status": "passed"
             },
             "match": {
@@ -259,7 +282,7 @@
         "steps": [
           {
             "result": {
-              "duration": 54049200,
+              "duration": 57053500,
               "status": "passed"
             },
             "line": 16,
@@ -277,7 +300,7 @@
           },
           {
             "result": {
-              "duration": 50045900,
+              "duration": 52045500,
               "status": "passed"
             },
             "line": 17,
@@ -295,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 39035100,
+              "duration": 42039500,
               "status": "passed"
             },
             "line": 18,
@@ -307,7 +330,7 @@
           },
           {
             "result": {
-              "duration": 18016900,
+              "duration": 20018200,
               "status": "passed"
             },
             "line": 19,
@@ -326,11 +349,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:07.584Z",
+        "start_timestamp": "2021-11-11T11:16:18.074Z",
         "before": [
           {
             "result": {
-              "duration": 1445044300,
+              "duration": 1421851200,
               "status": "passed"
             },
             "match": {
@@ -344,6 +367,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 21,
@@ -353,7 +384,7 @@
         "after": [
           {
             "result": {
-              "duration": 85879600,
+              "duration": 88079400,
               "status": "passed"
             },
             "match": {
@@ -384,7 +415,7 @@
           },
           {
             "result": {
-              "duration": 52047700,
+              "duration": 55050500,
               "status": "passed"
             },
             "line": 23,
@@ -402,7 +433,7 @@
           },
           {
             "result": {
-              "duration": 42039200,
+              "duration": 41036800,
               "status": "passed"
             },
             "line": 24,
@@ -414,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 20017700,
+              "duration": 19017700,
               "status": "passed"
             },
             "line": 25,
@@ -433,11 +464,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:09.274Z",
+        "start_timestamp": "2021-11-11T11:16:19.743Z",
         "before": [
           {
             "result": {
-              "duration": 1477228000,
+              "duration": 1442321100,
               "status": "passed"
             },
             "match": {
@@ -451,6 +482,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 27,
@@ -460,7 +499,7 @@
         "after": [
           {
             "result": {
-              "duration": 98087100,
+              "duration": 88080500,
               "status": "passed"
             },
             "match": {
@@ -473,7 +512,7 @@
         "steps": [
           {
             "result": {
-              "duration": 55049500,
+              "duration": 51897200,
               "status": "passed"
             },
             "line": 28,
@@ -491,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 36033600,
+              "duration": 37034100,
               "status": "passed"
             },
             "line": 29,
@@ -509,7 +548,7 @@
           },
           {
             "result": {
-              "duration": 39034000,
+              "duration": 40035000,
               "status": "passed"
             },
             "line": 30,
@@ -521,7 +560,7 @@
           },
           {
             "result": {
-              "duration": 19018300,
+              "duration": 18016400,
               "status": "passed"
             },
             "line": 31,
@@ -540,11 +579,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:11.001Z",
+        "start_timestamp": "2021-11-11T11:16:21.427Z",
         "before": [
           {
             "result": {
-              "duration": 1469937300,
+              "duration": 1450171700,
               "status": "passed"
             },
             "match": {
@@ -558,6 +597,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 33,
@@ -567,7 +614,7 @@
         "after": [
           {
             "result": {
-              "duration": 86077800,
+              "duration": 82073900,
               "status": "passed"
             },
             "match": {
@@ -580,7 +627,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36032600,
+              "duration": 38034400,
               "status": "passed"
             },
             "line": 34,
@@ -598,7 +645,7 @@
           },
           {
             "result": {
-              "duration": 36032000,
+              "duration": 40036900,
               "status": "passed"
             },
             "line": 35,
@@ -616,7 +663,7 @@
           },
           {
             "result": {
-              "duration": 46041400,
+              "duration": 40035700,
               "status": "passed"
             },
             "line": 36,
@@ -628,7 +675,7 @@
           },
           {
             "result": {
-              "duration": 21019100,
+              "duration": 23021100,
               "status": "passed"
             },
             "line": 37,
@@ -647,11 +694,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:12.706Z",
+        "start_timestamp": "2021-11-11T11:16:23.107Z",
         "before": [
           {
             "result": {
-              "duration": 1473725900,
+              "duration": 1500583100,
               "status": "passed"
             },
             "match": {
@@ -665,6 +712,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 39,
@@ -674,7 +729,7 @@
         "after": [
           {
             "result": {
-              "duration": 88724700,
+              "duration": 93085300,
               "status": "passed"
             },
             "match": {
@@ -687,7 +742,7 @@
         "steps": [
           {
             "result": {
-              "duration": 60055600,
+              "duration": 52046900,
               "status": "passed"
             },
             "line": 40,
@@ -705,7 +760,7 @@
           },
           {
             "result": {
-              "duration": 53047700,
+              "duration": 48673600,
               "status": "passed"
             },
             "line": 41,
@@ -723,7 +778,7 @@
           },
           {
             "result": {
-              "duration": 66060100,
+              "duration": 67060700,
               "status": "passed"
             },
             "line": 42,
@@ -735,7 +790,7 @@
           },
           {
             "result": {
-              "duration": 6006300,
+              "duration": 5004300,
               "status": "passed"
             },
             "line": 43,
@@ -767,7 +822,7 @@
         "steps": [
           {
             "result": {
-              "duration": 170154600,
+              "duration": 167961300,
               "status": "passed"
             },
             "line": 4,
@@ -780,11 +835,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:14.459Z",
+        "start_timestamp": "2021-11-11T11:16:24.881Z",
         "before": [
           {
             "result": {
-              "duration": 1428120600,
+              "duration": 1463311400,
               "status": "passed"
             },
             "match": {
@@ -798,6 +853,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 6,
@@ -807,7 +870,7 @@
         "after": [
           {
             "result": {
-              "duration": 89081100,
+              "duration": 89080700,
               "status": "passed"
             },
             "match": {
@@ -820,7 +883,7 @@
         "steps": [
           {
             "result": {
-              "duration": 35031700,
+              "duration": 36031100,
               "status": "passed"
             },
             "line": 7,
@@ -832,7 +895,7 @@
           },
           {
             "result": {
-              "duration": 10008400,
+              "duration": 10009300,
               "status": "passed"
             },
             "line": 8,
@@ -853,7 +916,7 @@
         "steps": [
           {
             "result": {
-              "duration": 173157700,
+              "duration": 164149100,
               "status": "passed"
             },
             "line": 4,
@@ -866,11 +929,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:16.199Z",
+        "start_timestamp": "2021-11-11T11:16:26.654Z",
         "before": [
           {
             "result": {
-              "duration": 1445413500,
+              "duration": 1399268500,
               "status": "passed"
             },
             "match": {
@@ -879,11 +942,18 @@
           },
           {
             "result": {
-              "duration": 1001100,
               "status": "passed"
             },
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
             }
           }
         ],
@@ -894,7 +964,7 @@
         "after": [
           {
             "result": {
-              "duration": 89081800,
+              "duration": 87984200,
               "status": "passed"
             },
             "match": {
@@ -907,7 +977,7 @@
         "steps": [
           {
             "result": {
-              "duration": 40039600,
+              "duration": 35032600,
               "status": "passed"
             },
             "line": 11,
@@ -919,7 +989,7 @@
           },
           {
             "result": {
-              "duration": 9008000,
+              "duration": 10008800,
               "status": "passed"
             },
             "line": 12,
@@ -940,7 +1010,7 @@
         "steps": [
           {
             "result": {
-              "duration": 168151800,
+              "duration": 167153200,
               "status": "passed"
             },
             "line": 4,
@@ -953,11 +1023,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:17.962Z",
+        "start_timestamp": "2021-11-11T11:16:28.353Z",
         "before": [
           {
             "result": {
-              "duration": 1420011000,
+              "duration": 1423565900,
               "status": "passed"
             },
             "match": {
@@ -971,6 +1041,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 14,
@@ -980,7 +1058,7 @@
         "after": [
           {
             "result": {
-              "duration": 114103000,
+              "duration": 92083500,
               "status": "passed"
             },
             "match": {
@@ -993,7 +1071,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36033100,
+              "duration": 35031000,
               "status": "passed"
             },
             "line": 15,
@@ -1005,7 +1083,7 @@
           },
           {
             "result": {
-              "duration": 9008800,
+              "duration": 9008300,
               "status": "passed"
             },
             "line": 16,
@@ -1026,7 +1104,7 @@
         "steps": [
           {
             "result": {
-              "duration": 174157900,
+              "duration": 170085400,
               "status": "passed"
             },
             "line": 4,
@@ -1039,11 +1117,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:19.715Z",
+        "start_timestamp": "2021-11-11T11:16:30.085Z",
         "before": [
           {
             "result": {
-              "duration": 1464825400,
+              "duration": 1423199400,
               "status": "passed"
             },
             "match": {
@@ -1057,6 +1135,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 18,
@@ -1066,7 +1152,7 @@
         "after": [
           {
             "result": {
-              "duration": 94086200,
+              "duration": 92083500,
               "status": "passed"
             },
             "match": {
@@ -1079,7 +1165,7 @@
         "steps": [
           {
             "result": {
-              "duration": 36032900,
+              "duration": 36967900,
               "status": "passed"
             },
             "line": 19,
@@ -1091,7 +1177,7 @@
           },
           {
             "result": {
-              "duration": 9008000,
+              "duration": 9008200,
               "status": "passed"
             },
             "line": 20,
@@ -1112,7 +1198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 165150600,
+              "duration": 179163800,
               "status": "passed"
             },
             "line": 4,
@@ -1125,11 +1211,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:21.497Z",
+        "start_timestamp": "2021-11-11T11:16:31.821Z",
         "before": [
           {
             "result": {
-              "duration": 1449511300,
+              "duration": 1450728300,
               "status": "passed"
             },
             "match": {
@@ -1143,6 +1229,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 22,
@@ -1152,7 +1246,7 @@
         "after": [
           {
             "result": {
-              "duration": 86075300,
+              "duration": 98088800,
               "status": "passed"
             },
             "match": {
@@ -1165,7 +1259,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39035600,
+              "duration": 44040400,
               "status": "passed"
             },
             "line": 23,
@@ -1177,7 +1271,7 @@
           },
           {
             "result": {
-              "duration": 10008500,
+              "duration": 11010300,
               "status": "passed"
             },
             "line": 24,
@@ -1198,7 +1292,7 @@
         "steps": [
           {
             "result": {
-              "duration": 170321000,
+              "duration": 166151000,
               "status": "passed"
             },
             "line": 4,
@@ -1211,11 +1305,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:23.251Z",
+        "start_timestamp": "2021-11-11T11:16:33.610Z",
         "before": [
           {
             "result": {
-              "duration": 1460297700,
+              "duration": 1444288500,
               "status": "passed"
             },
             "match": {
@@ -1229,6 +1323,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 26,
@@ -1238,7 +1340,7 @@
         "after": [
           {
             "result": {
-              "duration": 90082000,
+              "duration": 94782500,
               "status": "passed"
             },
             "match": {
@@ -1251,7 +1353,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41037400,
+              "duration": 32028700,
               "status": "passed"
             },
             "line": 27,
@@ -1263,7 +1365,7 @@
           },
           {
             "result": {
-              "duration": 12010400,
+              "duration": 9008500,
               "status": "passed"
             },
             "line": 28,
@@ -1295,7 +1397,7 @@
         "steps": [
           {
             "result": {
-              "duration": 165775900,
+              "duration": 183166900,
               "status": "passed"
             },
             "line": 4,
@@ -1308,11 +1410,199 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:25.029Z",
+        "start_timestamp": "2021-11-11T11:16:35.361Z",
         "before": [
           {
             "result": {
-              "duration": 1404586000,
+              "duration": 1442730200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Navigating to the Sauce Labs Backpack page via image",
+        "description": "",
+        "id": "go-to-individual-product-page-via-image;navigating-to-the-sauce-labs-backpack-page-via-image",
+        "after": [
+          {
+            "result": {
+              "duration": 96088100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47042300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the Backpack image",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheBackpackImage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2001000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will go the Backpack page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheBackpackPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 179239300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:37.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1510372300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Navigating to the Sauce Labs Bolt T-Shirt page via image",
+        "description": "",
+        "id": "go-to-individual-product-page-via-image;navigating-to-the-sauce-labs-bolt-t-shirt-page-via-image",
+        "after": [
+          {
+            "result": {
+              "duration": 108652100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43038100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the Bolt T-Shirt image",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheBoltTShirtImage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3002600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will go the Bolt T-Shirt page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheBoltTShirtPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 173156900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:38.987Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1489524300,
               "status": "passed"
             },
             "match": {
@@ -1327,16 +1617,25 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
-        "line": 6,
-        "name": "Adding the Sauce Labs Backpack to the cart",
+        "line": 14,
+        "name": "Navigating to the Sauce Labs Onesie page via image",
         "description": "",
-        "id": "add-to-cart-changed-to-remove;adding-the-sauce-labs-backpack-to-the-cart",
+        "id": "go-to-individual-product-page-via-image;navigating-to-the-sauce-labs-onesie-page-via-image",
         "after": [
           {
             "result": {
-              "duration": 88078700,
+              "duration": 88037300,
               "status": "passed"
             },
             "match": {
@@ -1349,7 +1648,971 @@
         "steps": [
           {
             "result": {
-              "duration": 37033000,
+              "duration": 37032600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click the Onesie image",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheOnesieImage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3001600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will go the Onesie page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheOnesiePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 166151000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:40.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1427436000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Navigating to the Sauce Labs Bike Light page via image",
+        "description": "",
+        "id": "go-to-individual-product-page-via-image;navigating-to-the-sauce-labs-bike-light-page-via-image",
+        "after": [
+          {
+            "result": {
+              "duration": 86077500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41037200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click the Bike Light image",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheBikeLightImage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I will go the Bike Light page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheBikeLightPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 166150900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:42.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1441600400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Navigating to the Sauce Labs Fleece Jacket page via image",
+        "description": "",
+        "id": "go-to-individual-product-page-via-image;navigating-to-the-sauce-labs-fleece-jacket-page-via-image",
+        "after": [
+          {
+            "result": {
+              "duration": 92082800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40037800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the Fleece Jacket image",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheFleeceJacketImage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4003200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I will go the Fleece Jacket page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheFleeceJacketPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 167973800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:44.261Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1420988300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Navigating to the Test.allTheThings() T-Shirt (Red) page via image",
+        "description": "",
+        "id": "go-to-individual-product-page-via-image;navigating-to-the-test.allthethings()-t-shirt-(red)-page-via-image",
+        "after": [
+          {
+            "result": {
+              "duration": 86078100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43038500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click the Test All The Things T-Shirt image",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheTestAllTheThingsTShirtImage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4003500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I will go the Test All The Things T-Shirt page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheTestAllTheThingsTShirtPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Go to individual product page via image",
+    "description": "",
+    "id": "go-to-individual-product-page-via-image",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/productpage/ProductPagesImage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 163148000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:45.987Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1410871200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Navigating to the Sauce Labs Backpack page via link",
+        "description": "",
+        "id": "go-to-individual-product-page-via-link;navigating-to-the-sauce-labs-backpack-page-via-link",
+        "after": [
+          {
+            "result": {
+              "duration": 95901700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42038400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the Backpack link",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheBackpackLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3002400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will go the Backpack page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheBackpackPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 166151500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:47.707Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1436059100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Navigating to the Sauce Labs Bolt T-Shirt page via link",
+        "description": "",
+        "id": "go-to-individual-product-page-via-link;navigating-to-the-sauce-labs-bolt-t-shirt-page-via-link",
+        "after": [
+          {
+            "result": {
+              "duration": 90082100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43038900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the Bolt T-Shirt link",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheBoltTShirtLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3002300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will go the Bolt T-Shirt page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheBoltTShirtPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 174158700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:49.449Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1420193400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Navigating to the Sauce Labs Onesie page via link",
+        "description": "",
+        "id": "go-to-individual-product-page-via-link;navigating-to-the-sauce-labs-onesie-page-via-link",
+        "after": [
+          {
+            "result": {
+              "duration": 102093400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42037800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click the Onesie link",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheOnesieLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4003700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will go the Onesie page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheOnesiePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 172159300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:51.197Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1416822200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Navigating to the Sauce Labs Bike Light page via link",
+        "description": "",
+        "id": "go-to-individual-product-page-via-link;navigating-to-the-sauce-labs-bike-light-page-via-link",
+        "after": [
+          {
+            "result": {
+              "duration": 84075500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43038000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click the Bike Light link",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheBikeLightLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I will go the Bike Light page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheBikeLightPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 165150600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:52.918Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1453570400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Navigating to the Sauce Labs Fleece Jacket page via link",
+        "description": "",
+        "id": "go-to-individual-product-page-via-link;navigating-to-the-sauce-labs-fleece-jacket-page-via-link",
+        "after": [
+          {
+            "result": {
+              "duration": 88081400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39034500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the Fleece Jacket link",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheFleeceJacketLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I will go the Fleece Jacket page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheFleeceJacketPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 168153200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:54.672Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1418451900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Navigating to the Test.allTheThings() T-Shirt (Red) page via link",
+        "description": "",
+        "id": "go-to-individual-product-page-via-link;navigating-to-the-test.allthethings()-t-shirt-(red)-page-via-link",
+        "after": [
+          {
+            "result": {
+              "duration": 87079100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41036500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click the Test All The Things T-Shirt link",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iClickTheTestAllTheThingsTShirtLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3003100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I will go the Test All The Things T-Shirt page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.iWillGoTheTestAllTheThingsTShirtPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Go to individual product page via link",
+    "description": "",
+    "id": "go-to-individual-product-page-via-link",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/productpage/ProductPagesLink.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 187171200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Product page",
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.iAmOnTheProductPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T11:16:56.394Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1754458600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Adding the Sauce Labs Backpack to the cart",
+        "description": "",
+        "id": "add-to-cart-changed-to-remove;adding-the-sauce-labs-backpack-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 96086200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.loginpage.LoginStepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46040400,
               "status": "passed"
             },
             "line": 7,
@@ -1361,7 +2624,7 @@
           },
           {
             "result": {
-              "duration": 8516600,
+              "duration": 9009200,
               "status": "passed"
             },
             "line": 8,
@@ -1382,7 +2645,7 @@
         "steps": [
           {
             "result": {
-              "duration": 173157900,
+              "duration": 184167000,
               "status": "passed"
             },
             "line": 4,
@@ -1395,11 +2658,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:26.739Z",
+        "start_timestamp": "2021-11-11T11:16:58.492Z",
         "before": [
           {
             "result": {
-              "duration": 1444811300,
+              "duration": 1474364100,
               "status": "passed"
             },
             "match": {
@@ -1413,6 +2676,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 10,
@@ -1422,7 +2693,7 @@
         "after": [
           {
             "result": {
-              "duration": 86078100,
+              "duration": 86077600,
               "status": "passed"
             },
             "match": {
@@ -1435,7 +2706,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34030800,
+              "duration": 39035000,
               "status": "passed"
             },
             "line": 11,
@@ -1447,7 +2718,7 @@
           },
           {
             "result": {
-              "duration": 9008700,
+              "duration": 10010100,
               "status": "passed"
             },
             "line": 12,
@@ -1468,7 +2739,7 @@
         "steps": [
           {
             "result": {
-              "duration": 175160400,
+              "duration": 173156900,
               "status": "passed"
             },
             "line": 4,
@@ -1481,11 +2752,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:28.491Z",
+        "start_timestamp": "2021-11-11T11:17:00.289Z",
         "before": [
           {
             "result": {
-              "duration": 1426326600,
+              "duration": 1463702600,
               "status": "passed"
             },
             "match": {
@@ -1499,6 +2770,15 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 14,
@@ -1508,7 +2788,7 @@
         "after": [
           {
             "result": {
-              "duration": 94088200,
+              "duration": 4167744500,
               "status": "passed"
             },
             "match": {
@@ -1521,7 +2801,7 @@
         "steps": [
           {
             "result": {
-              "duration": 35031200,
+              "duration": 39035500,
               "status": "passed"
             },
             "line": 15,
@@ -1533,7 +2813,7 @@
           },
           {
             "result": {
-              "duration": 9008200,
+              "duration": 8006700,
               "status": "passed"
             },
             "line": 16,
@@ -1554,7 +2834,7 @@
         "steps": [
           {
             "result": {
-              "duration": 175159100,
+              "duration": 180163600,
               "status": "passed"
             },
             "line": 4,
@@ -1567,11 +2847,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:30.237Z",
+        "start_timestamp": "2021-11-11T11:17:06.146Z",
         "before": [
           {
             "result": {
-              "duration": 1460371300,
+              "duration": 1432293700,
               "status": "passed"
             },
             "match": {
@@ -1585,6 +2865,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 18,
@@ -1594,7 +2882,7 @@
         "after": [
           {
             "result": {
-              "duration": 87078400,
+              "duration": 101213800,
               "status": "passed"
             },
             "match": {
@@ -1607,7 +2895,7 @@
         "steps": [
           {
             "result": {
-              "duration": 39036900,
+              "duration": 34030700,
               "status": "passed"
             },
             "line": 19,
@@ -1619,7 +2907,7 @@
           },
           {
             "result": {
-              "duration": 9007400,
+              "duration": 9008300,
               "status": "passed"
             },
             "line": 20,
@@ -1640,7 +2928,7 @@
         "steps": [
           {
             "result": {
-              "duration": 220200900,
+              "duration": 174157100,
               "status": "passed"
             },
             "line": 4,
@@ -1653,11 +2941,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:32.011Z",
+        "start_timestamp": "2021-11-11T11:17:07.907Z",
         "before": [
           {
             "result": {
-              "duration": 1435842200,
+              "duration": 1482024000,
               "status": "passed"
             },
             "match": {
@@ -1671,6 +2959,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 22,
@@ -1680,7 +2976,7 @@
         "after": [
           {
             "result": {
-              "duration": 113103000,
+              "duration": 87076900,
               "status": "passed"
             },
             "match": {
@@ -1693,7 +2989,7 @@
         "steps": [
           {
             "result": {
-              "duration": 38033800,
+              "duration": 42038200,
               "status": "passed"
             },
             "line": 23,
@@ -1705,7 +3001,7 @@
           },
           {
             "result": {
-              "duration": 9006600,
+              "duration": 10009700,
               "status": "passed"
             },
             "line": 24,
@@ -1726,7 +3022,7 @@
         "steps": [
           {
             "result": {
-              "duration": 159144500,
+              "duration": 170153900,
               "status": "passed"
             },
             "line": 4,
@@ -1739,11 +3035,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-11T10:34:33.831Z",
+        "start_timestamp": "2021-11-11T11:17:09.706Z",
         "before": [
           {
             "result": {
-              "duration": 1437678500,
+              "duration": 1687422500,
               "status": "passed"
             },
             "match": {
@@ -1757,6 +3053,14 @@
             "match": {
               "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.AddProductStepDef.init()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.tests.pom.cucumber.stepdefs.productpage.ProductNavigationStepDef.init()"
+            }
           }
         ],
         "line": 26,
@@ -1766,7 +3070,7 @@
         "after": [
           {
             "result": {
-              "duration": 84075900,
+              "duration": 91507100,
               "status": "passed"
             },
             "match": {
@@ -1779,7 +3083,7 @@
         "steps": [
           {
             "result": {
-              "duration": 63057600,
+              "duration": 38034900,
               "status": "passed"
             },
             "line": 27,
@@ -1791,7 +3095,7 @@
           },
           {
             "result": {
-              "duration": 9008100,
+              "duration": 10009600,
               "status": "passed"
             },
             "line": 28,
