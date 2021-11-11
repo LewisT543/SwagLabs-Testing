@@ -12,5 +12,5 @@ Feature: Text can be entered into the checkout page
     Then I should see "lastname" in the Last Name field
 
   Scenario: Inputting text into the Postcode field
-    When I input "EC2Y 5AS" into the Postcode field
-    Then I should see "EC2Y 5AS" in the Postcode field
+    When I input "postcode" into the Postcode field
+    Then I should see "postcode" in the Postcode field
