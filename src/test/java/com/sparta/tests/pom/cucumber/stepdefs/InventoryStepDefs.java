@@ -1,15 +1,11 @@
 package com.sparta.tests.pom.cucumber.stepdefs;
 
 import com.sparta.tests.pom.pages.InventoryPage;
-import com.sparta.tests.pom.pages.LoginPage;
 import com.sparta.tests.pom.util.POMUtil;
-import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -51,26 +47,26 @@ public class InventoryStepDefs {
 
     @Then("The Backpack ADD TO CART button should change to REMOVE")
     public void theBackpackADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBackpackToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeBackpackFromCartButtonIsPresent());
     }
 
     @Then("The Bolt T-Shirt ADD TO CART button should change to REMOVE")
     public void theBoltTShirtADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBoltTShirtToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeBoltTShirtFromCartButtonIsPresent());
     }
 
     @Then("The Onsie ADD TO CART button should change to REMOVE")
     public void theOnsieADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeOnesieToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeOnesieFromCartButtonIsPresent());
     }
 
     @Then("The Bike Light ADD TO CART button should change to REMOVE")
     public void theBikeLightADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeBikeLightToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeBikeLightFromCartButtonIsPresent());
     }
 
     @Then("The Fleece Jacket ADD TO CART button should change to REMOVE")
     public void theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE() {
-        assertTrue(inventoryPage.removeFleeceJacketToCartButtonIsPresent());
+        assertTrue(inventoryPage.removeFleeceJacketFromCartButtonIsPresent());
     }
 }
