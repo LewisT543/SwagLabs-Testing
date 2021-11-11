@@ -20,11 +20,6 @@ public class CheckoutOverviewPage {
     By onesieNameLink = new By.ById("item_2_title_link");
     By redTShirtNameLink = new By.ById("item_3_title_link");
 
-    // Social buttons
-    By twitterButton = new By.ByCssSelector("[href=\"https://twitter.com/saucelabs\"]");
-    By facebookButton = new By.ByCssSelector("[href=\"https://www.facebook.com/saucelabs\"]");
-    By linkedinButton = new By.ByCssSelector("[href=\"https://www.linkedin.com/company/sauce-labs/\"]");
-
     // Tax figures
     By itemTotalFigure = new By.ByClassName("summary_subtotal_label");
     By taxFigure = new By.ByClassName("summary_tax_label");
@@ -62,19 +57,6 @@ public class CheckoutOverviewPage {
 
     public void clickRedTShirtNameLink() {
         webDriver.findElement(redTShirtNameLink).click();
-    }
-
-    // Social buttons clicks
-    public void clickTwitterButton() {
-        webDriver.findElement(twitterButton).click();
-    }
-
-    public void clickFacebookButton() {
-        webDriver.findElement(facebookButton).click();
-    }
-
-    public void clickLinkedinButton() {
-        webDriver.findElement(linkedinButton).click();
     }
 
     // Tax is correct

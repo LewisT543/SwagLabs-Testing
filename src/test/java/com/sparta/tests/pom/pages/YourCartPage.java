@@ -12,11 +12,6 @@ public class YourCartPage {
     By continueShoppingButton = new By.ById("continue-shopping");
     By checkoutButton = new By.ById("checkout");
 
-    // Social buttons
-    By twitterButton = new By.ByCssSelector("[href=\"https://twitter.com/saucelabs\"]");
-    By facebookButton = new By.ByCssSelector("[href=\"https://www.facebook.com/saucelabs\"]");
-    By linkedinButton = new By.ByCssSelector("[href=\"https://www.linkedin.com/company/sauce-labs/\"]");
-
     // Item name links
     By backPackNameLink = new By.ById("item_4_title_link");
     By bikeLightNameLink = new By.ById("item_0_title_link");
@@ -115,18 +110,5 @@ public class YourCartPage {
 
     public boolean redTShirtIsInCart() {
         return webDriver.findElements(redTShirtNameLink).size() != 0;
-    }
-
-    // Social buttons clicks
-    public void clickTwitterButton() {
-        webDriver.findElement(twitterButton).click();
-    }
-
-    public void clickFacebookButton() {
-        webDriver.findElement(facebookButton).click();
-    }
-
-    public void clickLinkedinButton() {
-        webDriver.findElement(linkedinButton).click();
     }
 }
