@@ -2,6 +2,7 @@ package com.sparta.tests.pom.cucumber.stepdefs;
 
 import com.sparta.tests.pom.pages.InventoryPage;
 import com.sparta.tests.pom.pages.LoginPage;
+import com.sparta.tests.pom.pages.YourCartPage;
 import com.sparta.tests.pom.util.POMUtil;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -11,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class InventoryStepDefs {
@@ -49,6 +51,11 @@ public class InventoryStepDefs {
         inventoryPage.clickAddFleeceJacketToCartButton();
     }
 
+    @When("I click on the test all things T-Shirt ADD TO CART button")
+    public void iClickOnTheTestAllThingsTShirtADDTOCARTButton() {
+        inventoryPage.clickAddRedTShirtToCartButton();
+    }
+
     @Then("The Backpack ADD TO CART button should change to REMOVE")
     public void theBackpackADDTOCARTButtonShouldChangeToREMOVE() {
         assertTrue(inventoryPage.removeBackpackToCartButtonIsPresent());
@@ -72,5 +79,15 @@ public class InventoryStepDefs {
     @Then("The Fleece Jacket ADD TO CART button should change to REMOVE")
     public void theFleeceJacketADDTOCARTButtonShouldChangeToREMOVE() {
         assertTrue(inventoryPage.removeFleeceJacketToCartButtonIsPresent());
+    }
+
+    @Then("The test all things T-Shirt ADD TO CART button should change to REMOVE")
+    public void theTestAllThingsTShirtADDTOCARTButtonShouldChangeToREMOVE() {
+        assertTrue(inventoryPage.removeRedTShirtToCartButtonIsPresent());
+    }
+
+    @Then("The CART counter should be {int}")
+    public void theCARTCounterShouldBe(int amount) {
+        assertEquals(amount, inventoryPage.getCartBadgeNumber());
     }
 }
