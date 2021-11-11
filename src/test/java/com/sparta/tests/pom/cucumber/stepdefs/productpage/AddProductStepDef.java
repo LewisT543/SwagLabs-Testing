@@ -116,4 +116,19 @@ public class AddProductStepDef {
     public void theCartIconShouldIncrementOnce() {
         Assertions.assertTrue(productsPage.getCartBadgeNumber() > 0);
     }
+
+    @When("I click all the ADD TO CART buttons")
+    public void iClickAllTheADDTOCARTButtons() {
+        productsPage.clickAddBackpackToCart();
+        productsPage.clickAddBoltTShirtToCartButton();
+        productsPage.clickAddOnesieToCartButton();
+        productsPage.clickAddBikeLightToCartButton();
+        productsPage.clickAddFleeceJacketToCartButton();
+        productsPage.clickAddRedTShirtToCartButton();
+    }
+
+    @Then("The cart badge should be six")
+    public void theCartBadgeShouldBeSix() {
+        Assertions.assertEquals(6, productsPage.getCartBadgeNumber());
+    }
 }
