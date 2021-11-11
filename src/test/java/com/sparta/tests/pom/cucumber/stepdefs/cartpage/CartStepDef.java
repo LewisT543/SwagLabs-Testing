@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class CartStepDefs {
+public class CartStepDef {
     private WebDriver webDriver;
     private YourCartPage yourCartPage;
     private ProductsPage productsPage;
