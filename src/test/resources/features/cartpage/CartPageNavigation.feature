@@ -1,0 +1,1 @@
+Feature: Navigating the cart page
