@@ -114,11 +114,6 @@ public class CheckoutStepDef {
         assertEquals("https://www.saucedemo.com/checkout-step-two.html", webDriver.getCurrentUrl());
     }
 
-    @Then("I will go to the Cart page")
-    public void iWillGoToTheCartPage() {
-        assertEquals("https://www.saucedemo.com/cart.html", webDriver.getCurrentUrl());
-    }
-
     @Then("I should get an error message {string}")
     public void iShouldGetAnErrorMessage(String message) {
         assertEquals(message, checkoutPage.getErrorMessage());
