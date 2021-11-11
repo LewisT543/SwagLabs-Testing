@@ -51,4 +51,13 @@ public class ProductRemoveStepDef {
         Assertions.assertEquals(5,productsPage.getCartBadgeNumber());
     }
 
+    @When("I click the Sauce Labs Backpack REMOVE button")
+    public void iClickTheSauceLabsBackpackREMOVEButton() {
+        productsPage.clickRemoveBackpackFromCart();
+    }
+
+    @Then("The Sauce Labs Backpack REMOVE button should change to a ADD TO CART button")
+    public void theSauceLabsBackpackREMOVEButtonShouldChangeToAADDTOCARTButton() {
+        Assertions.assertTrue(productsPage.addBackpackToCartButtonIsPresent());
+    }
 }
