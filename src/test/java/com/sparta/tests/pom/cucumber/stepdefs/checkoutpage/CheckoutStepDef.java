@@ -6,12 +6,14 @@ import com.sparta.tests.pom.pages.ProductsPage;
 import com.sparta.tests.pom.pages.YourCartPage;
 import com.sparta.tests.pom.util.POMUtil;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CheckoutStepDef {
 
@@ -77,6 +79,21 @@ public class CheckoutStepDef {
         checkoutPage.clickCartButton();
     }
 
+    @When("I enter the firstname {string}")
+    public void iEnterTheFirstname(String firstname) {
+        checkoutPage.setFirstName(firstname);
+    }
+
+    @When("I enter the lastname {string}")
+    public void iEnterTheLastname(String lastname) {
+        checkoutPage.setLastName(lastname);
+    }
+
+    @When("I enter the postcode {string}")
+    public void iEnterThePostcode(String postcode) {
+        checkoutPage.setPostCode(postcode);
+    }
+
     @Then("I should see {string} in the First Name field")
     public void iShouldSeeInTheFirstNameField(String firstName) {
         assertEquals(firstName, checkoutPage.getFirstName());
@@ -100,5 +117,25 @@ public class CheckoutStepDef {
     @Then("I will go to the Cart page")
     public void iWillGoToTheCartPage() {
         assertEquals("https://www.saucedemo.com/cart.html", webDriver.getCurrentUrl());
+    }
+
+    @Then("I should get an error message {string}")
+    public void iShouldGetAnErrorMessage(String message) {
+        assertEquals(message, checkoutPage.getErrorMessage());
+    }
+
+    @Then("I should see an error icon next to the First Name field")
+    public void iShouldSeeAnErrorIconNextToTheFirstNameField() {
+        assertTrue(checkoutPage.firstNameHasErrorIcon());
+    }
+
+    @Then("I should see an error icon next to the Last Name field")
+    public void iShouldSeeAnErrorIconNextToTheLastNameField() {
+        assertTrue(checkoutPage.lastNameHasErrorIcon());
+    }
+
+    @Then("I should see an error icon next to the Postcode field")
+    public void iShouldSeeAnErrorIconNextToThePostcodeField() {
+        assertTrue(checkoutPage.postcodeHasErrorIcon());
     }
 }
