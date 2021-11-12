@@ -4,15 +4,15 @@ import org.openqa.selenium.WebDriver;
 
 public class DriverFactory {
 
-    private static String path = "src/test/resources/chromedriver.exe";
-    public enum Browsers {CHROME, FIREFOX, SAFARI, OPERA, EDGE, INTERNET_EXPLORER}
+    private static String path = "src/test/resources/";
+    public enum Browsers {CHROME, FIREFOX}
 
     static DriverManager driverManager;
 
     public static DriverManager createDriver(Browsers type) {
         switch(type) {
-            case CHROME -> driverManager = new ChromeDriverManager(path);
-            default -> driverManager = new ChromeDriverManager(path);
+            case CHROME -> driverManager = new ChromeDriverManager(path + "chromedriver.exe");
+            case FIREFOX -> driverManager = new FirefoxDriverManager(path + "geckodriver.exe");
         }
         return driverManager;
     }
