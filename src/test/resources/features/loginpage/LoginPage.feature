@@ -42,7 +42,7 @@ Feature: Login page functionality
     When I enter the username "standard_user"
     And I enter the password "secret_sauce"
     And I click the login button
-    Then I should be on the inventory page
+    Then I will go to the Products page
 
   Scenario: I enter a correct username and password for a locked user
     When I enter the username "locked_out_user"

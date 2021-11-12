@@ -50,11 +50,6 @@ public class LoginStepDef {
         assertEquals(errorMessage, loginPage.getErrorMessage());
     }
 
-    @Then("I should be on the inventory page")
-    public void iShouldBeOnTheInventoryPage() {
-        assertEquals("https://www.saucedemo.com/inventory.html", webDriver.getCurrentUrl());
-    }
-
     @After
     public void teardown() {
         DriverFactory.stopDriver();
