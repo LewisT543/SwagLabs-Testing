@@ -1,6 +1,6 @@
 package com.sparta.tests.pom.cucumber.stepdefs.loginpage;
 
-import com.sparta.tests.pom.util.POMUtil;
+import com.sparta.tests.pom.util.DriverFactory;
 import com.sparta.tests.pom.pages.LoginPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -8,8 +8,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -17,12 +15,10 @@ public class LoginStepDef {
 
     private WebDriver webDriver;
     private LoginPage loginPage;
-    private ChromeDriverService service;
 
     @Before(order = 0)
     public void init() {
-        service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
-        webDriver = POMUtil.newChromeDriver(service);
+        webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).setHeadless().silentOutput().getDriver();
         loginPage = new LoginPage(webDriver);
     }
 
@@ -60,7 +56,6 @@ public class LoginStepDef {
 
     @After
     public void teardown() {
-        webDriver.close();
-        service.stop();
+        DriverFactory.stopDriver();
     }
 }

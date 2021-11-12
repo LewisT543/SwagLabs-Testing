@@ -1,7 +1,7 @@
 package com.sparta.tests.pom.cucumber.stepdefs.productpage;
 
 import com.sparta.tests.pom.pages.ProductsPage;
-import com.sparta.tests.pom.util.POMUtil;
+import com.sparta.tests.pom.util.DriverFactory;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,7 +16,7 @@ public class SortProductsStepDef {
 
     @Before(order = 1)
     public void init() {
-        webDriver = POMUtil.getWebDriver();
+        webDriver = DriverFactory.getDriver();
         productsPage = new ProductsPage(webDriver);
     }
 
