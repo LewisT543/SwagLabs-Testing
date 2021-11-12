@@ -5,15 +5,15 @@ import org.openqa.selenium.WebDriver;
 public abstract class DriverManager {
 
     protected WebDriver driver;
-    protected abstract void startService();
-    protected abstract void stopService();
-    protected abstract void createDriver();
-    protected abstract void setHeadless();
-    protected abstract void silentOutput();
+    public abstract void startService();
+    public abstract void stopService();
+    public abstract void createDriver();
+    public abstract DriverManager setHeadless();
+    public abstract DriverManager silentOutput();
 
-    public void quitDriver() {
+    public void closeDriver() {
         if (null != driver) {
-            driver.quit();
+            driver.close();
             driver = null;
         }
 

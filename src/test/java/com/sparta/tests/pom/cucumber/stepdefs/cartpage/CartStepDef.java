@@ -3,14 +3,12 @@ package com.sparta.tests.pom.cucumber.stepdefs.cartpage;
 import com.sparta.tests.pom.pages.LoginPage;
 import com.sparta.tests.pom.pages.ProductsPage;
 import com.sparta.tests.pom.pages.YourCartPage;
-import com.sparta.tests.pom.util.POMUtil;
+import com.sparta.tests.pom.util.DriverFactory;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CartStepDef {
@@ -21,7 +19,7 @@ public class CartStepDef {
 
     @Before(order = 1)
     public void init() {
-        webDriver = POMUtil.getWebDriver();
+        webDriver = DriverFactory.getDriver();
         yourCartPage = new YourCartPage(webDriver);
         productsPage = new ProductsPage(webDriver);
         loginPage = new LoginPage(webDriver);

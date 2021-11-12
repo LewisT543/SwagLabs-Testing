@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class DriverFactory {
 
     private static String path = "src/test/resources/chromedriver.exe";
-    enum Browsers {CHROME, FIREFOX, SAFARI, OPERA, EDGE, INTERNET_EXPLORER}
+    public enum Browsers {CHROME, FIREFOX, SAFARI, OPERA, EDGE, INTERNET_EXPLORER}
 
     static DriverManager driverManager;
 
@@ -19,5 +19,10 @@ public class DriverFactory {
 
     public static WebDriver getDriver() {
         return driverManager.getDriver();
+    }
+
+    public static void stopDriver() {
+        driverManager.closeDriver();
+        driverManager.stopService();
     }
 }

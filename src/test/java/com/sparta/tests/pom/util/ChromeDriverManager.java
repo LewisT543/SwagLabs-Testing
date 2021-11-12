@@ -21,7 +21,7 @@ public class ChromeDriverManager extends DriverManager{
     }
 
     @Override
-    protected void startService() {
+    public void startService() {
         try {
             service.start();
         } catch (IOException e) {
@@ -30,22 +30,24 @@ public class ChromeDriverManager extends DriverManager{
     }
 
     @Override
-    protected void stopService() {
+    public void stopService() {
             service.stop();
     }
 
     @Override
-    protected void createDriver() {
+    public void createDriver() {
         driver = new ChromeDriver(service, options);
     }
 
     @Override
-    protected void setHeadless() {
+    public DriverManager setHeadless() {
         options.addArguments("headless");
+        return this;
     }
 
     @Override
-    protected void silentOutput() {
+    public DriverManager silentOutput() {
         System.setProperty("webdriver.chrome.silentOutput", "true");
+        return this;
     }
 }
