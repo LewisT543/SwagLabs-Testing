@@ -36,3 +36,4 @@ Feature: Burger menu functionality
     When I click on the burger menu button
     And I click on the burger menu logout button
     Then I should be redirected to the login page
+

@@ -8,6 +8,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BurgerMenuStepDef {
 
@@ -52,6 +54,8 @@ public class BurgerMenuStepDef {
 
     @And("I click on the burger menu all items button")
     public void iClickOnTheBurgerMenuAllItemsButton() {
+        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 3);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(burgerMenuComponent.getInventorySidebarButton()));
         burgerMenuComponent.clickInventoryButton();
     }
 
@@ -62,6 +66,8 @@ public class BurgerMenuStepDef {
 
     @And("I click on the burger menu about button")
     public void iClickOnTheBurgerMenuAboutButton() {
+        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 3);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(burgerMenuComponent.getAboutSidebarButton()));
         burgerMenuComponent.clickAboutButton();
     }
 
@@ -72,6 +78,8 @@ public class BurgerMenuStepDef {
 
     @And("I click on the burger menu logout button")
     public void iClickOnTheBurgerMenuLogoutButton() {
+        WebDriverWait webDriverWait = new WebDriverWait(webDriver, 3);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(burgerMenuComponent.getLogoutSidebarButton()));
         burgerMenuComponent.clickLogoutButton();
     }
 
