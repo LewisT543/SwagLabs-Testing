@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class POMUtil {
 
@@ -40,6 +41,8 @@ public class POMUtil {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("headless");
         webDriver = new ChromeDriver(service,chromeOptions);
+        webDriver
+                .manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         return webDriver;
     }
 
