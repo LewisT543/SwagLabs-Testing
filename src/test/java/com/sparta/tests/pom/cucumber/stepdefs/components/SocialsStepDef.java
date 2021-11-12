@@ -66,7 +66,7 @@ public class SocialsStepDef {
     public void iShouldBeTakenToFacebook() {
         ArrayList<String> tabs2 = new ArrayList<> (webDriver.getWindowHandles());
         webDriver.switchTo().window(tabs2.get(1));
-        Assertions.assertEquals("https://www.facebook.com/saucelabs", webDriver.getCurrentUrl());
+        Assertions.assertTrue(webDriver.getCurrentUrl().contains("https://www.facebook.com/"));
         webDriver.close();
         webDriver.switchTo().window(tabs2.get(0));
     }

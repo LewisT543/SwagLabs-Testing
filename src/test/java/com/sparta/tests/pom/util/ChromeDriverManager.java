@@ -37,6 +37,7 @@ public class ChromeDriverManager extends DriverManager{
     @Override
     public void createDriver() {
         driver = new ChromeDriver(service, options);
+        driver.manage().deleteAllCookies();
     }
 
     @Override

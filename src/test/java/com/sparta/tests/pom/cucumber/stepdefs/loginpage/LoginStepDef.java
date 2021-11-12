@@ -19,7 +19,6 @@ public class LoginStepDef {
     @Before(order = 0)
     public void init() {
         webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).setHeadless().silentOutput().getDriver();
-        webDriver.manage().deleteAllCookies();
         loginPage = new LoginPage(webDriver);
     }
 
