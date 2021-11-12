@@ -42,14 +42,12 @@ public class FirefoxDriverManager extends DriverManager{
         driver = new FirefoxDriver(service, options);
     }
 
-    @Override
-    public DriverManager setHeadless() {
+    public FirefoxDriverManager setHeadless() {
         options.addArguments("headless");
         return this;
     }
 
-    @Override
-    public DriverManager silentOutput() {
+    public FirefoxDriverManager silentOutput() {
         System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"/dev/null");
         return this;
     }
