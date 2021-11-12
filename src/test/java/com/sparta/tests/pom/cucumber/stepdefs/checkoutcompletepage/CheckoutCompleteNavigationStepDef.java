@@ -1,7 +1,7 @@
 package com.sparta.tests.pom.cucumber.stepdefs.checkoutcompletepage;
 
 import com.sparta.tests.pom.pages.*;
-import com.sparta.tests.pom.util.POMUtil;
+import com.sparta.tests.pom.util.DriverFactory;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
@@ -18,7 +18,7 @@ public class CheckoutCompleteNavigationStepDef {
 
     @Before(order = 1)
     public void init() {
-        webDriver = POMUtil.getWebDriver();
+        webDriver = DriverFactory.getDriver();
         yourCartPage = new YourCartPage(webDriver);
         productsPage = new ProductsPage(webDriver);
         loginPage = new LoginPage(webDriver);

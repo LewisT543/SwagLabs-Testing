@@ -4,9 +4,8 @@ import com.sparta.tests.pom.pages.CheckoutPage;
 import com.sparta.tests.pom.pages.LoginPage;
 import com.sparta.tests.pom.pages.ProductsPage;
 import com.sparta.tests.pom.pages.YourCartPage;
-import com.sparta.tests.pom.util.POMUtil;
+import com.sparta.tests.pom.util.DriverFactory;
 import io.cucumber.java.Before;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,7 +24,7 @@ public class CheckoutStepDef {
 
     @Before(order = 1)
     public void init() {
-        webDriver = POMUtil.getWebDriver();
+        webDriver = DriverFactory.getDriver();
         loginPage = new LoginPage(webDriver);
         productPage = new ProductsPage(webDriver);
         cartPage = new YourCartPage(webDriver);
