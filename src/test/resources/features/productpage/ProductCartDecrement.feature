@@ -1,4 +1,4 @@
-@product @issue
+@product
 Feature: Cart badge decrements once
 
   Background: I am logged in
