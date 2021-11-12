@@ -14,16 +14,24 @@ A BDD approach to testing a mock e-commerce website.
 This is an example of a BDD layer applied to a 'mock' e-commerce website. The program is designed to make testing aspects of the website as easy as possible. 
 To begin using this program you would use the WebDriver creation factory to produce a webdriver suitable to your needs.
 Additional settings may be applied to the driver using .setHeadless() and .silentOutput(). Both of these methods are chainable if you desire both silent output
-and headless mode./
-#### How to use:
-1. Create your webdriver using one of the available browser choices (currently only Chrome and Firefox):
->webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).getDriver()\
-2. If you wanted a headless mode, clean output driver you would use:
->webDriver = DriverManager.getDriver(Browers.CHROME).setHeadless().cleanOutput().getDriver();\
-3. Once you have your driver you can begin writing gherkin scripts in a feature file, either using the available step definitions or writing your own new ones.<br/><br/>
+and headless mode.
 
-4. Once the scripts and stepdefs are completed you can simply run the tests from the TestRunner class.<br/><br/>
-5. Currently, there are 93 tests in this program that aim to test the vast majority of possible points on the website.<br/><br/>
+#### How to use:
+1. First things first, download the appropriate driver for the browser(s) you wish to test and place it within:
+>src/test/resources/<YOUR_DRIVER(S)_HERE.exe>
+2. Create your webdriver using one of the available browser choices (currently supports Chrome, Firefox, Opera, Edge, Safari and IE):
+>webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).useChromeOptions().getDriver()\
+3. If you wanted a headless mode, clean output driver you would use:
+>webDriver = DriverManager.getDriver(Browers.CHROME).useChromeOptions().setHeadless().cleanOutput().getDriver();\
+4. Once you have your driver you can begin writing gherkin scripts in a feature file, either using the available step definitions or writing your own new ones.<br/><br/>
+5. Once the scripts and stepdefs are completed you can simply run the tests from the TestRunner class.<br/><br/>
+6. Currently, there are 93 tests in this program that aim to test the vast majority of possible points on the website.<br/><br/>
+7. If you want to run a different set of tests, there are some pre-loaded options, these can be selected using the "tags" attribute in the TestRunner class:
+   1. @mvp -> minimum viable product (about 25 tests to check basic functionality).
+   2. @navigation -> will run all tests associated with navigation on any page.
+   3. @[page] -> each page has a tag which groups all associated tests and runs them.
+   4. @component -> runs all the tests for the components on the website.
+
 
 ### Methods available in Page Object Models:
 #### Login Page
