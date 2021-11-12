@@ -26,11 +26,6 @@ public abstract class DriverManager {
         return driver;
     }
 
-    public DriverManager setDeleteAllCookies() {
-        driver.manage().deleteAllCookies();
-        return this;
-    }
-
     public ChromeDriverManager useChromeOptions() {
         return (ChromeDriverManager) this;
     }

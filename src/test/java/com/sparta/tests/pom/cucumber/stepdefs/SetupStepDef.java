@@ -10,7 +10,6 @@ public class SetupStepDef {
     @Before(order = 0)
     public void init() {
         WebDriver webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME)
-                .setDeleteAllCookies()
                 .useChromeOptions()
                 .setHeadless()
                 .setSilentOutput()
