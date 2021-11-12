@@ -1,6 +1,7 @@
 package com.sparta.tests.pom.util;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 public abstract class DriverManager {
 
@@ -32,6 +33,22 @@ public abstract class DriverManager {
 
     public FirefoxDriverManager useFirefoxOptions() {
         return (FirefoxDriverManager) this;
+    }
+
+    public SafariDriverManager useSafariOptions() {
+        return (SafariDriverManager) this;
+    }
+
+    public OperaDriverManager useOperaOptions() {
+        return (OperaDriverManager) this;
+    }
+
+    public EdgeDriverManager useEdgeOptions() {
+        return (EdgeDriverManager) this;
+    }
+
+    public IEDriverManager useIEOptions() {
+        return (IEDriverManager) this;
     }
 
 }
