@@ -11,7 +11,12 @@ A BDD approach to testing a mock e-commerce website.
 - Selenium -> Used to run a webdriver and programmatically interact with a browser.
 
 ### Brief explanation:
-
+This is an example of a BDD layer applied to a 'mock' e-commerce website. The program is designed to make testing aspects of the website as easy as possible. 
+To begin using this program you would use the WebDriver creation factory to produce a webdriver suitable to your needs.
+Additional settings may be applied to the driver using various chainable attribute methods.\
+These include:\
+    - 
+    
 
 ### Methods available in Page Object Models:
 #### Login Page
