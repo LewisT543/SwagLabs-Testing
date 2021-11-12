@@ -13,10 +13,17 @@ A BDD approach to testing a mock e-commerce website.
 ### Brief explanation:
 This is an example of a BDD layer applied to a 'mock' e-commerce website. The program is designed to make testing aspects of the website as easy as possible. 
 To begin using this program you would use the WebDriver creation factory to produce a webdriver suitable to your needs.
-Additional settings may be applied to the driver using various chainable attribute methods.\
-These include:\
-    - 
-    
+Additional settings may be applied to the driver using .setHeadless() and .silentOutput(). Both of these methods are chainable if you desire both silent output
+and headless mode./
+#### How to use:
+1. Create your webdriver using one of the available browser choices (currently only Chrome, Firefox and Edge):
+>webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).getDriver()\
+2. If you wanted a headless mode, clean output driver you would use:
+>webDriver = DriverManager.getDriver(Browers.CHROME).setHeadless().cleanOutput().getDriver();\
+3. Once you have your driver you can begin writing gherkin scripts in a feature file, either using the available step definitions or writing your own new ones.<br/><br/>
+
+4. Once the scripts and stepdefs are completed you can simply run the tests from the TestRunner class.<br/><br/>
+5. Currently, there are 93 tests in this program that aim to test the vast majority of possible points on the website.<br/><br/>
 
 ### Methods available in Page Object Models:
 #### Login Page
