@@ -37,6 +37,7 @@ Feature: Login page functionality
     And I click the login button
     Then I should see the error "Epic sadface: Username is required"
 
+  @navigation
   Scenario: I enter a correct username and password
     When I enter the username "standard_user"
     And I enter the password "secret_sauce"

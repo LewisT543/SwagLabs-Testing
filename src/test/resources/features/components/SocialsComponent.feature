@@ -16,14 +16,17 @@ Feature: Navigating with socials links
     When I go to the bottom of the page
     Then I should see a linkedin social button
 
+  @navigation
   Scenario: Clicking the twitter social button should take me to twitter
     When I click on the twitter social button
     Then I should be taken to twitter
 
+  @navigation
   Scenario: Clicking the facebook social button should take me to facebook
     When I click on the facebook social button
     Then I should be taken to facebook
 
+  @navigation
   Scenario: Clicking the linkedin social button should take me to linkedin
     When I click on the linkedin social button
     Then I should be taken to linkedin

@@ -1,4 +1,4 @@
-@cart
+@cart @navigation
 Feature: Navigating the cart page
   Background: I am logged in
     Given I am on the cart page

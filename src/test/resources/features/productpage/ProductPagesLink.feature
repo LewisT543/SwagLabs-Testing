@@ -1,4 +1,4 @@
-@product
+@product @navigation
 Feature: Go to individual product page via link
 
   Background: I am logged in
