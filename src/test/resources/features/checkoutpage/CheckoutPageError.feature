@@ -1,3 +1,4 @@
+@checkout
 Feature: Errors that occur on the checkout page
 
   Background: I am on the checkout page

@@ -1,3 +1,4 @@
+@checkout
 Feature: Navigating from the checkout page
 
   Background: I am on the checkout page

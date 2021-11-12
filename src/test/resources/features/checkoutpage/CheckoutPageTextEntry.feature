@@ -1,3 +1,4 @@
+@checkout
 Feature: Text can be entered into the checkout page
 
   Background: I am on the checkout page
