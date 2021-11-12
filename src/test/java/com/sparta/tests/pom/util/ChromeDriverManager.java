@@ -37,7 +37,6 @@ public class ChromeDriverManager extends DriverManager{
     @Override
     public void createDriver() {
         driver = new ChromeDriver(service, options);
-        driver.manage().deleteAllCookies();
     }
 
     public ChromeDriverManager setHeadless() {
@@ -45,7 +44,7 @@ public class ChromeDriverManager extends DriverManager{
         return this;
     }
 
-    public ChromeDriverManager silentOutput() {
+    public ChromeDriverManager setSilentOutput() {
         System.setProperty("webdriver.chrome.silentOutput", "true");
         return this;
     }
