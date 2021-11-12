@@ -1,3 +1,4 @@
+@product
 Feature: Product present in cart
 
   Background: I am logged in

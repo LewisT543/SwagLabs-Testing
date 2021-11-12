@@ -23,6 +23,7 @@ public class LoginStepDef {
     public void init() {
         service = POMUtil.getChromeDriverService("src/test/resources/chromedriver.exe");
         webDriver = POMUtil.newChromeDriver(service);
+        webDriver.manage().deleteAllCookies();
         loginPage = new LoginPage(webDriver);
     }
 

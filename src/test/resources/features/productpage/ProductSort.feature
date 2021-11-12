@@ -1,3 +1,4 @@
+@product
 Feature: Sorting products
 
   Background: I am logged in

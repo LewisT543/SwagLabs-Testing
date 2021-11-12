@@ -119,7 +119,6 @@ public class AddProductStepDef {
 
     @When("I click all the ADD TO CART buttons")
     public void iClickAllTheADDTOCARTButtons() {
-        webDriver.manage().window().fullscreen();
         productsPage.clickAddBackpackToCart();
         productsPage.clickAddBoltTShirtToCartButton();
         productsPage.clickAddOnesieToCartButton();

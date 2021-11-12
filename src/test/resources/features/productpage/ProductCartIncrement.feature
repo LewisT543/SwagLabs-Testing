@@ -1,3 +1,4 @@
+@product
 Feature: Cart badge increments once
 
   Background: I am logged in

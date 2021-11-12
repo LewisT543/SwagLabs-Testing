@@ -1,3 +1,4 @@
+@product
 Feature: Add to cart changed to remove
 
   Background: I am logged in
