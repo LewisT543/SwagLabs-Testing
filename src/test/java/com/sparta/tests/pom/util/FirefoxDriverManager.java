@@ -50,7 +50,7 @@ public class FirefoxDriverManager extends DriverManager{
 
     @Override
     public DriverManager silentOutput() {
-        System.setProperty("webdriver.firefox.silentOutput", "true");
+        System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"/dev/null");
         return this;
     }
 }
