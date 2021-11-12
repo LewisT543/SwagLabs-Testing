@@ -29,7 +29,7 @@ and headless mode.
 7. If you want to run a different set of tests, there are some pre-loaded options, these can be selected using the "tags" attribute in the TestRunner class:
    1. @mvp -> minimum viable product (about 25 tests to check basic functionality).
    2. @navigation -> will run all tests associated with navigation on any page.
-   3. @[page] -> each page has a tag which groups all associated tests and runs them.
+   3. @[PAGE] -> each page has a tag which groups all associated tests and runs them. ([PAGE] = cart, complete, overview, checkout, component, login, product)
    4. @component -> runs all the tests for the components on the website.
 
 
