@@ -1,3 +1,4 @@
+@login
 Feature: Login page functionality
 
   Scenario: I enter an incorrect username
