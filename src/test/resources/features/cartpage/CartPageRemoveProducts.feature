@@ -1,7 +1,7 @@
 Feature: Removing products from cart
 
   Background: I am logged in
-    Given I am on the products page
+    Given I am on the Product page
     And All the products have been added to the cart
 
   Scenario: Removing the Sauce Labs Backpack from the CART
