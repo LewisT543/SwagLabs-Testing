@@ -3,18 +3,21 @@ package com.sparta.tests.pom.util;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeDriverService;
+import org.openqa.selenium.edge.EdgeOptions;
 
 import java.io.File;
 import java.io.IOException;
 
-public class ChromeDriverManager extends DriverManager{
+public class EdgeDriverManager extends DriverManager{
 
-    private ChromeDriverService service;
-    private ChromeOptions options;
+    private EdgeDriverService service;
+    private EdgeOptions options;
 
-    public ChromeDriverManager(String path) {
-        options = new ChromeOptions();
-        service = new ChromeDriverService.Builder()
+    public EdgeDriverManager(String path) {
+        options = new EdgeOptions();
+        service = new EdgeDriverService.Builder()
                 .usingDriverExecutable(new File(path))
                 .usingAnyFreePort()
                 .build();
@@ -36,17 +39,7 @@ public class ChromeDriverManager extends DriverManager{
 
     @Override
     public void createDriver() {
-        driver = new ChromeDriver(service, options);
-        driver.manage().deleteAllCookies();
+        driver = new EdgeDriver(service, options);
     }
 
-    public ChromeDriverManager setHeadless() {
-        options.addArguments("headless");
-        return this;
-    }
-
-    public ChromeDriverManager silentOutput() {
-        System.setProperty("webdriver.chrome.silentOutput", "true");
-        return this;
-    }
 }
