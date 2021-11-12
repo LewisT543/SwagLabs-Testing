@@ -1,3 +1,4 @@
+@component
 Feature: Burger menu functionality
 
   Background: I am on the products page
@@ -22,16 +23,19 @@ Feature: Burger menu functionality
     When I click on the burger menu button
     Then I should see a burger menu exit button
 
+  @navigation
   Scenario: Clicking the all items button in burger menu should take me to inventory page
     When I click on the burger menu button
     And I click on the burger menu all items button
     Then I should be redirected to the products page
 
+  @navigation
   Scenario: Clicking the about button in burger menu should take me to about page
     When I click on the burger menu button
     And I click on the burger menu about button
     Then I should be redirected to the about page
 
+  @navigation
   Scenario: Clicking the logout button in burger menu should take me to the login page
     When I click on the burger menu button
     And I click on the burger menu logout button

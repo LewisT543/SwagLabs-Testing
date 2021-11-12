@@ -1,3 +1,4 @@
+@cart @mvp
 Feature: Removing products from cart
 
   Background: I am logged in

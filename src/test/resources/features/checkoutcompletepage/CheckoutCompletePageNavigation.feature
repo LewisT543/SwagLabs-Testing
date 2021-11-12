@@ -1,3 +1,4 @@
+@complete @navigation
 Feature:Navigating the checkout complete page
   Background: I am logged in
     Given I am on the Checkout Complete page
