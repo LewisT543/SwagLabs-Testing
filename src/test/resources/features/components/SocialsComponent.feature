@@ -1,3 +1,4 @@
+@component
 Feature: Navigating with socials links
 
   Background: I am on the cart page

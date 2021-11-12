@@ -1,3 +1,4 @@
+@component
 Feature: Burger menu functionality
 
   Background: I am on the products page
