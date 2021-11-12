@@ -16,7 +16,7 @@ To begin using this program you would use the WebDriver creation factory to prod
 Additional settings may be applied to the driver using .setHeadless() and .silentOutput(). Both of these methods are chainable if you desire both silent output
 and headless mode./
 #### How to use:
-1. Create your webdriver using one of the available browser choices (currently only Chrome, Firefox and Edge):
+1. Create your webdriver using one of the available browser choices (currently only Chrome and Firefox):
 >webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).getDriver()\
 2. If you wanted a headless mode, clean output driver you would use:
 >webDriver = DriverManager.getDriver(Browers.CHROME).setHeadless().cleanOutput().getDriver();\
