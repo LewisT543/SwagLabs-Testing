@@ -1,6 +1,5 @@
 package com.sparta.tests.pom.cucumber.stepdefs;
 
-import com.sparta.tests.pom.pages.LoginPage;
 import com.sparta.tests.pom.util.DriverFactory;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -10,7 +9,12 @@ public class SetupStepDef {
 
     @Before(order = 0)
     public void init() {
-        WebDriver webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).useChromeOptions().setHeadless().silentOutput().getDriver();
+        WebDriver webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME)
+                .setDeleteAllCookies()
+                .useChromeOptions()
+                .setHeadless()
+                .setSilentOutput()
+                .getDriver();
         webDriver.manage().deleteAllCookies();
     }
 
