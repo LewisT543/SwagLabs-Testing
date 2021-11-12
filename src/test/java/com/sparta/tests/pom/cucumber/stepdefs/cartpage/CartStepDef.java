@@ -27,13 +27,6 @@ public class CartStepDef {
         loginPage = new LoginPage(webDriver);
     }
 
-    @Given("I am on the products page")
-    public void iAmOnTheCartPage() {
-        loginPage.setUsername("standard_user");
-        loginPage.setPassword("secret_sauce");
-        loginPage.clickSubmit();
-    }
-
     @And("All the products have been added to the cart")
     public void allTheProductsHaveBeenAddedToTheCart() {
         productsPage.clickAddBackpackToCart();
