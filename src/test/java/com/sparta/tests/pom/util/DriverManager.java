@@ -8,8 +8,6 @@ public abstract class DriverManager {
     public abstract void startService();
     public abstract void stopService();
     public abstract void createDriver();
-    public abstract DriverManager setHeadless();
-    public abstract DriverManager silentOutput();
 
     public void closeDriver() {
         if (null != driver) {
@@ -26,4 +24,14 @@ public abstract class DriverManager {
         }
         return driver;
     }
+
+
+    public ChromeDriverManager useChromeOptions() {
+        return (ChromeDriverManager) this;
+    }
+
+    public FirefoxDriverManager useFirefoxOptions() {
+        return (FirefoxDriverManager) this;
+    }
+
 }

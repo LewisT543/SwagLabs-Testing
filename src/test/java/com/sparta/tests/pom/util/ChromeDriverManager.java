@@ -39,14 +39,12 @@ public class ChromeDriverManager extends DriverManager{
         driver = new ChromeDriver(service, options);
     }
 
-    @Override
-    public DriverManager setHeadless() {
+    public ChromeDriverManager setHeadless() {
         options.addArguments("headless");
         return this;
     }
 
-    @Override
-    public DriverManager silentOutput() {
+    public ChromeDriverManager silentOutput() {
         System.setProperty("webdriver.chrome.silentOutput", "true");
         return this;
     }
