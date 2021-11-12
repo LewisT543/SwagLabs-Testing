@@ -1,7 +1,7 @@
 package com.sparta.tests.pom.cucumber.stepdefs.components;
 
 import com.sparta.tests.pom.pages.components.BurgerMenuComponent;
-import com.sparta.tests.pom.util.POMUtil;
+import com.sparta.tests.pom.util.DriverFactory;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -18,7 +18,7 @@ public class BurgerMenuStepDef {
 
     @Before(order = 1)
     public void init() {
-        webDriver = POMUtil.getWebDriver();
+        webDriver = DriverFactory.getDriver();
         burgerMenuComponent = new BurgerMenuComponent(webDriver);
     }
 
