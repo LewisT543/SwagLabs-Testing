@@ -16,10 +16,9 @@ public class LoginStepDef {
     private WebDriver webDriver;
     private LoginPage loginPage;
 
-    @Before(order = 0)
+    @Before(order = 1)
     public void init() {
-        webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).setHeadless().silentOutput().getDriver();
-        webDriver.manage().deleteAllCookies();
+        webDriver = DriverFactory.getDriver();
         loginPage = new LoginPage(webDriver);
     }
 
@@ -48,10 +47,5 @@ public class LoginStepDef {
     @Then("I should see the error {string}")
     public void iShouldSeeTheError(String errorMessage) {
         assertEquals(errorMessage, loginPage.getErrorMessage());
-    }
-
-    @After
-    public void teardown() {
-        DriverFactory.stopDriver();
     }
 }
