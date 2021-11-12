@@ -1,3 +1,4 @@
+@product @navigation @mvp
 Feature: Go to the cart page via the cart icon
 
 Background: I am logged in

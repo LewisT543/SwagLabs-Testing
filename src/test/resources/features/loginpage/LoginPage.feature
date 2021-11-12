@@ -1,3 +1,4 @@
+@login
 Feature: Login page functionality
 
   Scenario: I enter an incorrect username
@@ -36,11 +37,12 @@ Feature: Login page functionality
     And I click the login button
     Then I should see the error "Epic sadface: Username is required"
 
+  @navigation @mvp
   Scenario: I enter a correct username and password
     When I enter the username "standard_user"
     And I enter the password "secret_sauce"
     And I click the login button
-    Then I should be on the inventory page
+    Then I will go to the Products page
 
   Scenario: I enter a correct username and password for a locked user
     When I enter the username "locked_out_user"

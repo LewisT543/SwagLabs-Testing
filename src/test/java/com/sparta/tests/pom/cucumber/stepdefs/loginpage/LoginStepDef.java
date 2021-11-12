@@ -19,6 +19,7 @@ public class LoginStepDef {
     @Before(order = 0)
     public void init() {
         webDriver = DriverFactory.createDriver(DriverFactory.Browsers.CHROME).setHeadless().silentOutput().getDriver();
+        webDriver.manage().deleteAllCookies();
         loginPage = new LoginPage(webDriver);
     }
 
@@ -47,11 +48,6 @@ public class LoginStepDef {
     @Then("I should see the error {string}")
     public void iShouldSeeTheError(String errorMessage) {
         assertEquals(errorMessage, loginPage.getErrorMessage());
-    }
-
-    @Then("I should be on the inventory page")
-    public void iShouldBeOnTheInventoryPage() {
-        assertEquals("https://www.saucedemo.com/inventory.html", webDriver.getCurrentUrl());
     }
 
     @After

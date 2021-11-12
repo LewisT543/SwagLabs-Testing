@@ -1,3 +1,4 @@
+@overview @navigation @mvp
 Feature: Navigating from the overview page
 
   Background: I am on the overview page

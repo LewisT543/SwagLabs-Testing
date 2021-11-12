@@ -1,3 +1,4 @@
+@product @mvp
 Feature: Product present in cart
 
   Background: I am logged in

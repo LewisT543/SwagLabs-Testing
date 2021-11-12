@@ -1,3 +1,4 @@
+@product
 Feature: Cart is full
 
   Background: I am logged in
