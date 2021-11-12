@@ -19,10 +19,10 @@ Feature: Navigating with socials links
     When I click on the twitter social button
     Then I should be taken to twitter
 
-  Scenario: Clicking the facebook social button should take me to twitter
+  Scenario: Clicking the facebook social button should take me to facebook
     When I click on the facebook social button
     Then I should be taken to facebook
 
-  Scenario: Clicking the linkedin social button should take me to twitter
+  Scenario: Clicking the linkedin social button should take me to linkedin
     When I click on the linkedin social button
     Then I should be taken to linkedin

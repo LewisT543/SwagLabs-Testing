@@ -25,6 +25,7 @@ public class BurgerMenuComponent {
         return webDriver.findElements(inventorySidebarButton).size() != 0;
     }
 
+    // Burger menu items are present
     public boolean burgerMenuAboutButtonIsPresent() {
         return webDriver.findElements(aboutSidebarButton).size() != 0;
     }
@@ -56,5 +57,17 @@ public class BurgerMenuComponent {
 
     public void clickCloseMenuButton() {
         webDriver.findElement(closeMenuButton).click();
+    }
+
+    public By getInventorySidebarButton() {
+        return inventorySidebarButton;
+    }
+
+    public By getAboutSidebarButton() {
+        return aboutSidebarButton;
+    }
+
+    public By getLogoutSidebarButton() {
+        return logoutSidebarButton;
     }
 }

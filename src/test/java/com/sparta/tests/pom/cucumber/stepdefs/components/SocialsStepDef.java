@@ -83,7 +83,7 @@ public class SocialsStepDef {
     public void iShouldBeTakenToLinkedin() {
         ArrayList<String> tabs2 = new ArrayList<> (webDriver.getWindowHandles());
         webDriver.switchTo().window(tabs2.get(1));
-        Assertions.assertEquals("https://www.linkedin.com/company/sauce-labs/", webDriver.getCurrentUrl());
+        Assertions.assertTrue(webDriver.getCurrentUrl().contains("https://www.linkedin.com/"));
         webDriver.close();
         webDriver.switchTo().window(tabs2.get(0));
     }
