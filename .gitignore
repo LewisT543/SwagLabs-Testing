@@ -1,5 +1,6 @@
 # User files
 chromedriver.exe
+geckodriver.exe
 
 # Target folder
 /target
